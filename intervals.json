@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-05-06T20:04:03.016213",
+  "version": "3.112",
+  "script_hash": "a60c2ee19b34",
+  "scan_hours": 72,
+  "retention_days": 14,
+  "activities": [
+    {
+      "activity_id": "i145907296",
+      "date": "2026-05-06",
+      "type": "Run",
+      "name": "Afternoon Run",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2919,
+          "avg_hr": 147,
+          "max_hr": 169,
+          "avg_cadence": 70.20799,
+          "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i145570665",
+      "date": "2026-05-04",
+      "type": "Ride",
+      "name": "Evening Ride",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5820,
+          "avg_power": 86,
+          "max_power": 138,
+          "avg_hr": 122,
+          "max_hr": 134,
+          "zone": 1,
+          "training_load": 35.75325,
+          "decoupling": -21.474249
+        }
+      ]
+    },
+    {
+      "activity_id": "i145570648",
+      "date": "2026-05-01",
+      "type": "Run",
+      "name": "Afternoon Run",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2286,
+          "avg_hr": 160,
+          "max_hr": 180,
+          "avg_cadence": 79.24523,
+          "zone": 3
+        }
+      ]
+    }
+  ]
+}
