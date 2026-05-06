@@ -21,10 +21,18 @@ jobs:
         # Eğer orijinal kodun için özel kütüphaneler (örn: pandas) gerekiyorsa, buraya ekleyebilirsin.
         run: pip install requests
 
-      - name: Section 11 Senkronizasyonunu Çalıştır
+     - name: Section 11 Senkronizasyonunu Çalıştır
         env:
+          # Intervals Kimlikleri (Scriptin bekleyebileceği tüm ihtimalleri kapsıyoruz)
+          INTERVALS_KEY: ${{ secrets.INTERVALS_API_KEY }}
+          INTERVALS_ID: ${{ secrets.INTERVALS_ATHLETE_ID }}
           INTERVALS_API_KEY: ${{ secrets.INTERVALS_API_KEY }}
           INTERVALS_ATHLETE_ID: ${{ secrets.INTERVALS_ATHLETE_ID }}
+          
+          # GitHub Kimlikleri (GitHub bunları otomatik sağlar)
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPO: ${{ github.repository }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python sync.py
 
       - name: Değişiklikleri Kaydet ve Gönder
