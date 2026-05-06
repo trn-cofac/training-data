@@ -25,7 +25,7 @@ jobs:
       - name: Section 11 Senkronizasyonunu Çalıştır
         env:
           ATHLETE_ID: ${{ secrets.ATHLETE_ID }}
-          INTERVALS_ID: ${{ secrets.INTERVALS_ID }}
+          INTERVALS_KEY: ${{ secrets.INTERVALS_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub bunu kendi sağlar, senin eklemene gerek yok
         run: python sync.py
 
