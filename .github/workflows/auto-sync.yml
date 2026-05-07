@@ -27,7 +27,10 @@ jobs:
           ATHLETE_ID: ${{ secrets.ATHLETE_ID }}
           INTERVALS_KEY: ${{ secrets.INTERVALS_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub bunu kendi sağlar, senin eklemene gerek yok
-        run: python sync.py --output latest.json
+        run: |
+          python sync.py
+          # Dosyanın en başına güncel tarihi ekleyelim (Gemini'nin görmesi için)
+          echo -e "Last Updated: $(date +'%Y-%m-%d %H:%M:%S')\n$(cat DOSSIER.md)" > DOSSIER.md
 
       - name: Değişiklikleri Kaydet ve Gönder
         run: |
