@@ -21,14 +21,13 @@ jobs:
 
       - name: Gerekli Kütüphaneleri Yükle
         run: pip install requests
-
-    - name: Section 11 Senkronizasyonunu Çalıştır
-        env:
-          ATHLETE_ID: ${{ secrets.ATHLETE_ID }}
-          INTERVALS_KEY: ${{ secrets.INTERVALS_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPO: ${{ github.repository }}
-        run: |
+      - name: Section 11 Senkronizasyonunu Çalıştır
+      env:
+      ATHLETE_ID: ${{ secrets.ATHLETE_ID }}
+      INTERVALS_KEY: ${{ secrets.INTERVALS_KEY }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_REPO: ${{ github.repository }}
+      run: |
           # 1. Verileri senkronize et
           python sync.py --output latest.json
           
@@ -37,8 +36,8 @@ jobs:
           sed -i '/^Last Updated:/d' DOSSIER.md
           echo -e "Last Updated: $(date +'%Y-%m-%d %H:%M:%S')\n$(cat DOSSIER.md)" > DOSSIER.md
 
-      - name: Değişiklikleri Kaydet ve Gönder
-        run: |
+          - name: Değişiklikleri Kaydet ve Gönder
+          run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git add .
