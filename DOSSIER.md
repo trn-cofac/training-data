@@ -1,27 +1,23 @@
-Last Updated: 2026-05-07 08:15:03
-# ATHLETE DOSSIER: SECTION 11
+# Sporcu Dosyası: Emre
+## Fizyoloji ve Bölgeler
+- **Boy/Kilo:** 171 cm / 69 kg
+- **FTP:** 185W (İç/Dış mekan farkı yok)
+- **Nabız Verileri:** Dinlenik: 53 bpm, Maks: 192 bpm, LTHR: 157 bpm
+- **Antrenman Bölgeleri:** Intervals.icu varsayılan bölgeleri
 
-## PHYSIOLOGY & METRICS
-- **Height/Weight:** 171 cm / 69 kg
-- **FTP (Cycling):** 185 W (~2.68 W/kg)
-- **Swim Pace (CSS):** [Buraya 100m yüzme eşik hızını ekleyebilirsin, örn: 1:55 min/100m]
-- **Run Threshold (Pace/HR):** [Buraya eşik koşu hızını ekleyebilirsin]
-- **Max HR:** 192
-- **Resting HR (RHR):** [Biliniyorsa yazılmalı]
+## Antrenman Geçmişi
+- **Deneyim:** 4 yıl (düzensiz)
+- **Mevcut Durum:** Bel çevresi yağlanması ve viseral yağ mevcudiyeti
+- **Haftalık Kapasite:** Haftada 6 gün, günde ortalama 1 saat + haftalık uzun sürüşler
 
-## EQUIPMENT CONFIGURATION
-- **Primary Bike:** Performance road/triathlon setup with Power Meter
-- **Running:** GPS Watch with Heart Rate / Pace tracking
-- **Swimming:** Open water and pool tracking enabled
-- **Data Pipeline:** Garmin/Wahoo -> Intervals.icu -> GitHub (JSON)
+## Hedefler
+- **Birincil Hedef:** 1 yıl içinde Olimpik mesafe Triatlonda rekabetçi seviyeye gelmek[cite: 1]
+- **Odak:** Performans artışıyla birlikte yağ yakımı ve kilo kontrolü (beslenme odaklı rehberlik)[cite: 1]
 
-## TRAINING CONTEXT
-- **Experience Level:** Intermediate / Consistent Training
-- **Primary Goal:** Competitive finish in Olympic Distance Triathlons within 12 months.
-- **Focus Areas:** Sustained aerobic power (Z2/Z3), durability for the run off the bike, and swim efficiency.
-- **Availability:** 7 days/week (High availability).
+## Sağlık ve Kısıtlamalar
+- **Sakatlık Geçmişi:** Her iki dizde de patellar dislokasyon (çıkık) öyküsü[cite: 1]
+- **Not:** Antrenman yükü planlanırken diz stabilitesi ve eklem sağlığı öncelikli Tier 3 metrik olarak izlenmelidir[cite: 1].
 
-## COACHING PREFERENCES
-- **Style:** Evidence-based, data-driven, strict adherence to Section 11 protocol.
-- **Analysis:** Prioritize Aerobic Decoupling (Pa:Hr) and Efficiency Factor (EF) for base building.
-- **Communication:** Brief, technical, focused on load management (ACWR) and readiness (HRV/RHR).
+## Tercihler
+- **Rehberlik Tarzı:** Amaca yönelik, beslenmeyi de kapsayan, ne çok katı ne çok esnek (dengeleyici) yaklaşım[cite: 1]
+- **Ortam:** Günün şartlarına göre esnek (İç veya dış mekan)[cite: 1]
