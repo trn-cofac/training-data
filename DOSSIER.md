@@ -1,8 +1,4 @@
-Last Updated: 2026-05-07 08:05:53
-Last Updated: 2026-05-07 07:55:02
-Last Updated: 2026-05-07 07:19:29
-Last Updated: 2026-05-07 07:09:13
-Last Updated: 2026-05-07 06:44:39
+Last Updated: 2026-05-07 08:15:03
 # ATHLETE DOSSIER: SECTION 11
 
 ## PHYSIOLOGY & METRICS
