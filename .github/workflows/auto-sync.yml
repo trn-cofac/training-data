@@ -29,8 +29,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPO: ${{ github.repository }}  # BU SATIRI EKLE
         run: python sync.py --output latest.json
-       
-        run: |
+       run: |
           python sync.py
           # Dosyanın en başına güncel tarihi ekleyelim (Gemini'nin görmesi için)
           echo -e "Last Updated: $(date +'%Y-%m-%d %H:%M:%S')\n$(cat DOSSIER.md)" > DOSSIER.md
