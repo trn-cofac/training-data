@@ -22,16 +22,19 @@ jobs:
       - name: Gerekli Kütüphaneleri Yükle
         run: pip install requests
 
-     - name: Section 11 Senkronizasyonunu Çalıştır
+    - name: Section 11 Senkronizasyonunu Çalıştır
         env:
           ATHLETE_ID: ${{ secrets.ATHLETE_ID }}
           INTERVALS_KEY: ${{ secrets.INTERVALS_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPO: ${{ github.repository }}  # BU SATIRI EKLE
-        run: python sync.py --output latest.json
-       run: |
-          python sync.py
-          # Dosyanın en başına güncel tarihi ekleyelim (Gemini'nin görmesi için)
+          GITHUB_REPO: ${{ github.repository }}
+        run: |
+          # 1. Verileri senkronize et
+          python sync.py --output latest.json
+          
+          # 2. DOSSIER.md güncelleme (Eski tarihi siler, yenisini ekler)
+          # Bu komut dosyanın şişmesini engeller, sadece en üstteki satırı günceller
+          sed -i '/^Last Updated:/d' DOSSIER.md
           echo -e "Last Updated: $(date +'%Y-%m-%d %H:%M:%S')\n$(cat DOSSIER.md)" > DOSSIER.md
 
       - name: Değişiklikleri Kaydet ve Gönder
@@ -39,4 +42,5 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git add .
+          # Eğer değişiklik yoksa hata vermeden geçmesi için kontrol
           git diff --quiet && git diff --staged --quiet || (git commit -m "Otomatik güncelleme: AI Koçluk verileri senkronize edildi" && git push)
