@@ -22,11 +22,14 @@ jobs:
       - name: Gerekli Kütüphaneleri Yükle
         run: pip install requests
 
-      - name: Section 11 Senkronizasyonunu Çalıştır
+     - name: Section 11 Senkronizasyonunu Çalıştır
         env:
           ATHLETE_ID: ${{ secrets.ATHLETE_ID }}
           INTERVALS_KEY: ${{ secrets.INTERVALS_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub bunu kendi sağlar, senin eklemene gerek yok
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPO: ${{ github.repository }}  # BU SATIRI EKLE
+        run: python sync.py --output latest.json
+       
         run: |
           python sync.py
           # Dosyanın en başına güncel tarihi ekleyelim (Gemini'nin görmesi için)
