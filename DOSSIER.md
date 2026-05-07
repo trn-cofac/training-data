@@ -9,7 +9,7 @@ Last Updated: 2026-05-07 06:44:39
 - **FTP (Cycling):** 185 W (~2.68 W/kg)
 - **Swim Pace (CSS):** [Buraya 100m yüzme eşik hızını ekleyebilirsin, örn: 1:55 min/100m]
 - **Run Threshold (Pace/HR):** [Buraya eşik koşu hızını ekleyebilirsin]
-- **Max HR:** [Biliniyorsa yazılmalı]
+- **Max HR:** 192
 - **Resting HR (RHR):** [Biliniyorsa yazılmalı]
 
 ## EQUIPMENT CONFIGURATION
