@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-08T12:18:51.197883",
+    "last_updated": "2026-05-08T14:21:30.689399",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -232,8 +232,8 @@
       "ctl": 29.8,
       "atl": 33.95,
       "tsb": -4.15,
-      "ramp_rate": -1.33,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ramp_rate": -0.22,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 186.1,
@@ -298,7 +298,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 9885,
+      "steps": 12871,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -624,13 +624,14 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 1.0,
+    "consistency_index": 0.5,
     "consistency_details": {
-      "planned_days": 1,
+      "planned_days": 2,
       "completed_days": 2,
       "matched_days": 1,
       "planned_dates": [
-        "2026-05-07"
+        "2026-05-07",
+        "2026-05-08"
       ],
       "completed_dates": [
         "2026-05-04",
@@ -639,7 +640,7 @@
     },
     "phase_detection": {
       "phase": "Build",
-      "confidence": "high",
+      "confidence": "medium",
       "reason_codes": [],
       "basis": {
         "stream_1": {
@@ -655,7 +656,7 @@
           "current_week_hard_days_total": 0,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.5,
+          "plan_coverage_current_week": 0.75,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -689,13 +690,13 @@
     "p_max": 654,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-08T12:18:51.196751",
+    "calculation_timestamp": "2026-05-08T14:21:30.688357",
     "data_quality": {
       "hrv_data_points": 4,
       "rhr_data_points": 7,
       "activities_7d": 4,
       "activities_28d": 20,
-      "planned_workouts_7d": 1,
+      "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -3783,7 +3784,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 9885,
+      "steps": 12871,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3795,6 +3796,21 @@
     }
   ],
   "planned_workouts": [
+    {
+      "id": 108920271,
+      "date": "2026-05-08",
+      "name": "Deneme",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 50.0,
+      "duration_formatted": "50h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "21:00",
+      "indoor": true,
+      "description": "- 50:00 150w"
+    },
     {
       "id": 108755271,
       "date": "2026-05-09",
@@ -3829,7 +3845,7 @@
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 0,
+    "bail_no_workout_doc": 1,
     "bail_no_match": 2
   },
   "weekly_summary": {
