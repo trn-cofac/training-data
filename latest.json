@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-08T11:06:01.960006",
+    "last_updated": "2026-05-08T12:18:51.197883",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -298,7 +298,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 6371,
+      "steps": 9885,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -689,7 +689,7 @@
     "p_max": 654,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-08T11:06:01.958981",
+    "calculation_timestamp": "2026-05-08T12:18:51.196751",
     "data_quality": {
       "hrv_data_points": 4,
       "rhr_data_points": 7,
@@ -3783,7 +3783,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 6371,
+      "steps": 9885,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3798,7 +3798,7 @@
     {
       "id": 108755271,
       "date": "2026-05-09",
-      "name": "9 May\u0131s Cumartesi: Bisiklet (Aerobik Kapasite & Devir)",
+      "name": "9 May\u0131s Cumartesi::Bisiklet (Aerobik Kapasite & Devir)",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": 38,
@@ -3806,6 +3806,8 @@
       "duration_formatted": "55m",
       "workout_summary": null,
       "has_terrain": false,
+      "start_time": "17:00",
+      "indoor": true,
       "description": "- 15m ramp 50-65%\n- 3x\n- 15m 70% 90-95rpm\n- 5m 55% 80rpm\n- 10m 75% 100rpm\n- 10m 50%"
     },
     {
