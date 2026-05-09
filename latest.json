@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-09T21:02:10.955250",
+    "last_updated": "2026-05-09T22:00:02.459393",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -104,8 +104,8 @@
     "signals": {
       "hrv": {
         "status": "green",
-        "value": 56.7,
-        "baseline_7d": 49.3,
+        "value": 56.8,
+        "baseline_7d": 49.4,
         "delta_pct": 15.0
       },
       "rhr": {
@@ -248,7 +248,7 @@
         }
       },
       "resting_hr": 50,
-      "hrv": 56.677418,
+      "hrv": 56.8125,
       "sleep_quality": 3,
       "sleep_hours": 3.8,
       "sleep_formatted": "3h48m",
@@ -269,7 +269,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 17060,
+      "steps": 22680,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -296,11 +296,11 @@
   "derived_metrics": {
     "recovery_index": 1.24,
     "recovery_index_yesterday": 0.55,
-    "hrv_baseline_7d": 49.3,
+    "hrv_baseline_7d": 49.4,
     "rhr_baseline_7d": 54.1,
-    "hrv_baseline_28d": 49.3,
+    "hrv_baseline_28d": 49.4,
     "rhr_baseline_28d": 56.5,
-    "latest_hrv": 56.677418,
+    "latest_hrv": 56.8125,
     "latest_rhr": 50,
     "acwr": 0.78,
     "acwr_interpretation": "undertraining",
@@ -661,7 +661,7 @@
     "p_max": 606,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 39.0,
-    "calculation_timestamp": "2026-05-09T21:02:10.954174",
+    "calculation_timestamp": "2026-05-09T22:00:02.458277",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 7,
@@ -2936,7 +2936,7 @@
         "weight": null
       },
       "resting_hr": 50,
-      "hrv_rmssd": 56.677418,
+      "hrv_rmssd": 56.8125,
       "hrv_sdnn": null,
       "sleep_hours": 3.8,
       "sleep_formatted": "3h48m",
@@ -2961,7 +2961,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 17060,
+      "steps": 22680,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3074,7 +3074,7 @@
     "total_training_formatted": "4h23m",
     "total_tss": 161,
     "activities_count": 4,
-    "avg_hrv": 49.3,
+    "avg_hrv": 49.4,
     "avg_resting_hr": 54.1
   },
   "race_calendar": {
