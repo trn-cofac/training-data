@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-15T06:19:46.365959",
+    "last_updated": "2026-05-15T09:27:26.851787",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -104,9 +104,9 @@
     "signals": {
       "hrv": {
         "status": "green",
-        "value": 66.2,
-        "baseline_7d": 59.9,
-        "delta_pct": 10.4
+        "value": 65.4,
+        "baseline_7d": 59.8,
+        "delta_pct": 9.4
       },
       "rhr": {
         "status": "green",
@@ -125,8 +125,8 @@
       },
       "ri": {
         "status": "green",
-        "value": 1.14,
-        "value_yesterday": 1.16
+        "value": 1.13,
+        "value_yesterday": 1.17
       },
       "tsb": {
         "status": "green",
@@ -140,8 +140,8 @@
       "unavailable": 0
     },
     "phase_context": {
-      "phase": null,
-      "phase_week": 0,
+      "phase": "Base",
+      "phase_week": 1,
       "amber_threshold": 2,
       "modifier_applied": "default"
     },
@@ -195,7 +195,7 @@
       "atl": 25.79,
       "tsb": -2.78,
       "ramp_rate": 2.12,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 190.0,
@@ -239,7 +239,7 @@
         }
       },
       "resting_hr": 54,
-      "hrv": 66.15151,
+      "hrv": 65.447365,
       "sleep_quality": 2,
       "sleep_hours": 7.23,
       "sleep_formatted": "7h14m",
@@ -260,7 +260,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 846,
+      "steps": 1179,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -285,13 +285,13 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": 1.14,
-    "recovery_index_yesterday": 1.16,
-    "hrv_baseline_7d": 59.9,
+    "recovery_index": 1.13,
+    "recovery_index_yesterday": 1.17,
+    "hrv_baseline_7d": 59.8,
     "rhr_baseline_7d": 55.7,
-    "hrv_baseline_28d": 55.4,
+    "hrv_baseline_28d": 55.3,
     "rhr_baseline_28d": 56.2,
-    "latest_hrv": 66.15151,
+    "latest_hrv": 65.447365,
     "latest_rhr": 54,
     "acwr": 1.15,
     "acwr_interpretation": "optimal",
@@ -304,7 +304,7 @@
     "multi_sport_detected": true,
     "strain": 115.0,
     "stress_tolerance": 2.6,
-    "load_recovery_ratio": 2.2,
+    "load_recovery_ratio": 2.3,
     "tss_7d_total": 256.0,
     "tss_28d_total": 888.0,
     "zone_distribution_7d": {
@@ -588,22 +588,21 @@
     },
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 1,
+      "planned_days": 2,
       "completed_days": 1,
       "matched_days": 0,
       "planned_dates": [
-        "2026-05-09"
+        "2026-05-09",
+        "2026-05-15"
       ],
       "completed_dates": [
         "2026-05-10"
       ]
     },
     "phase_detection": {
-      "phase": null,
-      "confidence": "low",
-      "reason_codes": [
-        "BUILD_BASE_AMBIGUOUS"
-      ],
+      "phase": "Base",
+      "confidence": "medium",
+      "reason_codes": [],
       "basis": {
         "stream_1": {
           "ctl_slope": 1.25,
@@ -612,27 +611,25 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.76,
+          "planned_tss_delta": null,
           "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 0,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_current_week": 0.6,
+          "plan_coverage_next_week": 0.2
         },
         "data_quality": "good",
         "stream_agreement": null
       },
       "previous_phase": null,
-      "phase_duration_weeks": 0,
+      "phase_duration_weeks": 1,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": null,
-    "phase_triggers": [
-      "BUILD_BASE_AMBIGUOUS"
-    ],
+    "phase_detected": "Base",
+    "phase_triggers": [],
     "seasonal_context": "Build / Early Race Season",
     "benchmark_indoor": {
       "current_ftp": null,
@@ -654,13 +651,13 @@
     "p_max": 606,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-15T06:19:46.364821",
+    "calculation_timestamp": "2026-05-15T09:27:26.850648",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 4,
       "activities_28d": 17,
-      "planned_workouts_7d": 2,
+      "planned_workouts_7d": 4,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 5
@@ -3112,7 +3109,7 @@
         "weight": null
       },
       "resting_hr": 54,
-      "hrv_rmssd": 66.15151,
+      "hrv_rmssd": 65.447365,
       "hrv_sdnn": null,
       "sleep_hours": 7.23,
       "sleep_formatted": "7h14m",
@@ -3137,7 +3134,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 846,
+      "steps": 1179,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3150,34 +3147,73 @@
   ],
   "planned_workouts": [
     {
-      "id": 109539610,
-      "date": "2026-05-16",
-      "name": "Cumartesi: Bisiklet (Uzun Z2 S\u00fcr\u00fc\u015f\u00fc)",
+      "id": 110240445,
+      "date": "2026-05-15",
+      "name": "Y\u00dcZME",
       "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 62,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
+      "sport_type": "Swim",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "15:00",
-      "description": "Warmup\n- 10m 55-60% FTP\n\nMain Set\n- 70m 60-72% FTP\n\nCooldown\n- 10m 50-55% FTP"
+      "description": "- 45 Z2 HR"
+    },
+    {
+      "id": 110238511,
+      "date": "2026-05-15",
+      "name": "GYM",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "19:00",
+      "description": "Odak: Alt v\u00fccut stabilitesi (patellar koruma) ve d\u00fc\u015f\u00fck darbeli aerobik.\n\nKUVVET (30-35 dk)\n- 3x15 Glute Bridge (Kal\u00e7a K\u00f6pr\u00fcs\u00fc)\n- 3x10 Kontroll\u00fc Step-up (Kutuya \u00e7\u0131k\u0131\u015f ve \u00e7ok yava\u015f ini\u015f - her bacak)\n- 3x12 Dumbbell RDL (Hafif kilo, arka bacak odakl\u0131)\n- 3x45s Plank\n\nKARD\u0130YO (30-40 dk)\n- %5-8 e\u011fimde (Incline) Z2 nab\u0131z aral\u0131\u011f\u0131nda tempolu y\u00fcr\u00fcy\u00fc\u015f (veya havuzda serbest y\u00fczme).\n\nNot: Dizde batma/niggle hissedilirse ilgili kuvvet hareketini an\u0131nda b\u0131rak."
+    },
+    {
+      "id": 110239061,
+      "date": "2026-05-17",
+      "name": "GYM",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Odak: Aerobik hacim ve \u00fcst v\u00fccut/core dengesi.\n\nKARD\u0130YO (40-45 dk)\n- Z2 (Hafif tempo) a\u00e7\u0131k hava ko\u015fusu. Nabz\u0131n Z2 b\u00f6lgesini a\u015fmas\u0131n, gerekirse y\u00fcr\u00fcme molas\u0131 ekle.\n\nKUVVET (20-25 dk)\n- 3x12 Dumbbell Row veya TRX Row (S\u0131rt)\n- 3x10-12 \u015e\u0131nav veya Dumbbell Press (G\u00f6\u011f\u00fcs)\n- 3x30s Side Plank (Yan Plank - her iki taraf)"
+    },
+    {
+      "id": 110240315,
+      "date": "2026-05-19",
+      "name": "GYM",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "KUVVET A (30 dk)\n\n- 3x15 Glute Bridge\n- 3x10 Kontroll\u00fc Step-up (yava\u015f ini\u015f)\n- 3x12 Dumbbell RDL\n- 3x45s Plank"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
+    "attempted": 0,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 0,
-    "bail_no_match": 1
+    "bail_no_workout_doc": 4,
+    "bail_no_match": 0
   },
   "weekly_summary": {
     "total_training_hours": 3.64,
     "total_training_formatted": "3h38m",
     "total_tss": 256,
     "activities_count": 4,
-    "avg_hrv": 59.9,
+    "avg_hrv": 59.8,
     "avg_resting_hr": 55.7
   },
   "race_calendar": {
