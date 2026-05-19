@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T23:44:06.350846",
+  "generated_at": "2026-05-19T01:48:38.965460",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -19,47 +19,6 @@
           "max_hr": 169,
           "avg_cadence": 70.20799,
           "zone": 2
-        }
-      ]
-    },
-    {
-      "activity_id": "i145570665",
-      "date": "2026-05-04",
-      "type": "Ride",
-      "name": "Evening Ride",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 5820,
-          "avg_power": 86,
-          "max_power": 138,
-          "avg_hr": 122,
-          "max_hr": 134,
-          "zone": 1,
-          "training_load": 35.75325,
-          "decoupling": -21.474249
-        }
-      ]
-    },
-    {
-      "activity_id": "i146238087",
-      "date": "2026-05-04",
-      "type": "VirtualRide",
-      "name": "KICKR",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 5831,
-          "avg_power": 86,
-          "max_power": 173,
-          "avg_hr": 122,
-          "max_hr": 135,
-          "avg_cadence": 80.571266,
-          "zone": 1,
-          "training_load": 35.820824,
-          "decoupling": -21.58951
         }
       ]
     },
