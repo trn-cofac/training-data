@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T01:48:38.965460",
+  "generated_at": "2026-05-19T06:01:36.826878",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1290,6 +1290,27 @@
           "zone": 1,
           "training_load": 1.3496697,
           "decoupling": 100.0
+        }
+      ]
+    },
+    {
+      "activity_id": "i149558758",
+      "date": "2026-05-19",
+      "type": "VirtualRide",
+      "name": "MyWhoosh - Zone 2 Steady State",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3636,
+          "avg_power": 117,
+          "max_power": 173,
+          "avg_hr": 133,
+          "max_hr": 145,
+          "avg_cadence": 80.07288,
+          "zone": 2,
+          "training_load": 38.888653,
+          "decoupling": 6.598699
         }
       ]
     }
