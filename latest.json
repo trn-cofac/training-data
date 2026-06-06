@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-06T14:25:56.603507",
+    "last_updated": "2026-06-06T15:49:00.641946",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -109,10 +109,10 @@
     },
     {
       "metric": "hrv",
-      "value": 28.0,
+      "value": 27.9,
       "severity": "warning",
       "threshold": "\u2193>20% vs baseline (60.5)",
-      "context": "HRV 28.0 is 53.7% below baseline. Monitor \u2014 alarm if persists >2 days.",
+      "context": "HRV 27.9 is 53.8% below baseline. Monitor \u2014 alarm if persists >2 days.",
       "persistence_days": 1,
       "tier": 1
     },
@@ -141,9 +141,9 @@
     "signals": {
       "hrv": {
         "status": "red",
-        "value": 28.0,
+        "value": 27.9,
         "baseline_7d": 60.5,
-        "delta_pct": -53.7
+        "delta_pct": -53.8
       },
       "rhr": {
         "status": "red",
@@ -153,7 +153,7 @@
       },
       "sleep": {
         "status": "red",
-        "hours": 0.78,
+        "hours": 1.72,
         "quality": null
       },
       "acwr": {
@@ -274,10 +274,10 @@
         }
       },
       "resting_hr": 60,
-      "hrv": 28.0,
+      "hrv": 27.944445,
       "sleep_quality": null,
-      "sleep_hours": 0.78,
-      "sleep_formatted": "47m",
+      "sleep_hours": 1.72,
+      "sleep_formatted": "1h43m",
       "sleep_score": null,
       "fatigue": null,
       "soreness": null,
@@ -329,7 +329,7 @@
     "rhr_baseline_7d": 54.9,
     "hrv_baseline_28d": 62.4,
     "rhr_baseline_28d": 54.1,
-    "latest_hrv": 28.0,
+    "latest_hrv": 27.944445,
     "latest_rhr": 60,
     "acwr": 0.98,
     "acwr_interpretation": "optimal",
@@ -687,7 +687,7 @@
     "p_max": 600,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-06T14:25:56.602436",
+    "calculation_timestamp": "2026-06-06T15:49:00.640696",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 7,
@@ -2705,10 +2705,10 @@
         "weight": null
       },
       "resting_hr": 60,
-      "hrv_rmssd": 28.0,
+      "hrv_rmssd": 27.944445,
       "hrv_sdnn": null,
-      "sleep_hours": 0.78,
-      "sleep_formatted": "47m",
+      "sleep_hours": 1.72,
+      "sleep_formatted": "1h43m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
