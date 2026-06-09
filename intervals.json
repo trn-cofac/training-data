@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T16:20:47.953389",
+  "generated_at": "2026-06-09T18:29:10.351428",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -438,6 +438,23 @@
           "avg_hr": 128,
           "max_hr": 143,
           "avg_cadence": 22.208334,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i155797185",
+      "date": "2026-06-09",
+      "type": "Run",
+      "name": "Evening Run",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1680,
+          "avg_hr": 125,
+          "max_hr": 164,
+          "avg_cadence": 59.58806,
           "zone": 1
         }
       ]
