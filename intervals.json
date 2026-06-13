@@ -1,57 +1,10 @@
 {
-  "generated_at": "2026-06-12T23:47:37.603330",
+  "generated_at": "2026-06-13T02:44:01.423111",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i152530401",
-      "date": "2026-05-29",
-      "type": "VirtualRide",
-      "name": "KICKR",
-      "interval_summary": [
-        "1x 2m56s 155w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3698,
-          "avg_power": 111,
-          "max_power": 168,
-          "avg_hr": 132,
-          "max_hr": 155,
-          "avg_cadence": 42.36992,
-          "zone": 2,
-          "training_load": 33.28443
-        },
-        {
-          "type": "WORK",
-          "label": "176s@155w46rpm",
-          "duration_secs": 176,
-          "avg_power": 155,
-          "max_power": 181,
-          "avg_hr": 148,
-          "max_hr": 159,
-          "avg_cadence": 45.971592,
-          "zone": 3,
-          "training_load": 2.9315333,
-          "decoupling": 8.9403515
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 305,
-          "avg_power": 109,
-          "max_power": 143,
-          "avg_hr": 146,
-          "max_hr": 157,
-          "avg_cadence": 37.914474,
-          "zone": 2,
-          "training_load": 3.05,
-          "decoupling": 14.195015
-        }
-      ]
-    },
     {
       "activity_id": "i152873091",
       "date": "2026-05-31",
