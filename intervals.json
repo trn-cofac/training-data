@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T07:19:54.290607",
+  "generated_at": "2026-06-16T12:25:33.693801",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -486,6 +486,23 @@
           "zone": 2,
           "training_load": 5.6773963,
           "decoupling": 9.184117
+        }
+      ]
+    },
+    {
+      "activity_id": "i157674054",
+      "date": "2026-06-16",
+      "type": "Run",
+      "name": "Morning Run",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2259,
+          "avg_hr": 112,
+          "max_hr": 148,
+          "avg_cadence": 61.491787,
+          "zone": 1
         }
       ]
     }
