@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T17:22:01.351987",
+  "generated_at": "2026-06-21T18:57:36.372886",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -384,6 +384,76 @@
           "max_hr": 160,
           "avg_cadence": 71.75512,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i159201976",
+      "date": "2026-06-21",
+      "type": "Swim",
+      "name": "Lunch Swim",
+      "interval_summary": [
+        "4x 33m 3:06",
+        "1x 338m 1:27"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3
+        },
+        {
+          "type": "WORK",
+          "label": "349s@151bpm",
+          "duration_secs": 324,
+          "avg_hr": 145,
+          "max_hr": 165,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "294s@164bpm",
+          "duration_secs": 294,
+          "avg_hr": 164,
+          "max_hr": 170,
+          "zone": 5
+        },
+        {
+          "type": "WORK",
+          "label": "349s@151bpm",
+          "duration_secs": 354,
+          "avg_hr": 157,
+          "max_hr": 168,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 380,
+          "avg_hr": 156,
+          "max_hr": 163,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "349s@151bpm",
+          "duration_secs": 330,
+          "avg_hr": 157,
+          "max_hr": 164,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "349s@151bpm",
+          "duration_secs": 388,
+          "avg_hr": 144,
+          "max_hr": 164,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 159,
+          "max_hr": 159,
+          "zone": 2
         }
       ]
     }
