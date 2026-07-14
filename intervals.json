@@ -1,27 +1,10 @@
 {
-  "generated_at": "2026-07-13T23:33:34.014864",
+  "generated_at": "2026-07-14T01:03:07.616321",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i161261842",
-      "date": "2026-06-29",
-      "type": "VirtualRun",
-      "name": "Evening Virtual Run",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1581,
-          "avg_hr": 135,
-          "max_hr": 153,
-          "avg_cadence": 66.93987,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i161527868",
       "date": "2026-06-30",
