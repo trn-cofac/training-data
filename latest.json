@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-23T10:29:38.811360",
+    "last_updated": "2026-07-23T12:10:49.853730",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -215,8 +215,8 @@
       "ctl": 31.72,
       "atl": 45.28,
       "tsb": -13.56,
-      "ramp_rate": 0.98,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ramp_rate": 1.94,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 184.2,
@@ -610,19 +610,22 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": null,
+    "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 0,
+      "planned_days": 1,
       "completed_days": 1,
       "matched_days": 0,
-      "note": "No planned workouts in period"
+      "planned_dates": [
+        "2026-07-23"
+      ],
+      "completed_dates": [
+        "2026-07-18"
+      ]
     },
     "phase_detection": {
       "phase": "Build",
-      "confidence": "medium",
-      "reason_codes": [
-        "NO_PLANNED_WORKOUTS"
-      ],
+      "confidence": "high",
+      "reason_codes": [],
       "basis": {
         "stream_1": {
           "ctl_slope": 4.55,
@@ -631,14 +634,14 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
-          "hard_sessions_planned": 0,
-          "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 0,
-          "race_proximity": null,
-          "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
-          "plan_coverage_next_week": 0.0
+          "planned_tss_delta": 1.91,
+          "hard_sessions_planned": 4,
+          "current_week_hard_days_completed": 1,
+          "current_week_hard_days_total": 5,
+          "race_proximity": 58,
+          "next_week_load": 1.42,
+          "plan_coverage_current_week": 0.67,
+          "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -649,9 +652,7 @@
       "dossier_agreement": null
     },
     "phase_detected": "Build",
-    "phase_triggers": [
-      "NO_PLANNED_WORKOUTS"
-    ],
+    "phase_triggers": [],
     "seasonal_context": "Peak Race Season",
     "benchmark_indoor": {
       "current_ftp": null,
@@ -673,13 +674,13 @@
     "p_max": 588,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-23T10:29:38.809965",
+    "calculation_timestamp": "2026-07-23T12:10:49.852465",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 3,
       "activities_28d": 25,
-      "planned_workouts_7d": 0,
+      "planned_workouts_7d": 1,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 5
@@ -3772,14 +3773,317 @@
       "readiness": null
     }
   ],
-  "planned_workouts": [],
+  "planned_workouts": [
+    {
+      "id": 124703627,
+      "date": "2026-07-23",
+      "name": "IntervalCoach - Lower Body Strength",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 37,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Lower Body Strength\n\nLeg strength for cycling power and running economy\n\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]\n2. Romanian Deadlift: 3 sets \u00d7 10 reps (Hinge at hips, slight knee bend) [Rest: 60 sec]\n3. Walking Lunges: 3 sets \u00d7 10 reps each leg (Keep torso upright, knee tracks over toe) [Rest: 45 sec]\n4. Step-ups: 3 sets \u00d7 10 reps each leg (Use bench or box, drive through heel) [Rest: 45 sec]\n5. Calf Raises: 3 sets \u00d7 15 reps (Full range of motion, hold at top) [Rest: 30 sec]\n6. Single Leg Glute Bridge: 3 sets \u00d7 10 reps each leg (Keep hips level throughout) [Rest: 30 sec]\n\nBuild phase: increase weight, lower reps (6-10) for strength gains.\n\n[Duration: ~45 min]\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 124703631,
+      "date": "2026-07-24",
+      "name": "IntervalCoach - Aerobic Build",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 48,
+      "duration_hours": 1.08,
+      "duration_formatted": "1h5m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "15:00",
+      "description": "Warmup\n- Hey mrtrn! Endurance ride ahead 10m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 12m 65% 85rpm\n- Build 12m 67% 88rpm\n- Upper 12m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- Well done, spin easy now 7m ramp 65-45%\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 124703634,
+      "date": "2026-07-25",
+      "name": "IntervalCoach - Aerobic Long Run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 69,
+      "duration_hours": 1.37,
+      "duration_formatted": "1h22m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey mrtrn! Time for a long run 4m 63-67% pace\n- 8m 75-79% pace\n\nMain Set\n- Ultra 62m 65-77% pace\n\nCooldown\n- 4m 75-79% pace\n- Crushed it! Easy jog to finish 4m 63-67% pace\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 124703637,
+      "date": "2026-07-26",
+      "name": "IntervalCoach - Endurance Cruise",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 150,
+      "duration_hours": 3.23,
+      "duration_formatted": "3h14m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "15:00",
+      "description": "Warmup\n- Hey mrtrn! Long aerobic ride ahead. 15m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 15m 65-70% 85rpm\n- Steady 154m 70% 88rpm\n\nCooldown\n- Fantastic effort, enjoy the recovery. 10m ramp 65-45%\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 124703638,
+      "date": "2026-07-28",
+      "name": "IntervalCoach - Threshold Intervals",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 81,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "15:00",
+      "description": "Warmup\n- Hey mrtrn, progressive threshold awaits! 9m ramp 45-75% 85rpm\n\nMain Set\n- Build 1 13m 88-93% 88rpm\n- Recovery 3m 55%\n- Build 2 13m 97-102% 92rpm\n- Recovery 3m 55%\n- Build 3 13m 105% 95rpm\n\nCooldown\n- Fantastic work, mrtrn, enjoy the spin 6m ramp 65-45%\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 124703640,
+      "date": "2026-07-29",
+      "name": "IntervalCoach - Aerobic Pickups",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 54,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": "2 \u00d7 3m | 2m | 3\u00d79m / 30s rec | 8m | 30s | 3m | 2m",
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey mrtrn! Endurance with pickups today. 3m 63-67% pace\n- 3m 74-78% pace\n- 2m 85-89% pace\n\nMain Set\n3x\n- Aerobic 9m 78-87% pace\n- Pickup 30s 88-94% pace\n\n- Aerobic 4 8m 78-87% pace\n- Pickup 4 30s 88-94% pace\n\nCooldown\n- 3m 76-80% pace\n- Nice job mrtrn, ease into your cool down. 2m 63-67% pace\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 124703641,
+      "date": "2026-07-30",
+      "name": "IntervalCoach - Lower Body Strength",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 37,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Lower Body Strength\n\nLeg strength for cycling power and running economy\n\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]\n2. Romanian Deadlift: 3 sets \u00d7 10 reps (Hinge at hips, slight knee bend) [Rest: 60 sec]\n3. Walking Lunges: 3 sets \u00d7 10 reps each leg (Keep torso upright, knee tracks over toe) [Rest: 45 sec]\n4. Step-ups: 3 sets \u00d7 10 reps each leg (Use bench or box, drive through heel) [Rest: 45 sec]\n5. Calf Raises: 3 sets \u00d7 15 reps (Full range of motion, hold at top) [Rest: 30 sec]\n6. Single Leg Glute Bridge: 3 sets \u00d7 10 reps each leg (Keep hips level throughout) [Rest: 30 sec]\n\nBuild phase: increase weight, lower reps (6-10) for strength gains.\n\n[Duration: ~45 min]\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 124703644,
+      "date": "2026-07-31",
+      "name": "IntervalCoach - Aerobic Endurance",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 45,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "15:00",
+      "description_preview": "Warmup\n- Hey mrtrn! Progressive aerobic endurance awaits 9m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
+      "id": 124703647,
+      "date": "2026-08-01",
+      "name": "IntervalCoach - Threshold Repeats",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 83,
+      "duration_hours": 1.1,
+      "duration_formatted": "1h6m",
+      "workout_summary": "3 \u00d7 3m | 5\u00d77m / 3m rec | 4m | 3m",
+      "has_terrain": false,
+      "start_time": "09:00"
+    },
+    {
+      "id": 124703652,
+      "date": "2026-08-02",
+      "name": "IntervalCoach - Endurance + Tempo Pushes",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 132,
+      "duration_hours": 2.67,
+      "duration_formatted": "2h40m",
+      "workout_summary": "12m @116W | 6\u00d719m @136W / 4m rec | 2m @126W | 8m @106W",
+      "has_terrain": false,
+      "start_time": "15:00"
+    },
+    {
+      "id": 124703657,
+      "date": "2026-08-04",
+      "name": "IntervalCoach - VO2max Intervals",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 65,
+      "duration_hours": 0.84,
+      "duration_formatted": "50m30s",
+      "workout_summary": "6m @116W | 50s @220W | 25s @107W | 50s @220W | 25s @107W | 2m @136W | 8\u00d72m @220W / 2m rec | 2m @136W | 6m @106W",
+      "has_terrain": false,
+      "start_time": "15:00"
+    },
+    {
+      "id": 124703659,
+      "date": "2026-08-05",
+      "name": "IntervalCoach - Endurance + Sprints",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 54,
+      "duration_hours": 0.83,
+      "duration_formatted": "49m45s",
+      "workout_summary": "2 \u00d7 3m | 2m | 5\u00d77m / 9s rec | 2 \u00d7 3m",
+      "has_terrain": false,
+      "start_time": "09:00"
+    },
+    {
+      "id": 124703661,
+      "date": "2026-08-06",
+      "name": "IntervalCoach - Lower Body Strength",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 37,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Lower Body Strength\nLeg strength for cycling power and running economy\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]"
+    },
+    {
+      "id": 124703662,
+      "date": "2026-08-07",
+      "name": "IntervalCoach - Aerobic Cruise",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 44,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "15:00",
+      "description_preview": "Warmup\n- Hey mrtrn, Fat Max time! 9m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
+      "id": 124703663,
+      "date": "2026-08-08",
+      "name": "IntervalCoach - Threshold Hill Repeats",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 93,
+      "duration_hours": 1.27,
+      "duration_formatted": "1h16m",
+      "workout_summary": "4m | 7m | 5m | 8\u00d73m / 3m rec | 5m | 4m | 3m",
+      "has_terrain": false,
+      "start_time": "09:00"
+    },
+    {
+      "id": 124703667,
+      "date": "2026-08-09",
+      "name": "IntervalCoach - Endurance Build",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 127,
+      "duration_hours": 2.77,
+      "duration_formatted": "2h46m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "15:00",
+      "description_preview": "Warmup\n- Hey mrtrn! Long endurance ride awaits. 15m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
+      "id": 124703671,
+      "date": "2026-08-11",
+      "name": "IntervalCoach - Endurance Strength Threshold",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 37,
+      "duration_hours": 0.68,
+      "duration_formatted": "41m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "15:00",
+      "description_preview": "Main Set\n- Hey mrtrn, endurance and strength ahead! 6m 45-75%\n- Endurance 9m 65-75%"
+    },
+    {
+      "id": 124703674,
+      "date": "2026-08-12",
+      "name": "IntervalCoach - Aerobic Endurance",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 39,
+      "duration_hours": 0.77,
+      "duration_formatted": "46m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Main Set\n- Hey mrtrn! Let's get ready for time on feet. 2m 63-67% pace\nWarmup"
+    },
+    {
+      "id": 124703676,
+      "date": "2026-08-13",
+      "name": "IntervalCoach - Core Stability",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 37,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Core Stability\nCore exercises to improve stability, posture, and power transfer\n1. Plank: 5 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]"
+    },
+    {
+      "id": 124703680,
+      "date": "2026-08-14",
+      "name": "IntervalCoach - Endurance + Tempo Pushes",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 36,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "15:00",
+      "description_preview": "Main Set\n- Hey mrtrn! Tempo pushes are up next 7m 45-75%\n- Endurance 1 8m 65-75%"
+    },
+    {
+      "id": 124703684,
+      "date": "2026-08-15",
+      "name": "IntervalCoach - Endurance + Sprints",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 54,
+      "duration_hours": 0.83,
+      "duration_formatted": "49m40s",
+      "workout_summary": "2 \u00d7 3m | 2m | 5\u00d77m / 8s rec | 2 \u00d7 3m",
+      "has_terrain": false,
+      "start_time": "09:00"
+    },
+    {
+      "id": 124703686,
+      "date": "2026-08-16",
+      "name": "IntervalCoach - Aerobic Cruise",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 71,
+      "duration_hours": 1.57,
+      "duration_formatted": "1h34m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "15:00",
+      "description_preview": "Main Set\n- Hey mrtrn! Let's ease into this aerobic session. 12m 45-75%\n- Low 25m 65%"
+    }
+  ],
   "workout_summary_stats": {
-    "attempted": 0,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 18,
+    "success": 7,
+    "patternA": 7,
     "patternB": 0,
-    "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_workout_doc": 4,
+    "bail_no_match": 11
   },
   "weekly_summary": {
     "total_training_hours": 5.26,
@@ -3790,8 +4094,34 @@
     "avg_resting_hr": 55.0
   },
   "race_calendar": {
-    "next_race": null,
-    "all_races": [],
+    "next_race": {
+      "name": "Mudanya Triatlonu",
+      "date": "2026-09-19",
+      "category": "RACE_B",
+      "type": "Other",
+      "days_until": 58,
+      "moving_time_seconds": null,
+      "distance_meters": null,
+      "display": {
+        "distance": null
+      },
+      "has_terrain": false
+    },
+    "all_races": [
+      {
+        "name": "Mudanya Triatlonu",
+        "date": "2026-09-19",
+        "category": "RACE_B",
+        "type": "Other",
+        "days_until": 58,
+        "moving_time_seconds": null,
+        "distance_meters": null,
+        "display": {
+          "distance": null
+        },
+        "has_terrain": false
+      }
+    ],
     "taper_alert": {
       "active": false
     },
