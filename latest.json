@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-26T01:14:06.029947",
+    "last_updated": "2026-07-26T04:43:03.058485",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -99,8 +99,8 @@
   "athlete_notes": null,
   "alerts": [],
   "readiness_decision": {
-    "recommendation": "modify",
-    "priority": 2,
+    "recommendation": "go",
+    "priority": 3,
     "signals": {
       "hrv": {
         "status": "green",
@@ -115,8 +115,8 @@
         "delta_bpm": 2.3
       },
       "sleep": {
-        "status": "red",
-        "hours": 3.17,
+        "status": "amber",
+        "hours": 6.03,
         "quality": 3
       },
       "acwr": {
@@ -130,13 +130,13 @@
       },
       "tsb": {
         "status": "green",
-        "value": -10.1
+        "value": -7.4
       }
     },
     "signal_summary": {
       "green": 5,
-      "amber": 0,
-      "red": 1,
+      "amber": 1,
+      "red": 0,
       "unavailable": 0
     },
     "phase_context": {
@@ -146,17 +146,8 @@
       "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
-    "modification": {
-      "triggers": [
-        "sleep"
-      ],
-      "suggested_adjustments": {
-        "intensity": "preserve",
-        "volume": "reduce",
-        "cap_zone": null
-      }
-    },
-    "reason": "P2 signal count. 1 red (sleep), 0 amber ().",
+    "modification": null,
+    "reason": "P3 green light. 5 green, 1 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -224,10 +215,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 31.75,
-      "atl": 41.88,
-      "tsb": -10.13,
-      "ramp_rate": -1.23,
+      "ctl": 31.09,
+      "atl": 38.53,
+      "tsb": -7.44,
+      "ramp_rate": -1.9,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -274,9 +265,9 @@
       "resting_hr": 57,
       "hrv": 57.555557,
       "sleep_quality": 3,
-      "sleep_hours": 3.17,
-      "sleep_formatted": "3h10m",
-      "sleep_score": 60.0,
+      "sleep_hours": 6.03,
+      "sleep_formatted": "6h2m",
+      "sleep_score": 77.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -293,7 +284,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 45,
+      "steps": 102,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -682,7 +673,7 @@
     "p_max": 587,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-26T01:14:06.028459",
+    "calculation_timestamp": "2026-07-26T04:43:03.057141",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3714,10 +3705,10 @@
       "resting_hr": 57,
       "hrv_rmssd": 57.555557,
       "hrv_sdnn": null,
-      "sleep_hours": 3.17,
-      "sleep_formatted": "3h10m",
+      "sleep_hours": 6.03,
+      "sleep_formatted": "6h2m",
       "sleep_quality": 3,
-      "sleep_score": 60.0,
+      "sleep_score": 77.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -3737,7 +3728,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 45,
+      "steps": 102,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -4124,6 +4115,20 @@
       "description_preview": "500m kesintisiz y\u00fczme denemesi + kolay teknik."
     },
     {
+      "id": 125128632,
+      "date": "2026-08-21",
+      "name": "IntervalCoach - Core Stability",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 37,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Core Stability\nCore exercises to improve stability, posture, and power transfer\n1. Plank: 5 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]"
+    },
+    {
       "id": 124942310,
       "date": "2026-08-22",
       "name": "Ko\u015fu \u2014 Brick (Bisiklet sonras\u0131)",
@@ -4149,6 +4154,20 @@
       "has_terrain": false,
       "start_time": "15:00",
       "description_preview": "Kolay bisiklet, toparlanma haftas\u0131."
+    },
+    {
+      "id": 125128644,
+      "date": "2026-08-23",
+      "name": "IntervalCoach - Aerobic Intervals",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 32,
+      "duration_hours": 0.6,
+      "duration_formatted": "35m43s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hey mrtrn, easy swim to start. 6m 76% pace\nMain Set"
     },
     {
       "id": 124942315,
@@ -4351,12 +4370,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 4,
+    "attempted": 5,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
-    "bail_no_workout_doc": 41,
-    "bail_no_match": 3
+    "bail_no_workout_doc": 42,
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 4.65,
