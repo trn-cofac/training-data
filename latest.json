@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-28T09:45:51.280145",
+    "last_updated": "2026-07-28T11:51:48.737530",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -103,16 +103,16 @@
     "priority": 3,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 58.2,
-        "delta_pct": null
+        "status": "amber",
+        "value": 51.0,
+        "baseline_7d": 57.2,
+        "delta_pct": -10.8
       },
       "rhr": {
         "status": "green",
-        "value": 54,
-        "baseline_7d": 54.7,
-        "delta_bpm": -0.7
+        "value": 52,
+        "baseline_7d": 54.4,
+        "delta_bpm": -2.4
       },
       "sleep": {
         "status": "green",
@@ -124,9 +124,9 @@
         "value": 0.68
       },
       "ri": {
-        "status": "unavailable",
-        "value": null,
-        "value_yesterday": 1.06
+        "status": "green",
+        "value": 0.93,
+        "value_yesterday": 1.08
       },
       "tsb": {
         "status": "green",
@@ -134,10 +134,10 @@
       }
     },
     "signal_summary": {
-      "green": 4,
-      "amber": 0,
+      "green": 5,
+      "amber": 1,
       "red": 0,
-      "unavailable": 2
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Deload",
@@ -147,7 +147,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 4 green, 0 amber (threshold 2), 0 red.",
+    "reason": "P3 green light. 5 green, 1 amber (threshold 2), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -234,10 +234,10 @@
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 199.8,
-      "w_prime": 14105,
+      "eftp": 200.0,
+      "w_prime": 14119,
       "w_prime_kj": 14.1,
-      "p_max": 586,
+      "p_max": 587,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -274,8 +274,8 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 54,
-      "hrv": null,
+      "resting_hr": 52,
+      "hrv": 51.0,
       "sleep_quality": 2,
       "sleep_hours": 7.98,
       "sleep_formatted": "7h59m",
@@ -296,7 +296,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1489,
+      "steps": 2123,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -321,14 +321,14 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "recovery_index_yesterday": 1.06,
-    "hrv_baseline_7d": 58.2,
-    "rhr_baseline_7d": 54.7,
-    "hrv_baseline_28d": 63.8,
-    "rhr_baseline_28d": 53.4,
-    "latest_hrv": null,
-    "latest_rhr": 54,
+    "recovery_index": 0.93,
+    "recovery_index_yesterday": 1.08,
+    "hrv_baseline_7d": 57.2,
+    "rhr_baseline_7d": 54.4,
+    "hrv_baseline_28d": 63.4,
+    "rhr_baseline_28d": 53.3,
+    "latest_hrv": 51.0,
+    "latest_rhr": 52,
     "acwr": 0.68,
     "acwr_interpretation": "undertraining",
     "monotony": 0.62,
@@ -340,7 +340,7 @@
     "multi_sport_detected": true,
     "strain": 146.0,
     "stress_tolerance": 2.4,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 2.5,
     "tss_7d_total": 235.0,
     "tss_28d_total": 1378.0,
     "zone_distribution_7d": {
@@ -615,7 +615,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 184,
-          "w_prime_used": 14105,
+          "w_prime_used": 14119,
           "ftp_staleness_days": 4,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -650,17 +650,17 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
+          "planned_tss_delta": 0.18,
           "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 1,
           "race_proximity": 53,
-          "next_week_load": null,
+          "next_week_load": 0.5,
           "plan_coverage_current_week": 1.0,
           "plan_coverage_next_week": 1.17
         },
         "data_quality": "good",
-        "stream_agreement": null
+        "stream_agreement": false
       },
       "previous_phase": null,
       "phase_duration_weeks": 1,
@@ -686,15 +686,15 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 199.8,
-    "w_prime": 14105,
+    "eftp": 200.0,
+    "w_prime": 14119,
     "w_prime_kj": 14.1,
-    "p_max": 586,
+    "p_max": 587,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-28T09:45:51.278845",
+    "calculation_timestamp": "2026-07-28T11:51:48.736145",
     "data_quality": {
-      "hrv_data_points": 6,
+      "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 23,
@@ -3644,8 +3644,8 @@
       "display": {
         "weight": null
       },
-      "resting_hr": 54,
-      "hrv_rmssd": null,
+      "resting_hr": 52,
+      "hrv_rmssd": 51.0,
       "hrv_sdnn": null,
       "sleep_hours": 7.98,
       "sleep_formatted": "7h59m",
@@ -3670,7 +3670,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1489,
+      "steps": 2123,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3688,12 +3688,12 @@
       "name": "Kolay Ko\u015fu",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
+      "planned_tss": 37,
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Kolay ko\u015fu, Z1-Z2 (6:30-7:15/km). Toparlanma haftas\u0131."
+      "description": "- Is\u0131nma 5m 65-75% Pace\n- Ana blok - Z1-Z2 s\u00fcrekli 25m 79-88% Pace\n- So\u011fuma 5m 65-75% Pace"
     },
     {
       "id": 124941555,
@@ -3701,12 +3701,12 @@
       "name": "Y\u00fczme \u2014 Teknik",
       "type": "WORKOUT",
       "sport_type": "Swim",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
+      "planned_tss": 17,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Teknik odakl\u0131 y\u00fczme: 10x25m drill (kol vuru\u015fu, nefes ritmi), aralarda bol dinlenme."
+      "description": "- Is\u0131nma serbest 5m 60-70% Pace\n- Teknik drilleri (kol vuru\u015fu, nefes ritmi) - 10x25m, aralarda dinlenme 20m 65-78% Pace\n- So\u011fuma serbest 5m 60-70% Pace"
     },
     {
       "id": 124941557,
@@ -3714,111 +3714,18 @@
       "name": "Kolay Bisiklet",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
+      "planned_tss": 29,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "15:00",
-      "description": "Kolay bisiklet, Z2 (&lt;138W). Toparlanma haftas\u0131."
+      "description": "- Is\u0131nma 8m 45-55%\n- Z2 Dayan\u0131kl\u0131l\u0131k s\u00fcrekli 35m 55-70%\n- So\u011fuma 7m 40-50%"
     },
     {
-      "id": 124990345,
+      "id": 125749106,
       "date": "2026-07-31",
-      "name": "IntervalCoach - Aerobic Build",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": 26,
-      "duration_hours": 0.63,
-      "duration_formatted": "37m42s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey mrtrn! Technique endurance ahead. 6m 76% pace\n\nMain Set\n- Drill Set 1 200mtr 72% pace\n- Build 1 125mtr 83% pace\n- Rest 1m\n- Drill Set 2 200mtr 72% pace\n- Build 2 125mtr 83% pace\n- Rest 1m\n- Drill Set 3 200mtr 72% pace\n- Build 3 125mtr 83% pace\n\nCooldown\n- Great job! Easy laps to finish. 4m 72% pace\n\n[Weekly Plan - Build]"
-    },
-    {
-      "id": 124941648,
-      "date": "2026-08-01",
-      "name": "Kolay Ko\u015fu + H\u0131zlanmalar",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "Kolay ko\u015fu Z1-Z2 + 6x20sn hafif h\u0131zlanma."
-    },
-    {
-      "id": 124941742,
-      "date": "2026-08-02",
-      "name": "Y\u00fczme \u2014 Teknik",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "Teknik odakl\u0131 y\u00fczme + k\u0131sa serbest y\u00fczme denemeleri."
-    },
-    {
-      "id": 124941822,
-      "date": "2026-08-03",
-      "name": "Y\u00fczme \u2014 Dayan\u0131kl\u0131l\u0131k",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "400m \u0131s\u0131nma + 8x50m teknik + 200m so\u011fuma. Toplam ~1000-1200m."
-    },
-    {
-      "id": 124941856,
-      "date": "2026-08-04",
-      "name": "Ko\u015fu \u2014 Z2 + H\u0131zlanma",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "Z2 s\u00fcrekli ko\u015fu + 4x100m hafif h\u0131zlanma."
-    },
-    {
-      "id": 124941868,
-      "date": "2026-08-05",
-      "name": "Bisiklet \u2014 Z2 Dayan\u0131kl\u0131l\u0131k",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "15:00",
-      "description_preview": "Z2 dayan\u0131kl\u0131l\u0131k bisikleti, 100-138W aras\u0131."
-    },
-    {
-      "id": 124941889,
-      "date": "2026-08-06",
-      "name": "Y\u00fczme \u2014 Dayan\u0131kl\u0131l\u0131k",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "400m \u0131s\u0131nma + 10x50m (25 teknik/25 serbest) + so\u011fuma. Toplam ~1300-1500m."
-    },
-    {
-      "id": 124990349,
-      "date": "2026-08-07",
-      "name": "IntervalCoach - Aerobic Intervals",
+      "name": "IntervalCoach - Steady State Swim",
       "type": "WORKOUT",
       "sport_type": "Swim",
       "planned_tss": 32,
@@ -3827,7 +3734,100 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description_preview": "Warmup\n- Hi mrtrn! Steady swim today 6m 76% pace\nMain Set"
+      "description": "Warmup\n- Hey mrtrn! Steady state swim today. 6m 76% pace\n\nMain Set\n- 1a 75mtr 83% pace\n- 1 150mtr 91% pace\n- 1b 75mtr 83% pace\n- Rest 1m\n- 2a 75mtr 83% pace\n- 2 150mtr 91% pace\n- 2b 75mtr 83% pace\n- Rest 1m\n- 3a 75mtr 83% pace\n- 3 150mtr 91% pace\n- 3b 75mtr 83% pace\n- Endurance 125mtr 83% pace\n\nCooldown\n- Great swim, mrtrn! Easy strokes to finish. 4m 72% pace\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 124941648,
+      "date": "2026-08-01",
+      "name": "Kolay Ko\u015fu + H\u0131zlanmalar",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 40,
+      "duration_hours": 0.65,
+      "duration_formatted": "39m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- Is\u0131nma 8m 65-75% Pace\n- Z1-Z2 s\u00fcrekli 25m 79-88% Pace\nHafif h\u0131zlanma 6x\n  - H\u0131zlanma 20s 100-110% Pace\n  - Toparlanma 40s 60-70% Pace\n- So\u011fuma 5m 65-75% Pace"
+    },
+    {
+      "id": 124941742,
+      "date": "2026-08-02",
+      "name": "Y\u00fczme \u2014 Teknik",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 18,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- Is\u0131nma serbest 5m 60-70% Pace\n- Teknik + k\u0131sa serbest denemeler 20m 65-82% Pace\n- So\u011fuma serbest 5m 60-70% Pace"
+    },
+    {
+      "id": 124941822,
+      "date": "2026-08-03",
+      "name": "Y\u00fczme \u2014 Dayan\u0131kl\u0131l\u0131k",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 34,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- Is\u0131nma 5m 65-75% Pace\n- Teknik drilleri 8x50m 15m 78-88% Pace\n- Dayan\u0131kl\u0131l\u0131k s\u00fcrekli 15m 80-90% Pace\n- So\u011fuma 5m 60-70% Pace"
+    },
+    {
+      "id": 124941856,
+      "date": "2026-08-04",
+      "name": "Ko\u015fu \u2014 Z2 + H\u0131zlanma",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 47,
+      "duration_hours": 0.74,
+      "duration_formatted": "44m25s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- Is\u0131nma 8m 65-75% Pace\n- Z2 s\u00fcrekli 30m 79-88% Pace\nHafif h\u0131zlanma 4x\n  - H\u0131zlanma 25s 100-108% Pace\n  - Toparlanma 1m 60-70% Pace\n- So\u011fuma 5m 65-75% Pace"
+    },
+    {
+      "id": 124941868,
+      "date": "2026-08-05",
+      "name": "Bisiklet \u2014 Z2 Dayan\u0131kl\u0131l\u0131k",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 41,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "15:00",
+      "description_preview": "- Is\u0131nma 10m 45-55%\n- Z2 Dayan\u0131kl\u0131l\u0131k s\u00fcrekli 50m 55-70%\n- So\u011fuma 10m 40-50%"
+    },
+    {
+      "id": 124941889,
+      "date": "2026-08-06",
+      "name": "Y\u00fczme \u2014 Dayan\u0131kl\u0131l\u0131k",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 34,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- Is\u0131nma 5m 65-75% Pace\n- Teknik/Serbest kar\u0131\u015f\u0131k 10x50m 20m 78-90% Pace\n- Dayan\u0131kl\u0131l\u0131k s\u00fcrekli 10m 80-90% Pace"
+    },
+    {
+      "id": 125749123,
+      "date": "2026-08-07",
+      "name": "IntervalCoach - Aerobic Endurance",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 28,
+      "duration_hours": 0.51,
+      "duration_formatted": "30m42s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hey mrtrn! Long aerobic swim today. 5m 76% pace\nMain Set"
     },
     {
       "id": 124941914,
@@ -3835,13 +3835,13 @@
       "name": "Bisiklet \u2014 Uzun Z2",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
+      "planned_tss": 54,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "15:00",
-      "description_preview": "Uzun bisiklet, Z2 s\u00fcrekli."
+      "description_preview": "- Is\u0131nma 10m 45-55%\n- Z2 s\u00fcrekli 1h10m 55-70%\n- So\u011fuma 10m 40-50%"
     },
     {
       "id": 124941937,
@@ -3849,12 +3849,12 @@
       "name": "Ko\u015fu \u2014 Z2",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
+      "planned_tss": 48,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "S\u00fcrekli Z2 ko\u015fu."
+      "description_preview": "- Is\u0131nma 8m 65-75% Pace\n- Z2 s\u00fcrekli 32m 79-88% Pace\n- So\u011fuma 5m 65-75% Pace"
     },
     {
       "id": 124941963,
@@ -4311,20 +4311,20 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 4,
+    "attempted": 15,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 43,
-    "bail_no_match": 4
+    "bail_no_workout_doc": 32,
+    "bail_no_match": 15
   },
   "weekly_summary": {
     "total_training_hours": 5.18,
     "total_training_formatted": "5h10m",
     "total_tss": 235,
     "activities_count": 5,
-    "avg_hrv": 58.2,
-    "avg_resting_hr": 54.7
+    "avg_hrv": 57.2,
+    "avg_resting_hr": 54.4
   },
   "race_calendar": {
     "next_race": {
