@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-28T01:04:01.077900",
+    "last_updated": "2026-07-28T04:26:05.445277",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -115,9 +115,9 @@
         "delta_bpm": 3.6
       },
       "sleep": {
-        "status": "red",
-        "hours": 4.28,
-        "quality": 3
+        "status": "amber",
+        "hours": 6.97,
+        "quality": 2
       },
       "acwr": {
         "status": "green",
@@ -135,8 +135,8 @@
     },
     "signal_summary": {
       "green": 2,
-      "amber": 1,
-      "red": 1,
+      "amber": 2,
+      "red": 0,
       "unavailable": 2
     },
     "phase_context": {
@@ -148,8 +148,8 @@
     "race_week_defers": false,
     "modification": {
       "triggers": [
-        "sleep",
-        "rhr"
+        "rhr",
+        "sleep"
       ],
       "suggested_adjustments": {
         "intensity": "reduce",
@@ -157,7 +157,7 @@
         "cap_zone": null
       }
     },
-    "reason": "P2 signal count. 1 red (sleep), 1 amber (rhr).",
+    "reason": "P2 signal count. 2 amber (rhr, sleep) >= threshold 2.",
     "alarm_refs": []
   },
   "history": {
@@ -286,10 +286,10 @@
       },
       "resting_hr": 59,
       "hrv": null,
-      "sleep_quality": 3,
-      "sleep_hours": 4.28,
-      "sleep_formatted": "4h17m",
-      "sleep_score": 64.0,
+      "sleep_quality": 2,
+      "sleep_hours": 6.97,
+      "sleep_formatted": "6h58m",
+      "sleep_score": 80.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -702,7 +702,7 @@
     "p_max": 586,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-28T01:04:01.076488",
+    "calculation_timestamp": "2026-07-28T04:26:05.443851",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 7,
@@ -3657,10 +3657,10 @@
       "resting_hr": 59,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": 4.28,
-      "sleep_formatted": "4h17m",
-      "sleep_quality": 3,
-      "sleep_score": 64.0,
+      "sleep_hours": 6.97,
+      "sleep_formatted": "6h58m",
+      "sleep_quality": 2,
+      "sleep_score": 80.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
