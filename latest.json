@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-31T18:08:52.418896",
+    "last_updated": "2026-07-31T19:49:58.639564",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -104,9 +104,9 @@
     "signals": {
       "hrv": {
         "status": "green",
-        "value": 56.7,
+        "value": 56.5,
         "baseline_7d": 58.6,
-        "delta_pct": -3.3
+        "delta_pct": -3.6
       },
       "rhr": {
         "status": "green",
@@ -125,7 +125,7 @@
       },
       "ri": {
         "status": "green",
-        "value": 1.03,
+        "value": 1.02,
         "value_yesterday": 1.17
       },
       "tsb": {
@@ -140,14 +140,14 @@
       "unavailable": 0
     },
     "phase_context": {
-      "phase": "Deload",
+      "phase": "Build",
       "phase_week": 1,
-      "amber_threshold": 2,
-      "modifier_applied": "default"
+      "amber_threshold": 3,
+      "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 6 green, 0 amber (threshold 2), 0 red.",
+    "reason": "P3 green light. 6 green, 0 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -263,7 +263,7 @@
         }
       },
       "resting_hr": 49,
-      "hrv": 56.673912,
+      "hrv": 56.48936,
       "sleep_quality": 2,
       "sleep_hours": 7.15,
       "sleep_formatted": "7h9m",
@@ -284,7 +284,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 4266,
+      "steps": 4814,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -309,13 +309,13 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": 1.03,
+    "recovery_index": 1.02,
     "recovery_index_yesterday": 1.17,
     "hrv_baseline_7d": 58.6,
     "rhr_baseline_7d": 52.1,
     "hrv_baseline_28d": 62.5,
     "rhr_baseline_28d": 53.0,
-    "latest_hrv": 56.673912,
+    "latest_hrv": 56.48936,
     "latest_rhr": 49,
     "acwr": 0.68,
     "acwr_interpretation": "undertraining",
@@ -628,11 +628,9 @@
       ]
     },
     "phase_detection": {
-      "phase": "Deload",
-      "confidence": "medium",
-      "reason_codes": [
-        "BUILD_HISTORY_REDUCED_LOAD"
-      ],
+      "phase": "Build",
+      "confidence": "high",
+      "reason_codes": [],
       "basis": {
         "stream_1": {
           "ctl_slope": 4.6,
@@ -641,27 +639,25 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 0.67,
+          "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 1,
+          "current_week_hard_days_total": 2,
           "race_proximity": 50,
           "next_week_load": 0.5,
-          "plan_coverage_current_week": 0.5,
+          "plan_coverage_current_week": 0.67,
           "plan_coverage_next_week": 1.17
         },
         "data_quality": "good",
-        "stream_agreement": null
+        "stream_agreement": false
       },
       "previous_phase": null,
       "phase_duration_weeks": 1,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Deload",
-    "phase_triggers": [
-      "BUILD_HISTORY_REDUCED_LOAD"
-    ],
+    "phase_detected": "Build",
+    "phase_triggers": [],
     "seasonal_context": "Peak Race Season",
     "benchmark_indoor": {
       "current_ftp": null,
@@ -683,7 +679,7 @@
     "p_max": 586,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-31T18:08:52.417480",
+    "calculation_timestamp": "2026-07-31T19:49:58.638301",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3677,7 +3673,7 @@
         "weight": null
       },
       "resting_hr": 49,
-      "hrv_rmssd": 56.673912,
+      "hrv_rmssd": 56.48936,
       "hrv_sdnn": null,
       "sleep_hours": 7.15,
       "sleep_formatted": "7h9m",
@@ -3702,7 +3698,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 4266,
+      "steps": 4814,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3731,15 +3727,29 @@
     {
       "id": 124941648,
       "date": "2026-08-01",
-      "name": "Kolay Ko\u015fu + H\u0131zlanmalar",
+      "name": "Brick \u2014 Ko\u015fu (T2)",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 40,
-      "duration_hours": 0.65,
-      "duration_formatted": "39m",
+      "planned_tss": 46,
+      "duration_hours": 0.73,
+      "duration_formatted": "44m",
+      "workout_summary": "8m | 25m | 6\u00d720s / 40s rec | 5m",
+      "has_terrain": false,
+      "description": "-Is\u0131nma 8m 65-75% Pace\n\n-Z1-Z2 s\u00fcrekli 25m 79-88% Pace\n\nHafif h\u0131zlanma 6x\n  - H\u0131zlanma 20s 100-110% Pace\n  - Toparlanma 40s 60-70% Pace\n\n-So\u011fuma 5m 65-75% Pace"
+    },
+    {
+      "id": 126447140,
+      "date": "2026-08-01",
+      "name": "Brick \u2014 Bisiklet (T1)",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 54,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- Is\u0131nma 8m 65-75% Pace\n- Z1-Z2 s\u00fcrekli 25m 79-88% Pace\nHafif h\u0131zlanma 6x\n  - H\u0131zlanma 20s 100-110% Pace\n  - Toparlanma 40s 60-70% Pace\n- So\u011fuma 5m 65-75% Pace"
+      "start_time": "15:00",
+      "description": "- Is\u0131nma 10m 45-55%\n- Z2 s\u00fcrekli - ger\u00e7ekten rahat tempo, ko\u015fu i\u00e7in bacak b\u0131rak 1h10m 55-70%\n- So\u011fuma / T1 haz\u0131rl\u0131k 10m 40-50%"
     },
     {
       "id": 124941742,
@@ -4330,9 +4340,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 12,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 13,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 34,
     "bail_no_match": 12
