@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-02T01:13:45.270480",
+    "last_updated": "2026-08-02T04:38:28.504286",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -99,14 +99,14 @@
   "athlete_notes": null,
   "alerts": [],
   "readiness_decision": {
-    "recommendation": "modify",
-    "priority": 2,
+    "recommendation": "go",
+    "priority": 3,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 58.4,
-        "delta_pct": null
+        "status": "green",
+        "value": 73.8,
+        "baseline_7d": 60.9,
+        "delta_pct": 21.1
       },
       "rhr": {
         "status": "green",
@@ -115,29 +115,29 @@
         "delta_bpm": -0.4
       },
       "sleep": {
-        "status": "red",
-        "hours": 3.85,
-        "quality": 4
+        "status": "green",
+        "hours": 7.35,
+        "quality": 2
       },
       "acwr": {
         "status": "green",
         "value": 0.36
       },
       "ri": {
-        "status": "unavailable",
-        "value": null,
+        "status": "green",
+        "value": 1.22,
         "value_yesterday": 0.9
       },
       "tsb": {
         "status": "green",
-        "value": -5.6
+        "value": -0.6
       }
     },
     "signal_summary": {
-      "green": 3,
+      "green": 6,
       "amber": 0,
-      "red": 1,
-      "unavailable": 2
+      "red": 0,
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Deload",
@@ -146,17 +146,8 @@
       "modifier_applied": "default"
     },
     "race_week_defers": false,
-    "modification": {
-      "triggers": [
-        "sleep"
-      ],
-      "suggested_adjustments": {
-        "intensity": "preserve",
-        "volume": "reduce",
-        "cap_zone": null
-      }
-    },
-    "reason": "P2 signal count. 1 red (sleep), 0 amber ().",
+    "modification": null,
+    "reason": "P3 green light. 6 green, 0 amber (threshold 2), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -212,10 +203,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 32.53,
-      "atl": 38.16,
-      "tsb": -5.63,
-      "ramp_rate": 1.44,
+      "ctl": 31.29,
+      "atl": 31.93,
+      "tsb": -0.64,
+      "ramp_rate": 0.2,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -260,11 +251,11 @@
         }
       },
       "resting_hr": 51,
-      "hrv": null,
-      "sleep_quality": 4,
-      "sleep_hours": 3.85,
-      "sleep_formatted": "3h51m",
-      "sleep_score": 59.0,
+      "hrv": 73.757576,
+      "sleep_quality": 2,
+      "sleep_hours": 7.35,
+      "sleep_formatted": "7h21m",
+      "sleep_score": 84.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -306,13 +297,13 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
+    "recovery_index": 1.22,
     "recovery_index_yesterday": 0.9,
-    "hrv_baseline_7d": 58.4,
+    "hrv_baseline_7d": 60.9,
     "rhr_baseline_7d": 51.4,
-    "hrv_baseline_28d": 61.7,
+    "hrv_baseline_28d": 62.2,
     "rhr_baseline_28d": 53.1,
-    "latest_hrv": null,
+    "latest_hrv": 73.757576,
     "latest_rhr": 51,
     "acwr": 0.36,
     "acwr_interpretation": "undertraining",
@@ -325,7 +316,7 @@
     "multi_sport_detected": true,
     "strain": 98.0,
     "stress_tolerance": 1.1,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 0.9,
     "tss_7d_total": 113.0,
     "tss_28d_total": 1272.0,
     "zone_distribution_7d": {
@@ -678,9 +669,9 @@
     "p_max": 586,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-02T01:13:45.269073",
+    "calculation_timestamp": "2026-08-02T04:38:28.502850",
     "data_quality": {
-      "hrv_data_points": 6,
+      "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 23,
@@ -3460,7 +3451,7 @@
         "weight": null
       },
       "resting_hr": 54,
-      "hrv_rmssd": 55.051723,
+      "hrv_rmssd": 57.53731,
       "hrv_sdnn": null,
       "sleep_hours": 5.68,
       "sleep_formatted": "5h41m",
@@ -3502,12 +3493,12 @@
         "weight": null
       },
       "resting_hr": 51,
-      "hrv_rmssd": null,
+      "hrv_rmssd": 73.757576,
       "hrv_sdnn": null,
-      "sleep_hours": 3.85,
-      "sleep_formatted": "3h51m",
-      "sleep_quality": 4,
-      "sleep_score": 59.0,
+      "sleep_hours": 7.35,
+      "sleep_formatted": "7h21m",
+      "sleep_quality": 2,
+      "sleep_score": 84.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -3820,20 +3811,6 @@
       "description_preview": "500m kesintisiz y\u00fczme denemesi + kolay teknik."
     },
     {
-      "id": 125128632,
-      "date": "2026-08-21",
-      "name": "IntervalCoach - Core Stability",
-      "type": "WORKOUT",
-      "sport_type": "WeightTraining",
-      "planned_tss": 37,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description_preview": "Core Stability\nCore exercises to improve stability, posture, and power transfer\n1. Plank: 5 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]"
-    },
-    {
       "id": 124942310,
       "date": "2026-08-22",
       "name": "Ko\u015fu \u2014 Brick (Bisiklet sonras\u0131)",
@@ -3926,6 +3903,20 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": "1000-1200m kesintisiz y\u00fczme denemesi (yar\u0131\u015f mesafesine haz\u0131rl\u0131k)."
+    },
+    {
+      "id": 126659182,
+      "date": "2026-08-28",
+      "name": "IntervalCoach - Aerobic Intervals",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 28,
+      "duration_hours": 0.51,
+      "duration_formatted": "30m42s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hey mrtrn! Long aerobic swim today. 5m 76% pace\nMain Set"
     },
     {
       "id": 124942522,
@@ -4168,19 +4159,19 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 10,
+    "attempted": 11,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 37,
-    "bail_no_match": 10
+    "bail_no_workout_doc": 36,
+    "bail_no_match": 11
   },
   "weekly_summary": {
     "total_training_hours": 3.31,
     "total_training_formatted": "3h18m",
     "total_tss": 113,
     "activities_count": 5,
-    "avg_hrv": 58.4,
+    "avg_hrv": 60.9,
     "avg_resting_hr": 51.4
   },
   "race_calendar": {
