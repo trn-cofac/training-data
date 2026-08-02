@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-02T20:33:08.034296",
+    "last_updated": "2026-08-02T21:34:38.750718",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -104,9 +104,9 @@
     "signals": {
       "hrv": {
         "status": "green",
-        "value": 68.3,
+        "value": 67.7,
         "baseline_7d": 60.1,
-        "delta_pct": 13.6
+        "delta_pct": 12.7
       },
       "rhr": {
         "status": "green",
@@ -125,7 +125,7 @@
       },
       "ri": {
         "status": "green",
-        "value": 1.21,
+        "value": 1.2,
         "value_yesterday": 0.9
       },
       "tsb": {
@@ -263,7 +263,7 @@
         }
       },
       "resting_hr": 48,
-      "hrv": 68.26415,
+      "hrv": 67.703705,
       "sleep_quality": 3,
       "sleep_hours": 10.1,
       "sleep_formatted": "10h6m",
@@ -284,7 +284,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 5715,
+      "steps": 5773,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -309,13 +309,13 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": 1.21,
+    "recovery_index": 1.2,
     "recovery_index_yesterday": 0.9,
     "hrv_baseline_7d": 60.1,
     "rhr_baseline_7d": 51,
     "hrv_baseline_28d": 62.0,
     "rhr_baseline_28d": 53,
-    "latest_hrv": 68.26415,
+    "latest_hrv": 67.703705,
     "latest_rhr": 48,
     "acwr": 0.6,
     "acwr_interpretation": "undertraining",
@@ -683,7 +683,7 @@
     "p_max": 586,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-02T20:33:08.032924",
+    "calculation_timestamp": "2026-08-02T21:34:38.749321",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3654,7 +3654,7 @@
         "weight": null
       },
       "resting_hr": 48,
-      "hrv_rmssd": 68.26415,
+      "hrv_rmssd": 67.703705,
       "hrv_sdnn": null,
       "sleep_hours": 10.1,
       "sleep_formatted": "10h6m",
@@ -3679,7 +3679,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 5715,
+      "steps": 5773,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
