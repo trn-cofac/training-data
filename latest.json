@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-03T04:47:18.362895",
+    "last_updated": "2026-08-03T08:22:11.518362",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -104,9 +104,9 @@
     "signals": {
       "hrv": {
         "status": "green",
-        "value": 61.7,
-        "baseline_7d": 60.3,
-        "delta_pct": 2.4
+        "value": 61.3,
+        "baseline_7d": 60.2,
+        "delta_pct": 1.8
       },
       "rhr": {
         "status": "green",
@@ -125,12 +125,12 @@
       },
       "ri": {
         "status": "green",
-        "value": 1.0,
+        "value": 0.99,
         "value_yesterday": 1.18
       },
       "tsb": {
         "status": "green",
-        "value": -7.4
+        "value": -5.7
       }
     },
     "signal_summary": {
@@ -215,17 +215,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 33.1,
-      "atl": 40.49,
-      "tsb": -7.39,
-      "ramp_rate": -0.63,
+      "ctl": 32.69,
+      "atl": 38.41,
+      "tsb": -5.72,
+      "ramp_rate": -1.04,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 199.6,
-      "w_prime": 14091,
+      "eftp": 199.4,
+      "w_prime": 14077,
       "w_prime_kj": 14.1,
-      "p_max": 586,
+      "p_max": 585,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -263,7 +263,7 @@
         }
       },
       "resting_hr": 52,
-      "hrv": 61.72222,
+      "hrv": 61.275,
       "sleep_quality": 3,
       "sleep_hours": 6.1,
       "sleep_formatted": "6h6m",
@@ -284,7 +284,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 391,
+      "steps": 1430,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -309,13 +309,13 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": 1.0,
+    "recovery_index": 0.99,
     "recovery_index_yesterday": 1.18,
-    "hrv_baseline_7d": 60.3,
+    "hrv_baseline_7d": 60.2,
     "rhr_baseline_7d": 50.7,
     "hrv_baseline_28d": 61.7,
     "rhr_baseline_28d": 52.9,
-    "latest_hrv": 61.72222,
+    "latest_hrv": 61.275,
     "latest_rhr": 52,
     "acwr": 0.6,
     "acwr_interpretation": "undertraining",
@@ -603,7 +603,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 184,
-          "w_prime_used": 14091,
+          "w_prime_used": 14077,
           "ftp_staleness_days": 10,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -643,13 +643,13 @@
         },
         "stream_2": {
           "planned_tss_delta": 0.51,
-          "hard_sessions_planned": 1,
+          "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 1,
+          "current_week_hard_days_total": 0,
           "race_proximity": 47,
           "next_week_load": null,
-          "plan_coverage_current_week": 1.0,
-          "plan_coverage_next_week": 1.14
+          "plan_coverage_current_week": 0.86,
+          "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -678,13 +678,13 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 199.6,
-    "w_prime": 14091,
+    "eftp": 199.4,
+    "w_prime": 14077,
     "w_prime_kj": 14.1,
-    "p_max": 586,
+    "p_max": 585,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-03T04:47:18.361491",
+    "calculation_timestamp": "2026-08-03T08:22:11.516960",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3655,7 +3655,7 @@
         "weight": null
       },
       "resting_hr": 52,
-      "hrv_rmssd": 61.72222,
+      "hrv_rmssd": 61.275,
       "hrv_sdnn": null,
       "sleep_hours": 6.1,
       "sleep_formatted": "6h6m",
@@ -3680,7 +3680,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 391,
+      "steps": 1430,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3744,20 +3744,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "- Is\u0131nma 5m 65-75% Pace\n- Teknik/Serbest kar\u0131\u015f\u0131k 10x50m 20m 78-90% Pace\n- Dayan\u0131kl\u0131l\u0131k s\u00fcrekli 10m 80-90% Pace\n- So\u011fuma 5m 60-70% Pace"
-    },
-    {
-      "id": 125749123,
-      "date": "2026-08-07",
-      "name": "IntervalCoach - Aerobic Endurance",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": 28,
-      "duration_hours": 0.51,
-      "duration_formatted": "30m42s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey mrtrn! Long aerobic swim today. 5m 76% pace\n\nMain Set\n- 1a 75mtr 83% pace\n- 1 150mtr 91% pace\n- 1b 75mtr 83% pace\n- Rest 1m\n- 2a 75mtr 83% pace\n- 2 150mtr 91% pace\n- 2b 75mtr 83% pace\n- Rest 1m\n- 3a 75mtr 83% pace\n- 3 150mtr 91% pace\n- 3b 75mtr 83% pace\n\nCooldown\n- Great effort, mrtrn! Easy laps now. 3m 72% pace\n\n[Weekly Plan - Build]"
     },
     {
       "id": 124941914,
@@ -3838,20 +3824,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": "S\u00fcrekli teknik + 400-600m kesintisiz y\u00fczme denemesi."
-    },
-    {
-      "id": 124990351,
-      "date": "2026-08-14",
-      "name": "IntervalCoach - Aerobic Build",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": 26,
-      "duration_hours": 0.63,
-      "duration_formatted": "37m42s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description_preview": "Warmup\n- Hey mrtrn! Technique endurance swim awaits. 6m 76% pace\nMain Set"
     },
     {
       "id": 124942155,
@@ -3987,20 +3959,6 @@
       "description_preview": "Kolay bisiklet, toparlanma haftas\u0131."
     },
     {
-      "id": 125128644,
-      "date": "2026-08-23",
-      "name": "IntervalCoach - Aerobic Intervals",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": 32,
-      "duration_hours": 0.6,
-      "duration_formatted": "35m43s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description_preview": "Warmup\n- Hey mrtrn, easy swim to start. 6m 76% pace\nMain Set"
-    },
-    {
       "id": 124942315,
       "date": "2026-08-24",
       "name": "Y\u00fczme \u2014 Tempo",
@@ -4052,20 +4010,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": "1000-1200m kesintisiz y\u00fczme denemesi (yar\u0131\u015f mesafesine haz\u0131rl\u0131k)."
-    },
-    {
-      "id": 126659182,
-      "date": "2026-08-28",
-      "name": "IntervalCoach - Aerobic Intervals",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": 28,
-      "duration_hours": 0.51,
-      "duration_formatted": "30m42s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description_preview": "Warmup\n- Hey mrtrn! Long aerobic swim today. 5m 76% pace\nMain Set"
     },
     {
       "id": 124942522,
@@ -4334,19 +4278,19 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 10,
+    "attempted": 6,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 38,
-    "bail_no_match": 10
+    "bail_no_match": 6
   },
   "weekly_summary": {
     "total_training_hours": 4.9,
     "total_training_formatted": "4h53m",
     "total_tss": 206,
     "activities_count": 7,
-    "avg_hrv": 60.3,
+    "avg_hrv": 60.2,
     "avg_resting_hr": 50.7
   },
   "race_calendar": {
