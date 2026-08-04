@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-04T07:38:15.874660",
+    "last_updated": "2026-08-04T10:17:39.767078",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -149,7 +149,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -7.7
+        "value": -4.6
       }
     },
     "signal_summary": {
@@ -243,17 +243,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 33.07,
-      "atl": 40.8,
-      "tsb": -7.73,
-      "ramp_rate": 0.13,
+      "ctl": 32.29,
+      "atl": 36.88,
+      "tsb": -4.59,
+      "ramp_rate": -0.65,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 199.6,
-      "w_prime": 14091,
+      "eftp": 199.2,
+      "w_prime": 14063,
       "w_prime_kj": 14.1,
-      "p_max": 586,
+      "p_max": 585,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -312,7 +312,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1458,
+      "steps": 1839,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -631,7 +631,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 184,
-          "w_prime_used": 14091,
+          "w_prime_used": 14063,
           "ftp_staleness_days": 11,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -706,13 +706,13 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 199.6,
-    "w_prime": 14091,
+    "eftp": 199.2,
+    "w_prime": 14063,
     "w_prime_kj": 14.1,
-    "p_max": 586,
+    "p_max": 585,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-04T07:38:15.873257",
+    "calculation_timestamp": "2026-08-04T10:17:39.765793",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3836,7 +3836,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1458,
+      "steps": 1839,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3854,12 +3854,12 @@
       "name": "Ko\u015fu \u2014 Z2 + H\u0131zlanma",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 47,
-      "duration_hours": 0.74,
-      "duration_formatted": "44m25s",
+      "planned_tss": 51,
+      "duration_hours": 0.81,
+      "duration_formatted": "48m40s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- Is\u0131nma 8m 65-75% Pace\n- Z2 s\u00fcrekli 30m 79-88% Pace\nHafif h\u0131zlanma 4x\n  - H\u0131zlanma 25s 100-108% Pace\n  - Toparlanma 1m 60-70% Pace\n- So\u011fuma 5m 65-75% Pace"
+      "description": "- Is\u0131nma 8m 65-75% Pace\n- Z2 s\u00fcrekli 30m 79-88% Pace\n- H\u0131zlanma 1 25s 100-108% Pace\n- Toparlanma 1m 60-70% Pace\n- H\u0131zlanma 2 25s 100-108% Pace\n- Toparlanma 1m 60-70% Pace\n- H\u0131zlanma 3 25s 100-108% Pace\n- Toparlanma 1m 60-70% Pace\n- H\u0131zlanma 4 25s 100-108% Pace\n- Toparlanma 1m 60-70% Pace\n- So\u011fuma 5m 65-75% Pace"
     },
     {
       "id": 124941868,
