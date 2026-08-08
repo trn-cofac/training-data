@@ -1,44 +1,10 @@
 {
-  "generated_at": "2026-08-07T23:46:28.072976",
+  "generated_at": "2026-08-08T01:03:57.981548",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i168855646",
-      "date": "2026-07-24",
-      "type": "Run",
-      "name": "Evening Run",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 162,
-          "avg_hr": 82,
-          "max_hr": 95,
-          "avg_cadence": 68.62421,
-          "zone": 1
-        }
-      ]
-    },
-    {
-      "activity_id": "i168870296",
-      "date": "2026-07-24",
-      "type": "Run",
-      "name": "Evening Run",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 2336,
-          "avg_hr": 153,
-          "max_hr": 165,
-          "avg_cadence": 77.02831,
-          "zone": 2
-        }
-      ]
-    },
     {
       "activity_id": "i168970833",
       "date": "2026-07-25",
