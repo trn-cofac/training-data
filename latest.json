@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-09T01:07:55.892508",
+    "last_updated": "2026-08-09T03:06:51.695270",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -130,7 +130,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -18.4
+        "value": -13.3
       }
     },
     "signal_summary": {
@@ -227,10 +227,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 36.67,
-      "atl": 55.02,
-      "tsb": -18.35,
-      "ramp_rate": 5.39,
+      "ctl": 35.43,
+      "atl": 48.78,
+      "tsb": -13.35,
+      "ramp_rate": 4.14,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -645,7 +645,7 @@
           "race_proximity": 41,
           "next_week_load": null,
           "plan_coverage_current_week": 0.14,
-          "plan_coverage_next_week": 1.0
+          "plan_coverage_next_week": 1.14
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -678,7 +678,7 @@
     "p_max": 584,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-09T01:07:55.891529",
+    "calculation_timestamp": "2026-08-09T03:06:51.693905",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -3833,6 +3833,20 @@
       "description": "S\u00fcrekli teknik + 400-600m kesintisiz y\u00fczme denemesi."
     },
     {
+      "id": 128072586,
+      "date": "2026-08-14",
+      "name": "IntervalCoach - Endurance Pace",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 28,
+      "duration_hours": 0.51,
+      "duration_formatted": "30m42s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey mrtrn! Endurance swim is here 5m 76% pace\n\nMain Set\n- 1a 75mtr 83% pace\n- 1 150mtr 91% pace\n- 1b 75mtr 83% pace\n- Rest 1m\n- 2a 75mtr 83% pace\n- 2 150mtr 91% pace\n- 2b 75mtr 83% pace\n- Rest 1m\n- 3a 75mtr 83% pace\n- 3 150mtr 91% pace\n- 3b 75mtr 83% pace\n\nCooldown\n- Great swim, mrtrn! Easy laps now 3m 72% pace\n\n[Weekly Plan - Peak]"
+    },
+    {
       "id": 124942155,
       "date": "2026-08-15",
       "name": "Ko\u015fu \u2014 Brick (Bisiklet sonras\u0131)",
@@ -4377,12 +4391,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
+    "attempted": 2,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 44,
-    "bail_no_match": 1
+    "bail_no_match": 2
   },
   "weekly_summary": {
     "total_training_hours": 6.58,
