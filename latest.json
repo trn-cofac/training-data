@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-11T03:10:13.872337",
+    "last_updated": "2026-08-11T04:37:43.766938",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -99,8 +99,8 @@
   "athlete_notes": null,
   "alerts": [],
   "readiness_decision": {
-    "recommendation": "modify",
-    "priority": 2,
+    "recommendation": "go",
+    "priority": 3,
     "signals": {
       "hrv": {
         "status": "green",
@@ -115,9 +115,9 @@
         "delta_bpm": 3.1
       },
       "sleep": {
-        "status": "amber",
-        "hours": 5.15,
-        "quality": 3
+        "status": "green",
+        "hours": 7.07,
+        "quality": 2
       },
       "acwr": {
         "status": "green",
@@ -134,8 +134,8 @@
       }
     },
     "signal_summary": {
-      "green": 3,
-      "amber": 3,
+      "green": 4,
+      "amber": 2,
       "red": 0,
       "unavailable": 0
     },
@@ -146,19 +146,8 @@
       "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
-    "modification": {
-      "triggers": [
-        "rhr",
-        "sleep",
-        "tsb"
-      ],
-      "suggested_adjustments": {
-        "intensity": "reduce",
-        "volume": "reduce",
-        "cap_zone": null
-      }
-    },
-    "reason": "P2 signal count. 3 amber (rhr, sleep, tsb) >= threshold 3.",
+    "modification": null,
+    "reason": "P3 green light. 4 green, 2 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -263,10 +252,10 @@
       },
       "resting_hr": 60,
       "hrv": 55.583332,
-      "sleep_quality": 3,
-      "sleep_hours": 5.15,
-      "sleep_formatted": "5h9m",
-      "sleep_score": 75.0,
+      "sleep_quality": 2,
+      "sleep_hours": 7.07,
+      "sleep_formatted": "7h4m",
+      "sleep_score": 81.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -667,7 +656,7 @@
     "p_max": 584,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-11T03:10:13.870832",
+    "calculation_timestamp": "2026-08-11T04:37:43.765561",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3728,10 +3717,10 @@
       "resting_hr": 60,
       "hrv_rmssd": 55.583332,
       "hrv_sdnn": null,
-      "sleep_hours": 5.15,
-      "sleep_formatted": "5h9m",
-      "sleep_quality": 3,
-      "sleep_score": 75.0,
+      "sleep_hours": 7.07,
+      "sleep_formatted": "7h4m",
+      "sleep_quality": 2,
+      "sleep_score": 81.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
