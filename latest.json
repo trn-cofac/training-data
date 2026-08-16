@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-16T02:33:40.672616",
+    "last_updated": "2026-08-16T03:31:12.638503",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -116,8 +116,8 @@
       },
       "sleep": {
         "status": "red",
-        "hours": 3.87,
-        "quality": 4
+        "hours": 4.75,
+        "quality": 3
       },
       "acwr": {
         "status": "green",
@@ -261,10 +261,10 @@
       },
       "resting_hr": 57,
       "hrv": 66.88,
-      "sleep_quality": 4,
-      "sleep_hours": 3.87,
-      "sleep_formatted": "3h52m",
-      "sleep_score": 58.0,
+      "sleep_quality": 3,
+      "sleep_hours": 4.75,
+      "sleep_formatted": "4h45m",
+      "sleep_score": 67.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -645,7 +645,7 @@
           "race_proximity": 34,
           "next_week_load": null,
           "plan_coverage_current_week": 0.12,
-          "plan_coverage_next_week": 0.88
+          "plan_coverage_next_week": 1.12
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -678,7 +678,7 @@
     "p_max": 584,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-16T02:33:40.671263",
+    "calculation_timestamp": "2026-08-16T03:31:12.637205",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3709,10 +3709,10 @@
       "resting_hr": 57,
       "hrv_rmssd": 66.88,
       "hrv_sdnn": null,
-      "sleep_hours": 3.87,
-      "sleep_formatted": "3h52m",
-      "sleep_quality": 4,
-      "sleep_score": 58.0,
+      "sleep_hours": 4.75,
+      "sleep_formatted": "4h45m",
+      "sleep_quality": 3,
+      "sleep_score": 67.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -3824,6 +3824,20 @@
       "description": "500m kesintisiz y\u00fczme denemesi + kolay teknik."
     },
     {
+      "id": 129435696,
+      "date": "2026-08-21",
+      "name": "IntervalCoach - Lower-Body-Strength",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 37,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Lower Body Strength\n\nLeg strength for cycling power and running economy\n\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]\n2. Romanian Deadlift: 3 sets \u00d7 10 reps (Hinge at hips, slight knee bend) [Rest: 60 sec]\n3. Walking Lunges: 3 sets \u00d7 10 reps each leg (Keep torso upright, knee tracks over toe) [Rest: 45 sec]\n4. Step-ups: 3 sets \u00d7 10 reps each leg (Use bench or box, drive through heel) [Rest: 45 sec]\n5. Calf Raises: 3 sets \u00d7 15 reps (Full range of motion, hold at top) [Rest: 30 sec]\n6. Single Leg Glute Bridge: 3 sets \u00d7 10 reps each leg (Keep hips level throughout) [Rest: 30 sec]\n\nPeak phase: moderate weight, lower volume (2-3 sets) to maintain without fatigue.\n\n[Duration: ~45 min]\n\n[Weekly Plan - Peak]"
+    },
+    {
       "id": 124942310,
       "date": "2026-08-22",
       "name": "Ko\u015fu \u2014 Brick (Bisiklet sonras\u0131)",
@@ -3849,6 +3863,20 @@
       "has_terrain": false,
       "start_time": "15:00",
       "description": "Kolay bisiklet, toparlanma haftas\u0131."
+    },
+    {
+      "id": 129435727,
+      "date": "2026-08-23",
+      "name": "IntervalCoach - Endurance Aerobic",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 28,
+      "duration_hours": 0.51,
+      "duration_formatted": "30m42s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey mrtrn! Endurance swim today 5m 76% pace\n\nMain Set\n- 1a 75mtr 83% pace\n- 1 150mtr 91% pace\n- 1b 75mtr 83% pace\n- Rest 1m\n- 2a 75mtr 83% pace\n- 2 150mtr 91% pace\n- 2b 75mtr 83% pace\n- Rest 1m\n- 3a 75mtr 83% pace\n- 3 150mtr 91% pace\n- 3b 75mtr 83% pace\n\nCooldown\n- Great swim, mrtrn! Easy laps now 3m 72% pace\n\n[Weekly Plan - Peak]"
     },
     {
       "id": 124942315,
@@ -4262,12 +4290,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 0,
+    "attempted": 1,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 38,
-    "bail_no_match": 0
+    "bail_no_workout_doc": 39,
+    "bail_no_match": 1
   },
   "weekly_summary": {
     "total_training_hours": 2.4,
