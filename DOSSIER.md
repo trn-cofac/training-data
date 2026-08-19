@@ -1,4 +1,4 @@
-Last Updated: 2026-08-19 19:00:59
+Last Updated: 2026-08-19 19:36:14
 # Sporcu Dosyası: Emre
 ## Fizyoloji ve Bölgeler
 - **Boy/Kilo:** 171 cm / 69 kg
