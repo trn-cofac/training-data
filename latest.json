@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-19T10:24:49.906487",
+    "last_updated": "2026-08-19T10:53:22.737277",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -668,7 +668,7 @@
     "p_max": 634,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-19T10:24:49.905502",
+    "calculation_timestamp": "2026-08-19T10:53:22.735932",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3828,7 +3828,7 @@
     {
       "id": 124942315,
       "date": "2026-08-24",
-      "name": "Y\u00fczme \u2014 Tempo",
+      "name": "Y\u00fczme \u2014 Yar\u0131\u015f Temposu",
       "type": "WORKOUT",
       "sport_type": "Swim",
       "planned_tss": null,
@@ -3836,12 +3836,12 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "600m \u0131s\u0131nma + 8x100m tempo + so\u011fuma. Toplam ~1800-2000m."
+      "description": "300m \u0131s\u0131nma + 10x50m yar\u0131\u015f temposu (15sn dinlenme) + so\u011fuma. Toplam ~1200m."
     },
     {
       "id": 124942322,
       "date": "2026-08-25",
-      "name": "Ko\u015fu \u2014 E\u015fik Intervalleri",
+      "name": "Ko\u015fu \u2014 Yar\u0131\u015f Temposu Intervalleri",
       "type": "WORKOUT",
       "sport_type": "Run",
       "planned_tss": null,
@@ -3849,12 +3849,12 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Is\u0131nma + 5x4dk E\u015fik (5:35-5:50/km) / 90sn kolay + so\u011fuma."
+      "description": "Is\u0131nma + 6x400m yar\u0131\u015f temposu (5km hedef pace) / 90sn kolay + so\u011fuma."
     },
     {
       "id": 124942325,
       "date": "2026-08-26",
-      "name": "Bisiklet \u2014 E\u015fik Intervalleri",
+      "name": "Bisiklet \u2014 VO2max Intervalleri",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": null,
@@ -3863,12 +3863,12 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "15:00",
-      "description": "Is\u0131nma + 4x12dk E\u015fik (165-190W) / 3dk kolay + so\u011fuma."
+      "description": "Is\u0131nma + 5x3dk VO2max (e\u015fik \u00fcst\u00fc ~105-115%) / 3dk kolay + so\u011fuma."
     },
     {
       "id": 124942331,
       "date": "2026-08-27",
-      "name": "Y\u00fczme \u2014 Uzun Kesintisiz",
+      "name": "Y\u00fczme \u2014 700m Kesintisiz Yar\u0131\u015f Temposu",
       "type": "WORKOUT",
       "sport_type": "Swim",
       "planned_tss": null,
@@ -3876,7 +3876,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "1000-1200m kesintisiz y\u00fczme denemesi (yar\u0131\u015f mesafesine haz\u0131rl\u0131k)."
+      "description_preview": "400m \u0131s\u0131nma sonras\u0131 700m kesintisiz yar\u0131\u015f temposu denemesi + so\u011fuma."
     },
     {
       "id": 124942522,
@@ -3889,12 +3889,12 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "T2 brick: ilk 10dk Z2, son 10dk tempo."
+      "description_preview": "20km bisikletin hemen ard\u0131ndan 5km yar\u0131\u015f temposu ko\u015fu (T2 prati\u011fi)."
     },
     {
       "id": 124942405,
       "date": "2026-08-29",
-      "name": "Bisiklet \u2014 Uzun Z2",
+      "name": "Bisiklet \u2014 Brick (k\u0131sa, yar\u0131\u015f temposu)",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": null,
@@ -3903,12 +3903,12 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "15:00",
-      "description_preview": "Uzun Z2 bisiklet, hacim art\u0131\u015f\u0131."
+      "description_preview": "20km yar\u0131\u015f temposu bisiklet, hemen ard\u0131ndan ko\u015fuya ge\u00e7 (T2 prati\u011fi, brick)."
     },
     {
       "id": 124942529,
       "date": "2026-08-30",
-      "name": "Ko\u015fu \u2014 Uzun Z2",
+      "name": "Ko\u015fu \u2014 Tempo",
       "type": "WORKOUT",
       "sport_type": "Run",
       "planned_tss": null,
@@ -3916,7 +3916,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Uzun s\u00fcrekli Z2 ko\u015fu."
+      "description_preview": "Is\u0131nma + 20dk tempo (e\u015fik alt\u0131) + so\u011fuma."
     },
     {
       "id": 124941041,
@@ -3982,7 +3982,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "1500m'ye kadar s\u00fcrekli y\u00fczme + 4x50m h\u0131zl\u0131 biti\u015f. Yar\u0131\u015f mesafesi provas\u0131."
+      "description_preview": "700m'e kadar s\u00fcrekli y\u00fczme + 4x50m h\u0131zl\u0131 biti\u015f. Yar\u0131\u015f mesafesi provas\u0131."
     },
     {
       "id": 124942568,
@@ -4035,7 +4035,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "1500m'yi yar\u0131\u015f temposuna yak\u0131n sim\u00fcle et; m\u00fcmk\u00fcnse a\u00e7\u0131k suda dene."
+      "description_preview": "700m'yi yar\u0131\u015f temposuna yak\u0131n sim\u00fcle et; m\u00fcmk\u00fcnse a\u00e7\u0131k suda dene."
     },
     {
       "id": 124942740,
@@ -4212,7 +4212,7 @@
     {
       "id": 124941083,
       "date": "2026-09-19",
-      "name": "Yar\u0131\u015f g\u00fcn\u00fc plan\u0131: Mudanya Triatlonu (Olimpik)",
+      "name": "Yar\u0131\u015f g\u00fcn\u00fc plan\u0131: Mudanya Triatlonu (Sprint)",
       "type": "NOTE",
       "sport_type": null,
       "planned_tss": null,
@@ -4220,7 +4220,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Mudanya Triatlonu T\u00fcrkiye Kupas\u0131 Finali \u2014 Olimpik mesafe: 1500m y\u00fczme / 40km bisiklet / 10km ko\u015fu. Yakla\u015f\u0131k toplam s\u00fcre hedefi ~3 saat. Is\u0131nma: yar\u0131\u015ftan 30-40dk \u00f6nce hafif ko\u015fu + birka\u00e7 kula\u00e7 y\u00fczme. Y\u00fczmede sakin ba\u015fla, bisiklette ilk 5dk toparlanma sonras\u0131 e\u015fik-alt\u0131 sabit g\u00fc\u00e7 (~165-180W), ko\u015fuda ilk 2km kontroll\u00fc, son 3km'de h\u0131zlan."
+      "description_preview": "Mudanya Triatlonu \u2014 Sprint mesafe: 700m y\u00fczme / 20km bisiklet / 5km ko\u015fu. Is\u0131nma: yar\u0131\u015ftan 20-30dk \u00f6nce hafif ko\u015fu + birka\u00e7 kula\u00e7 y\u00fczme. Y\u00fczmede sakin ba\u015fla, bisiklette ilk 2-3dk toparlanma sonras\u0131 e\u015fik-alt\u0131 sabit g\u00fc\u00e7, ko\u015fuda ilk 1km kontroll\u00fc, kalan\u0131nda h\u0131zlan."
     },
     {
       "id": 124942819,
