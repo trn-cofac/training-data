@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-19T10:53:22.737277",
+    "last_updated": "2026-08-19T11:18:03.049705",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -104,9 +104,9 @@
     "signals": {
       "hrv": {
         "status": "green",
-        "value": 62.3,
+        "value": 62.7,
         "baseline_7d": 56.0,
-        "delta_pct": 11.3
+        "delta_pct": 11.9
       },
       "rhr": {
         "status": "amber",
@@ -251,7 +251,7 @@
         }
       },
       "resting_hr": 61,
-      "hrv": 62.333332,
+      "hrv": 62.652172,
       "sleep_quality": 2,
       "sleep_hours": 9.72,
       "sleep_formatted": "9h43m",
@@ -303,7 +303,7 @@
     "rhr_baseline_7d": 56.3,
     "hrv_baseline_28d": 56.6,
     "rhr_baseline_28d": 54.7,
-    "latest_hrv": 62.333332,
+    "latest_hrv": 62.652172,
     "latest_rhr": 61,
     "acwr": 0.62,
     "acwr_interpretation": "undertraining",
@@ -668,7 +668,7 @@
     "p_max": 634,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-19T10:53:22.735932",
+    "calculation_timestamp": "2026-08-19T11:18:03.048345",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3706,7 +3706,7 @@
         "weight": null
       },
       "resting_hr": 61,
-      "hrv_rmssd": 62.333332,
+      "hrv_rmssd": 62.652172,
       "hrv_sdnn": null,
       "sleep_hours": 9.72,
       "sleep_formatted": "9h43m",
@@ -3812,18 +3812,18 @@
       "description": "Kolay bisiklet, toparlanma haftas\u0131."
     },
     {
-      "id": 129435727,
+      "id": 130260818,
       "date": "2026-08-23",
-      "name": "IntervalCoach - Endurance Aerobic",
+      "name": "IntervalCoach - Lower-Body-Strength",
       "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": 28,
-      "duration_hours": 0.51,
-      "duration_formatted": "30m42s",
+      "sport_type": "WeightTraining",
+      "planned_tss": 37,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey mrtrn! Endurance swim today 5m 76% pace\n\nMain Set\n- 1a 75mtr 83% pace\n- 1 150mtr 91% pace\n- 1b 75mtr 83% pace\n- Rest 1m\n- 2a 75mtr 83% pace\n- 2 150mtr 91% pace\n- 2b 75mtr 83% pace\n- Rest 1m\n- 3a 75mtr 83% pace\n- 3 150mtr 91% pace\n- 3b 75mtr 83% pace\n\nCooldown\n- Great swim, mrtrn! Easy laps now 3m 72% pace\n\n[Weekly Plan - Peak]"
+      "description": "Lower Body Strength\n\nLeg strength for cycling power and running economy\n\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]\n2. Romanian Deadlift: 3 sets \u00d7 10 reps (Hinge at hips, slight knee bend) [Rest: 60 sec]\n3. Walking Lunges: 3 sets \u00d7 10 reps each leg (Keep torso upright, knee tracks over toe) [Rest: 45 sec]\n4. Step-ups: 3 sets \u00d7 10 reps each leg (Use bench or box, drive through heel) [Rest: 45 sec]\n5. Calf Raises: 3 sets \u00d7 15 reps (Full range of motion, hold at top) [Rest: 30 sec]\n6. Single Leg Glute Bridge: 3 sets \u00d7 10 reps each leg (Keep hips level throughout) [Rest: 30 sec]\n\nPeak phase: moderate weight, lower volume (2-3 sets) to maintain without fatigue.\n\n[Duration: ~45 min]\n\n[Weekly Plan - Peak]"
     },
     {
       "id": 124942315,
@@ -3836,7 +3836,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "300m \u0131s\u0131nma + 10x50m yar\u0131\u015f temposu (15sn dinlenme) + so\u011fuma. Toplam ~1200m."
+      "description": "300m \u0131s\u0131nma (kolay, ~2:15-2:20/100m) + 10x50m @ 1:55-2:00/100m (30sn dinlenme) + 200m so\u011fuma. Toplam ~1200m, ~40dk."
     },
     {
       "id": 124942322,
@@ -3849,7 +3849,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Is\u0131nma + 6x400m yar\u0131\u015f temposu (5km hedef pace) / 90sn kolay + so\u011fuma."
+      "description": "10dk kolay \u0131s\u0131nma + 6x400m @ 5:15-5:25/km (90sn kolay tempoda dinlenme) + 10dk so\u011fuma. Toplam ~40dk."
     },
     {
       "id": 124942325,
@@ -3863,7 +3863,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "15:00",
-      "description": "Is\u0131nma + 5x3dk VO2max (e\u015fik \u00fcst\u00fc ~105-115%) / 3dk kolay + so\u011fuma."
+      "description": "10dk \u0131s\u0131nma (100-120W) + 5x3dk @ 200-220W (106-120% FTP, FTP=184W) / 3dk kolay @ 100W + 10dk so\u011fuma. Toplam 60dk."
     },
     {
       "id": 124942331,
@@ -3876,7 +3876,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "400m \u0131s\u0131nma sonras\u0131 700m kesintisiz yar\u0131\u015f temposu denemesi + so\u011fuma."
+      "description_preview": "400m \u0131s\u0131nma (kolay, ~2:15-2:20/100m) + 700m kesintisiz @ 1:55-2:05/100m hedef yar\u0131\u015f temposu (~13:20-14:35 toplam) + 200m so\u011fuma."
     },
     {
       "id": 124942522,
@@ -3889,7 +3889,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "20km bisikletin hemen ard\u0131ndan 5km yar\u0131\u015f temposu ko\u015fu (T2 prati\u011fi)."
+      "description_preview": "T2'den hemen sonra 5km @ 5:20-5:40/km (yorgun bacaklarla yar\u0131\u015f temposuna yak\u0131n) + 5dk kolay so\u011fuma."
     },
     {
       "id": 124942405,
@@ -3903,7 +3903,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "15:00",
-      "description_preview": "20km yar\u0131\u015f temposu bisiklet, hemen ard\u0131ndan ko\u015fuya ge\u00e7 (T2 prati\u011fi, brick)."
+      "description_preview": "10dk kolay \u0131s\u0131nma (100-120W) + 20km @ 170-190W (92-103% FTP, sabit) hedef ~35-40dk + hemen T2'ye ge\u00e7."
     },
     {
       "id": 124942529,
@@ -3916,7 +3916,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Is\u0131nma + 20dk tempo (e\u015fik alt\u0131) + so\u011fuma."
+      "description_preview": "10dk \u0131s\u0131nma + 20dk tempo @ 6:00-6:10/km (e\u015fik alt\u0131) + 10dk so\u011fuma."
     },
     {
       "id": 124941041,
@@ -3942,7 +3942,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Teknik + h\u0131z: 10x50m tempo, aralarda kontroll\u00fc dinlenme."
+      "description_preview": "300m \u0131s\u0131nma + 10x50m @ 2:00-2:10/100m (20sn dinlenme) + 200m so\u011fuma. Toplam ~1200m."
     },
     {
       "id": 124942547,
@@ -3955,7 +3955,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Is\u0131nma + 6x3dk VO2 (5:00-5:20/km) / 2dk kolay + so\u011fuma."
+      "description_preview": "10dk \u0131s\u0131nma + 6x3dk @ 4:55-5:10/km / 2dk kolay + 10dk so\u011fuma."
     },
     {
       "id": 124942551,
@@ -3969,7 +3969,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "15:00",
-      "description_preview": "Is\u0131nma + 5x8dk VO2 (190-215W) / 4dk kolay + so\u011fuma."
+      "description_preview": "10dk \u0131s\u0131nma (100-120W) + 5x8dk @ 195-215W (106-117% FTP) / 4dk kolay @ 100W + 10dk so\u011fuma."
     },
     {
       "id": 124942556,
@@ -3982,7 +3982,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "700m'e kadar s\u00fcrekli y\u00fczme + 4x50m h\u0131zl\u0131 biti\u015f. Yar\u0131\u015f mesafesi provas\u0131."
+      "description_preview": "300m \u0131s\u0131nma + 700m kesintisiz @ 1:55-2:05/100m hedef yar\u0131\u015f temposu + 4x50m h\u0131zl\u0131 biti\u015f @ <1:50/100m (20sn dinlenme) + 100m so\u011fuma."
     },
     {
       "id": 124942568,
@@ -3995,7 +3995,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Brick ko\u015fu: ilk 5dk h\u0131zl\u0131 ge\u00e7i\u015f temposu, sonras\u0131 Z2."
+      "description_preview": "T2'den hemen sonra ilk 1km @ 5:10-5:20/km (bisiklet sonras\u0131 ge\u00e7i\u015f), kalan ~3.5-4km Z2 @ 6:40-7:00/km. Toplam ~4.5-5km."
     },
     {
       "id": 124942563,
@@ -4009,7 +4009,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "15:00",
-      "description_preview": "Tam brick: Z2-Tempo bisiklet, ard\u0131ndan hemen ko\u015fuya ge\u00e7i\u015f."
+      "description_preview": "10dk \u0131s\u0131nma (100-120W) + 15km tempo @ 140-165W (76-90% FTP), son 5km e\u015fi\u011fe \u00e7\u0131k\u0131\u015f @ 170-185W (92-100% FTP), hemen T2'ye ge\u00e7. Toplam 20km, ~35-40dk."
     },
     {
       "id": 124942574,
@@ -4022,7 +4022,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Z2 ko\u015fu + son 10dk tempo."
+      "description_preview": "10dk \u0131s\u0131nma + 20dk Z2 @ 6:40-7:00/km + son 10dk tempo @ 6:00-6:10/km + 5dk so\u011fuma."
     },
     {
       "id": 124942699,
@@ -4035,7 +4035,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "700m'yi yar\u0131\u015f temposuna yak\u0131n sim\u00fcle et; m\u00fcmk\u00fcnse a\u00e7\u0131k suda dene."
+      "description_preview": "200m \u0131s\u0131nma + 700m @ 1:55-2:05/100m hedef yar\u0131\u015f temposu (m\u00fcmk\u00fcnse a\u00e7\u0131k suda) + 100m so\u011fuma."
     },
     {
       "id": 124942740,
@@ -4048,7 +4048,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Is\u0131nma + 4x5dk E\u015fik / 2dk kolay + so\u011fuma."
+      "description_preview": "10dk \u0131s\u0131nma + 4x5dk @ 5:40-5:50/km (e\u015fi\u011fe yak\u0131n) / 2dk kolay + 10dk so\u011fuma."
     },
     {
       "id": 124942741,
@@ -4062,7 +4062,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "15:00",
-      "description_preview": "Is\u0131nma + 3x10dk E\u015fik/Tempo kar\u0131\u015f\u0131k + so\u011fuma."
+      "description_preview": "10dk \u0131s\u0131nma (100-120W) + 3x10dk @ 160-185W (87-100% FTP, e\u015fik/tempo kar\u0131\u015f\u0131k) / 3dk kolay + 10dk so\u011fuma."
     },
     {
       "id": 124942751,
@@ -4075,7 +4075,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Kolay teknik y\u00fczme, d\u00fc\u015f\u00fck yo\u011funluk."
+      "description_preview": "~700-900m kolay teknik y\u00fczme @ 2:20-2:30/100m, d\u00fc\u015f\u00fck yo\u011funluk, teknik odakl\u0131 (nefes, kula\u00e7 uzunlu\u011fu)."
     },
     {
       "id": 124942764,
@@ -4088,7 +4088,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Brick ko\u015fu: yar\u0131\u015f temposunda 15dk."
+      "description_preview": "Bisiklet brick sim\u00fclasyonundan hemen sonra 15dk yar\u0131\u015f temposunda ko\u015fu @ 5:15-5:30/km (~2.7-2.9km)."
     },
     {
       "id": 124942758,
@@ -4102,7 +4102,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "15:00",
-      "description_preview": "Brick sim\u00fclasyonu ana b\u00f6l\u00fcm: bisiklet tempo."
+      "description_preview": "10dk \u0131s\u0131nma (100-120W) + 20km @ 170-190W (92-103% FTP, yar\u0131\u015f g\u00fcc\u00fc) hedef ~35-40dk, hemen ard\u0131ndan brick ko\u015fuya ge\u00e7."
     },
     {
       "id": 124942769,
@@ -4115,7 +4115,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Kolay ko\u015fu, zirve faz\u0131 kapan\u0131\u015f\u0131."
+      "description_preview": "~6-6.5km kolay ko\u015fu @ 6:50-7:10/km, zirve faz\u0131 kapan\u0131\u015f\u0131, konu\u015fabilir tempoda."
     },
     {
       "id": 124941042,
@@ -4141,7 +4141,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "\u00c7ok kolay teknik y\u00fczme, su hissi."
+      "description_preview": "~500-600m \u00e7ok kolay teknik y\u00fczme @ 2:20-2:30/100m, su hissi, d\u00fc\u015f\u00fck yo\u011funluk."
     },
     {
       "id": 124942781,
@@ -4154,7 +4154,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Kolay ko\u015fu + 4x20sn h\u0131zlanma, bacaklar a\u00e7\u0131k kals\u0131n."
+      "description_preview": "~3-3.5km kolay ko\u015fu @ 6:50-7:10/km + 4x20sn h\u0131zlanma @ 4:30-4:50/km hedef (bacaklar a\u00e7\u0131k kals\u0131n, tam dinlenmeli)."
     },
     {
       "id": 124942792,
@@ -4168,7 +4168,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "15:00",
-      "description_preview": "Kolay bisiklet + 3x1dk yar\u0131\u015f g\u00fcc\u00fc (~190W)."
+      "description_preview": "~25dk kolay bisiklet @ 100-120W + 3x1dk yar\u0131\u015f g\u00fcc\u00fc @ 185-195W (101-106% FTP) aralarda 3dk kolay."
     },
     {
       "id": 124942797,
@@ -4237,12 +4237,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
+    "attempted": 0,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 35,
-    "bail_no_match": 1
+    "bail_no_workout_doc": 36,
+    "bail_no_match": 0
   },
   "weekly_summary": {
     "total_training_hours": 4.35,
