@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-23T02:37:12.807527",
+    "last_updated": "2026-08-23T03:34:09.988766",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -643,7 +643,7 @@
           "race_proximity": 27,
           "next_week_load": null,
           "plan_coverage_current_week": 0.12,
-          "plan_coverage_next_week": 0.88
+          "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -676,7 +676,7 @@
     "p_max": 632,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-23T02:37:12.806182",
+    "calculation_timestamp": "2026-08-23T03:34:09.987385",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -3488,6 +3488,20 @@
       "description": "400m \u0131s\u0131nma (kolay, ~2:15-2:20/100m) + 700m kesintisiz @ 1:55-2:05/100m hedef yar\u0131\u015f temposu (~13:20-14:35 toplam) + 200m so\u011fuma."
     },
     {
+      "id": 130994864,
+      "date": "2026-08-28",
+      "name": "IntervalCoach - Progressive Aerobic",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 29,
+      "duration_hours": 0.57,
+      "duration_formatted": "34m21s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey mrtrn! Progressive aerobic swim today. 5m 76% pace\n\nMain Set\n- Low 350mtr 78% pace\n- Mid 375mtr 82% pace\n- Upper 350mtr 85% pace\n\nCooldown\n- Great job, mrtrn! Finish with easy laps. 3m 72% pace\n\n[Weekly Plan - Peak]"
+    },
+    {
       "id": 124942522,
       "date": "2026-08-29",
       "name": "Ko\u015fu \u2014 Brick (Bisiklet sonras\u0131)",
@@ -3846,12 +3860,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 0,
+    "attempted": 1,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 31,
-    "bail_no_match": 0
+    "bail_no_match": 1
   },
   "weekly_summary": {
     "total_training_hours": 1.84,
