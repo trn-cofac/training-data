@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T14:23:53.344775",
+  "generated_at": "2026-08-24T15:07:59.129623",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -538,6 +538,23 @@
           "avg_hr": 146,
           "max_hr": 153,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i179275188",
+      "date": "2026-08-24",
+      "type": "Run",
+      "name": "Afternoon Run",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2162,
+          "avg_hr": 166,
+          "max_hr": 182,
+          "avg_cadence": 78.93278,
+          "zone": 4
         }
       ]
     }
