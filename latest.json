@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-25T11:20:03.914578",
+    "last_updated": "2026-08-25T11:52:16.529932",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -282,7 +282,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1249,
+      "steps": 1341,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -636,12 +636,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.0,
+          "planned_tss_delta": 2.37,
           "hard_sessions_planned": 5,
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 6,
           "race_proximity": 25,
-          "next_week_load": 0.91,
+          "next_week_load": 1.4,
           "plan_coverage_current_week": 1.14,
           "plan_coverage_next_week": 1.14
         },
@@ -676,7 +676,7 @@
     "p_max": 630,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-25T11:20:03.913223",
+    "calculation_timestamp": "2026-08-25T11:52:16.528514",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3719,7 +3719,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1249,
+      "steps": 1341,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3737,12 +3737,12 @@
       "name": "Ko\u015fu \u2014 Yar\u0131\u015f Temposu Intervalleri",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 28,
-      "duration_hours": 0.39,
-      "duration_formatted": "23m38s",
-      "workout_summary": null,
+      "planned_tss": 53,
+      "duration_hours": 0.7,
+      "duration_formatted": "41m48s",
+      "workout_summary": "10m | 6\u00d72m8s / 1m30s rec | 10m",
       "has_terrain": false,
-      "description": "- Is\u0131nma 10m 80-84% Pace\n6x\n  - 400mtr 105-109% Pace\n  - Kolay 1m30s 65-80% Pace\n- So\u011fuma 10m 80-84% Pace"
+      "description": "- Is\u0131nma 10m 80-84% Pace\n\n6x\n  - 400mtr 105-109% Pace\n  - Kolay 1m30s 65-80% Pace\n\n- So\u011fuma 10m 80-84% Pace"
     },
     {
       "id": 124942325,
@@ -3750,13 +3750,13 @@
       "name": "Bisiklet \u2014 VO2max Intervalleri",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 22,
-      "duration_hours": 0.43,
-      "duration_formatted": "26m",
-      "workout_summary": null,
+      "planned_tss": 61,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": "10m @110W | 5\u00d73m @208W / 3m rec | 10m @92W",
       "has_terrain": false,
       "start_time": "15:00",
-      "description": "- Is\u0131nma 10m 60%\n5x\n  - 3m 106-120%\n  - Kolay 3m 54%\n- So\u011fuma 10m 50%"
+      "description": "- Is\u0131nma 10m 60%\n\n5x\n  - 3m 106-120%\n  - Kolay 3m 54%\n\n- So\u011fuma 10m 50%"
     },
     {
       "id": 124942331,
@@ -3769,7 +3769,7 @@
       "duration_formatted": "24m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- Is\u0131nma 6m40s 80-89% Pace\n- Yar\u0131\u015f temposu 700mtr 96-104% Pace\n- So\u011fuma 3m20s 75-85% Pace"
+      "description": "- Is\u0131nma 6m40s 80-89% Pace\n\n- Yar\u0131\u015f temposu 700mtr 96-104% Pace\n\n- So\u011fuma 3m20s 75-85% Pace"
     },
     {
       "id": 131551588,
@@ -3809,7 +3809,7 @@
       "duration_formatted": "32m29s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- T2 sonras\u0131 5000mtr 101-107% Pace\n- So\u011fuma 5m 70-80% Pace"
+      "description": "- T2 sonras\u0131 5000mtr 101-107% Pace\n\n- So\u011fuma 5m 70-80% Pace"
     },
     {
       "id": 124942405,
@@ -3823,7 +3823,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "15:00",
-      "description": "- Is\u0131nma 10m 55%\n- Yar\u0131\u015f temposu 20000mtr 92-103%"
+      "description": "- Is\u0131nma 10m 55%\n\n- Yar\u0131\u015f temposu 20000mtr 92-103%"
     },
     {
       "id": 124942529,
@@ -3836,7 +3836,7 @@
       "duration_formatted": "40m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- Is\u0131nma 10m 80-84% Pace\n- Tempo 20m 93-95% Pace\n- So\u011fuma 10m 80-84% Pace"
+      "description": "- Is\u0131nma 10m 80-84% Pace\n\n- Tempo 20m 93-95% Pace\n\n- So\u011fuma 10m 80-84% Pace"
     },
     {
       "id": 124941041,
@@ -3857,12 +3857,12 @@
       "name": "Y\u00fczme \u2014 Teknik + H\u0131z",
       "type": "WORKOUT",
       "sport_type": "Swim",
-      "planned_tss": 13,
-      "duration_hours": 0.22,
-      "duration_formatted": "13m23s",
-      "workout_summary": null,
+      "planned_tss": 27,
+      "duration_hours": 0.43,
+      "duration_formatted": "25m50s",
+      "workout_summary": "7m | 10\u00d71m3s / 20s rec | 5m",
       "has_terrain": false,
-      "description": "- Is\u0131nma 7m 80-89% Pace\n10x\n  - 50mtr 92-100% Pace\n  - Dinlenme 20s 60-75% Pace\n- So\u011fuma 5m 75-85% Pace"
+      "description": "- Is\u0131nma 7m 80-89% Pace\n\n10x\n  - 50mtr 92-100% Pace\n  - Dinlenme 20s 60-75% Pace\n\n- So\u011fuma 5m 75-85% Pace"
     },
     {
       "id": 124942547,
@@ -3870,12 +3870,12 @@
       "name": "Ko\u015fu \u2014 VO2 Intervalleri",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 30,
-      "duration_hours": 0.42,
-      "duration_formatted": "25m",
-      "workout_summary": null,
+      "planned_tss": 69,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": "10m | 6\u00d73m / 2m rec | 10m",
       "has_terrain": false,
-      "description": "- Is\u0131nma 10m 80-84% Pace\n6x\n  - 3m 111-116% Pace\n  - Kolay 2m 65-80% Pace\n- So\u011fuma 10m 80-84% Pace"
+      "description": "- Is\u0131nma 10m 80-84% Pace\n\n6x\n  - 3m 111-116% Pace\n  - Kolay 2m 65-80% Pace\n\n- So\u011fuma 10m 80-84% Pace"
     },
     {
       "id": 124942551,
@@ -3883,13 +3883,12 @@
       "name": "Bisiklet \u2014 VO2 Intervalleri",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 36,
-      "duration_hours": 0.53,
-      "duration_formatted": "32m",
-      "workout_summary": null,
+      "planned_tss": 119,
+      "duration_hours": 1.33,
+      "duration_formatted": "1h20m",
+      "workout_summary": "10m @110W | 5\u00d78m @205W / 4m rec | 10m @92W",
       "has_terrain": false,
-      "start_time": "15:00",
-      "description_preview": "- Is\u0131nma 10m 60%\n5x\n- 8m 106-117%"
+      "start_time": "15:00"
     },
     {
       "id": 124942556,
@@ -3897,12 +3896,11 @@
       "name": "Y\u00fczme \u2014 Yar\u0131\u015f Mesafesi Provas\u0131",
       "type": "WORKOUT",
       "sport_type": "Swim",
-      "planned_tss": 31,
-      "duration_hours": 0.36,
-      "duration_formatted": "21m54s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "- Is\u0131nma 5m 80-89% Pace\n- Yar\u0131\u015f mesafesi 700mtr 96-104% Pace\n4x"
+      "planned_tss": 37,
+      "duration_hours": 0.43,
+      "duration_formatted": "25m36s",
+      "workout_summary": "5m | 14m | 4\u00d754s / 20s rec | 1m40s",
+      "has_terrain": false
     },
     {
       "id": 124942568,
@@ -3963,12 +3961,11 @@
       "name": "Ko\u015fu \u2014 E\u015fik Intervalleri",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 32,
-      "duration_hours": 0.45,
-      "duration_formatted": "27m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "- Is\u0131nma 10m 80-84% Pace\n4x\n- 5m 98-101% Pace"
+      "planned_tss": 62,
+      "duration_hours": 0.8,
+      "duration_formatted": "48m",
+      "workout_summary": "10m | 4\u00d75m / 2m rec | 10m",
+      "has_terrain": false
     },
     {
       "id": 124942741,
@@ -3976,13 +3973,12 @@
       "name": "Bisiklet \u2014 E\u015fik/Tempo",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 29,
-      "duration_hours": 0.55,
-      "duration_formatted": "33m",
-      "workout_summary": null,
+      "planned_tss": 64,
+      "duration_hours": 0.98,
+      "duration_formatted": "59m",
+      "workout_summary": "10m @101W | 3\u00d710m @172W / 3m rec | 10m @92W",
       "has_terrain": false,
-      "start_time": "15:00",
-      "description_preview": "- Is\u0131nma 10m 55%\n3x\n- 10m 87-100%"
+      "start_time": "15:00"
     },
     {
       "id": 124942751,
@@ -4069,12 +4065,11 @@
       "name": "Ko\u015fu \u2014 Taper",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 24,
-      "duration_hours": 0.36,
-      "duration_formatted": "21m20s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "- Kolay 20m 80-84% Pace\n4x\n- 20s 118-127% Pace"
+      "planned_tss": 29,
+      "duration_hours": 0.42,
+      "duration_formatted": "25m20s",
+      "workout_summary": "20m | 4\u00d720s / 1m rec",
+      "has_terrain": false
     },
     {
       "id": 124942792,
@@ -4082,13 +4077,12 @@
       "name": "Bisiklet \u2014 Taper",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 16,
-      "duration_hours": 0.4,
-      "duration_formatted": "24m",
-      "workout_summary": null,
+      "planned_tss": 24,
+      "duration_hours": 0.53,
+      "duration_formatted": "32m",
+      "workout_summary": "20m @110W | 3\u00d71m @190W / 3m rec",
       "has_terrain": false,
-      "start_time": "15:00",
-      "description_preview": "- Kolay 20m 60%\n3x\n- 1m 101-106%"
+      "start_time": "15:00"
     },
     {
       "id": 124942797,
@@ -4158,11 +4152,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 24,
-    "success": 0,
-    "patternA": 0,
+    "success": 10,
+    "patternA": 10,
     "patternB": 0,
     "bail_no_workout_doc": 7,
-    "bail_no_match": 24
+    "bail_no_match": 14
   },
   "weekly_summary": {
     "total_training_hours": 2.83,
