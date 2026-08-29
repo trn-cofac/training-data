@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T04:15:03.660925",
+  "generated_at": "2026-08-29T11:08:14.564185",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -757,6 +757,26 @@
           "avg_hr": 141,
           "max_hr": 145,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i180872067",
+      "date": "2026-08-29",
+      "type": "Ride",
+      "name": "Bisiklet \u2014 Brick (k\u0131sa, yar\u0131\u015f temposu)",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 13,
+          "avg_power": 134,
+          "max_power": 155,
+          "avg_hr": 100,
+          "max_hr": 106,
+          "avg_cadence": 80.0,
+          "zone": 2,
+          "decoupling": 15.403405
         }
       ]
     }
