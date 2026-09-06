@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T01:09:28.645217",
+  "generated_at": "2026-09-06T05:55:20.167548",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1228,6 +1228,23 @@
           "avg_hr": 163,
           "max_hr": 165,
           "zone": 3
+        }
+      ]
+    },
+    {
+      "activity_id": "i183750833",
+      "date": "2026-09-05",
+      "type": "Run",
+      "name": "Night Run",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2137,
+          "avg_hr": 148,
+          "max_hr": 165,
+          "avg_cadence": 80.67364,
+          "zone": 2
         }
       ]
     }
