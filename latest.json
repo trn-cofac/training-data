@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-08T09:21:33.662596",
+    "last_updated": "2026-09-08T13:45:11.495707",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -104,9 +104,9 @@
     "signals": {
       "hrv": {
         "status": "amber",
-        "value": 49.7,
-        "baseline_7d": 56.1,
-        "delta_pct": -11.5
+        "value": 49.3,
+        "baseline_7d": 56.0,
+        "delta_pct": -12.0
       },
       "rhr": {
         "status": "amber",
@@ -125,7 +125,7 @@
       },
       "ri": {
         "status": "green",
-        "value": 0.84,
+        "value": 0.83,
         "value_yesterday": 1.21
       },
       "tsb": {
@@ -262,7 +262,7 @@
         }
       },
       "resting_hr": 61,
-      "hrv": 49.675674,
+      "hrv": 49.307693,
       "sleep_quality": 3,
       "sleep_hours": 5.45,
       "sleep_formatted": "5h27m",
@@ -283,7 +283,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 5539,
+      "steps": 6482,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -308,13 +308,13 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": 0.84,
+    "recovery_index": 0.83,
     "recovery_index_yesterday": 1.21,
-    "hrv_baseline_7d": 56.1,
+    "hrv_baseline_7d": 56.0,
     "rhr_baseline_7d": 57.6,
     "hrv_baseline_28d": 56.4,
     "rhr_baseline_28d": 55.7,
-    "latest_hrv": 49.675674,
+    "latest_hrv": 49.307693,
     "latest_rhr": 61,
     "acwr": 0.83,
     "acwr_interpretation": "optimal",
@@ -641,12 +641,12 @@
         },
         "stream_2": {
           "planned_tss_delta": 3.81,
-          "hard_sessions_planned": 4,
+          "hard_sessions_planned": 3,
           "current_week_hard_days_completed": 1,
-          "current_week_hard_days_total": 5,
+          "current_week_hard_days_total": 4,
           "race_proximity": 11,
           "next_week_load": 0.58,
-          "plan_coverage_current_week": 1.4,
+          "plan_coverage_current_week": 1.2,
           "plan_coverage_next_week": 1.8
         },
         "data_quality": "good",
@@ -682,7 +682,7 @@
     "p_max": 638,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-08T09:21:33.661294",
+    "calculation_timestamp": "2026-09-08T13:45:11.494417",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2961,7 +2961,7 @@
         "weight": null
       },
       "resting_hr": 61,
-      "hrv_rmssd": 49.675674,
+      "hrv_rmssd": 49.307693,
       "hrv_sdnn": null,
       "sleep_hours": 5.45,
       "sleep_formatted": "5h27m",
@@ -2986,7 +2986,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 5539,
+      "steps": 6482,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3037,20 +3037,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "- Kolay teknik 35m 80-89% Pace"
-    },
-    {
-      "id": 134127430,
-      "date": "2026-09-11",
-      "name": "IntervalCoach - Recovery Swim",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": 17,
-      "duration_hours": 0.43,
-      "duration_formatted": "26m4s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey mrtrn! Easy swim, get loose 4m 76% pace\n\nMain Set\n- Easy Swim 400mtr 71% pace intensity=recovery\n- Technique Focus 300mtr 77% pace intensity=recovery\n\nCooldown\n- Great swim, mrtrn! Easy laps now 3m 72% pace\n\n[Weekly Plan - Pre-Race Taper \u00b7 type:swimRecovery]"
     },
     {
       "id": 124942764,
@@ -3211,19 +3197,19 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 10,
+    "attempted": 9,
     "success": 4,
     "patternA": 4,
     "patternB": 0,
     "bail_no_workout_doc": 5,
-    "bail_no_match": 6
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 2.61,
     "total_training_formatted": "2h36m",
     "total_tss": 183,
     "activities_count": 3,
-    "avg_hrv": 56.1,
+    "avg_hrv": 56.0,
     "avg_resting_hr": 57.6
   },
   "race_calendar": {
