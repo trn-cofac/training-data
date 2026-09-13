@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-13T05:04:00.935685",
+    "last_updated": "2026-09-13T10:13:53.988780",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -128,15 +128,15 @@
         "delta_pct": null
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 56,
-        "delta_bpm": null
+        "status": "green",
+        "value": 54,
+        "baseline_7d": 55.7,
+        "delta_bpm": -1.7
       },
       "sleep": {
-        "status": "red",
-        "hours": 1.27,
-        "quality": null
+        "status": "green",
+        "hours": 7.43,
+        "quality": 2
       },
       "acwr": {
         "status": "red",
@@ -149,10 +149,10 @@
       }
     },
     "signal_summary": {
-      "green": 0,
+      "green": 2,
       "amber": 0,
-      "red": 2,
-      "unavailable": 3
+      "red": 1,
+      "unavailable": 2
     },
     "phase_context": {
       "phase": "Taper",
@@ -265,12 +265,12 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 55,
+      "resting_hr": 54,
       "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": 1.27,
-      "sleep_formatted": "1h16m",
-      "sleep_score": null,
+      "sleep_quality": 2,
+      "sleep_hours": 7.43,
+      "sleep_formatted": "7h26m",
+      "sleep_score": 86.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -287,7 +287,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 3064,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -315,11 +315,11 @@
     "recovery_index": null,
     "recovery_index_yesterday": 1.2,
     "hrv_baseline_7d": 57.7,
-    "rhr_baseline_7d": 56,
+    "rhr_baseline_7d": 55.7,
     "hrv_baseline_28d": 56.7,
-    "rhr_baseline_28d": 55.7,
+    "rhr_baseline_28d": 55.6,
     "latest_hrv": null,
-    "latest_rhr": null,
+    "latest_rhr": 54,
     "acwr": 1.7,
     "acwr_interpretation": "danger",
     "monotony": 0.68,
@@ -686,10 +686,10 @@
     "p_max": 637,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-13T05:04:00.934323",
+    "calculation_timestamp": "2026-09-13T10:13:53.987787",
     "data_quality": {
       "hrv_data_points": 6,
-      "rhr_data_points": 6,
+      "rhr_data_points": 7,
       "activities_7d": 4,
       "activities_28d": 20,
       "planned_workouts_7d": 7,
@@ -2988,8 +2988,8 @@
       "resting_hr": 55,
       "hrv_rmssd": 68.23256,
       "hrv_sdnn": null,
-      "sleep_hours": 7.77,
-      "sleep_formatted": "7h46m",
+      "sleep_hours": 6.5,
+      "sleep_formatted": "6h30m",
       "sleep_quality": 3,
       "sleep_score": 78.0,
       "mental_energy": null,
@@ -3011,7 +3011,7 @@
       "respiration": null,
       "body_fat_pct": 23.0,
       "abdomen_cm": null,
-      "steps": 9304,
+      "steps": 9851,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3027,13 +3027,13 @@
       "display": {
         "weight": null
       },
-      "resting_hr": null,
+      "resting_hr": 54,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": 1.27,
-      "sleep_formatted": "1h16m",
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 7.43,
+      "sleep_formatted": "7h26m",
+      "sleep_quality": 2,
+      "sleep_score": 86.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -3053,7 +3053,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 3064,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3225,7 +3225,7 @@
     "total_tss": 411,
     "activities_count": 4,
     "avg_hrv": 57.7,
-    "avg_resting_hr": 56.0
+    "avg_resting_hr": 55.7
   },
   "race_calendar": {
     "next_race": {
