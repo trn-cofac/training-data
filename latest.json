@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-13T00:19:57.615245",
+    "last_updated": "2026-09-13T05:04:00.935685",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -218,10 +218,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 40.73,
-      "atl": 57.47,
-      "tsb": -16.74,
-      "ramp_rate": 5.95,
+      "ctl": 38.43,
+      "atl": 45.92,
+      "tsb": -7.49,
+      "ramp_rate": 3.65,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -651,7 +651,7 @@
           "race_proximity": 6,
           "next_week_load": 0.58,
           "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 1.8
+          "plan_coverage_next_week": 2.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -686,7 +686,7 @@
     "p_max": 637,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-13T00:19:57.613951",
+    "calculation_timestamp": "2026-09-13T05:04:00.934323",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -3195,15 +3195,29 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "Tam dinlenme / toparlanma g\u00fcn\u00fc. Hafif y\u00fcr\u00fcy\u00fc\u015f serbest."
+    },
+    {
+      "id": 135730121,
+      "date": "2026-09-20",
+      "name": "IntervalCoach - Recovery Drills",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 17,
+      "duration_hours": 0.46,
+      "duration_formatted": "27m48s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey mrtrn! Easy swim and drills today. 150mtr 2:38/100m Pace\n\nMain Set\n- Easy 1 100mtr 2:49/100m Pace intensity=recovery\n- Drill 1 100mtr 2:36/100m Pace intensity=recovery\n- Rest 1m intensity=recovery\n- Easy 2 100mtr 2:49/100m Pace intensity=recovery\n- Drill 2 100mtr 2:36/100m Pace intensity=recovery\n- Rest 1m intensity=recovery\n- Easy 3 200mtr 2:49/100m Pace intensity=recovery\n- Drill 3 100mtr 2:36/100m Pace intensity=recovery\n\nCooldown\n- Great job, mrtrn! Relax with easy laps. 100mtr 2:47/100m Pace\n\n[Weekly Plan - Race Week \u00b7 type:swimRecoveryDrills]"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 4,
+    "attempted": 5,
     "success": 2,
     "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 5,
-    "bail_no_match": 2
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 5.57,
@@ -3255,18 +3269,18 @@
       "event_moving_time_seconds": null,
       "days_until_event": 6,
       "current_day": "D-6",
-      "ctl_baseline": 40.7,
-      "normal_weekly_tss": 285.1,
+      "ctl_baseline": 38.4,
+      "normal_weekly_tss": 269.0,
       "race_week_tss_budget": {
-        "min": 143,
-        "max": 185
+        "min": 134,
+        "max": 175
       },
       "race_week_tss_spent": 0,
       "race_week_tss_remaining": {
-        "min": 143,
-        "max": 185
+        "min": 134,
+        "max": 175
       },
-      "projected_race_day_tsb": 10.9,
+      "projected_race_day_tsb": 13.8,
       "tsb_target_range": {
         "min": 5,
         "max": 15
