@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-16T02:44:33.562393",
+    "last_updated": "2026-09-16T07:55:17.609246",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -109,10 +109,10 @@
     },
     {
       "metric": "race_week",
-      "value": 3,
+      "value": 4,
       "severity": "info",
       "threshold": "RACE_B within 7 days",
-      "context": "Race week D-3 of 'Mudanya Triatlonu'. Today: Easy / rest, 0-15 TSS. Z1-Z2 only",
+      "context": "Race week D-4 of 'Mudanya Triatlonu'. Today: Easy / rest, 0-15 TSS. Z1-Z2 only",
       "persistence_days": null,
       "tier": 1
     }
@@ -128,15 +128,15 @@
         "delta_pct": null
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 54.5,
-        "delta_bpm": null
+        "status": "amber",
+        "value": 59,
+        "baseline_7d": 55.1,
+        "delta_bpm": 3.9
       },
       "sleep": {
-        "status": "red",
-        "hours": 3.47,
-        "quality": 3
+        "status": "green",
+        "hours": 7.08,
+        "quality": 2
       },
       "acwr": {
         "status": "amber",
@@ -149,10 +149,10 @@
       }
     },
     "signal_summary": {
-      "green": 0,
-      "amber": 1,
-      "red": 1,
-      "unavailable": 3
+      "green": 1,
+      "amber": 2,
+      "red": 0,
+      "unavailable": 2
     },
     "phase_context": {
       "phase": "Taper",
@@ -274,12 +274,12 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 54,
+      "resting_hr": 59,
       "hrv": null,
-      "sleep_quality": 3,
-      "sleep_hours": 3.47,
-      "sleep_formatted": "3h28m",
-      "sleep_score": 62.0,
+      "sleep_quality": 2,
+      "sleep_hours": 7.08,
+      "sleep_formatted": "7h5m",
+      "sleep_score": 81.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -296,7 +296,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 1057,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -324,11 +324,11 @@
     "recovery_index": null,
     "recovery_index_yesterday": null,
     "hrv_baseline_7d": 60.2,
-    "rhr_baseline_7d": 54.5,
+    "rhr_baseline_7d": 55.1,
     "hrv_baseline_28d": 56.5,
-    "rhr_baseline_28d": 55.4,
+    "rhr_baseline_28d": 55.5,
     "latest_hrv": null,
-    "latest_rhr": null,
+    "latest_rhr": 59,
     "acwr": 1.43,
     "acwr_interpretation": "caution",
     "monotony": 0.67,
@@ -657,7 +657,7 @@
           "hard_sessions_planned": 4,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 4,
-          "race_proximity": 3,
+          "race_proximity": 4,
           "next_week_load": null,
           "plan_coverage_current_week": 1.4,
           "plan_coverage_next_week": 0.0
@@ -695,10 +695,10 @@
     "p_max": 637,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-16T02:44:33.561035",
+    "calculation_timestamp": "2026-09-16T07:55:17.607853",
     "data_quality": {
       "hrv_data_points": 3,
-      "rhr_data_points": 6,
+      "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 22,
       "planned_workouts_7d": 9,
@@ -3236,7 +3236,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 12344,
+      "steps": 12715,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3252,13 +3252,13 @@
       "display": {
         "weight": null
       },
-      "resting_hr": null,
+      "resting_hr": 59,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": 3.47,
-      "sleep_formatted": "3h28m",
-      "sleep_quality": 3,
-      "sleep_score": 62.0,
+      "sleep_hours": 7.08,
+      "sleep_formatted": "7h5m",
+      "sleep_quality": 2,
+      "sleep_score": 81.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -3278,7 +3278,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 1057,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3331,19 +3331,6 @@
       "description": "\u00c7ok k\u0131sa aktivasyon: y\u00fcr\u00fcy\u00fc\u015f/hafif ko\u015fu + parkur ve ekipman kontrol\u00fc. Yar\u0131\u015ftan bir g\u00fcn \u00f6nce."
     },
     {
-      "id": 124706535,
-      "date": "2026-09-19",
-      "name": "Mudanya Triatlonu",
-      "type": "RACE_B",
-      "sport_type": "Other",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
-    },
-    {
       "id": 124941083,
       "date": "2026-09-19",
       "name": "Yar\u0131\u015f g\u00fcn\u00fc plan\u0131: Mudanya Triatlonu (Sprint)",
@@ -3355,6 +3342,19 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "Mudanya Triatlonu \u2014 Sprint mesafe: 700m y\u00fczme / 20km bisiklet / 5km ko\u015fu. Is\u0131nma: yar\u0131\u015ftan 20-30dk \u00f6nce hafif ko\u015fu + birka\u00e7 kula\u00e7 y\u00fczme. Y\u00fczmede sakin ba\u015fla, bisiklette ilk 2-3dk toparlanma sonras\u0131 e\u015fik-alt\u0131 sabit g\u00fc\u00e7, ko\u015fuda ilk 1km kontroll\u00fc, kalan\u0131nda h\u0131zlan."
+    },
+    {
+      "id": 124706535,
+      "date": "2026-09-20",
+      "name": "Mudanya Triatlonu",
+      "type": "RACE_B",
+      "sport_type": "Other",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": ""
     },
     {
       "id": 124942819,
@@ -3398,15 +3398,15 @@
     "total_tss": 370,
     "activities_count": 5,
     "avg_hrv": 60.2,
-    "avg_resting_hr": 54.5
+    "avg_resting_hr": 55.1
   },
   "race_calendar": {
     "next_race": {
       "name": "Mudanya Triatlonu",
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "category": "RACE_B",
       "type": "Other",
-      "days_until": 3,
+      "days_until": 4,
       "moving_time_seconds": null,
       "distance_meters": null,
       "display": {
@@ -3417,10 +3417,10 @@
     "all_races": [
       {
         "name": "Mudanya Triatlonu",
-        "date": "2026-09-19",
+        "date": "2026-09-20",
         "category": "RACE_B",
         "type": "Other",
-        "days_until": 3,
+        "days_until": 4,
         "moving_time_seconds": null,
         "distance_meters": null,
         "display": {
@@ -3435,13 +3435,13 @@
     "race_week": {
       "active": true,
       "event_name": "Mudanya Triatlonu",
-      "event_date": "2026-09-19",
+      "event_date": "2026-09-20",
       "event_category": "RACE_B",
       "event_type": "Other",
       "event_duration_class": "medium",
       "event_moving_time_seconds": null,
-      "days_until_event": 3,
-      "current_day": "D-3",
+      "days_until_event": 4,
+      "current_day": "D-4",
       "ctl_baseline": 37.7,
       "normal_weekly_tss": 264.1,
       "race_week_tss_budget": {
@@ -3453,7 +3453,7 @@
         "min": 45,
         "max": 85
       },
-      "projected_race_day_tsb": 10.0,
+      "projected_race_day_tsb": 12.5,
       "tsb_target_range": {
         "min": 5,
         "max": 15
@@ -3465,18 +3465,18 @@
           "max": 15
         },
         "zones": "Z1-Z2 only",
-        "purpose": "Taper tantrums expected (D-4 to D-2). Normal \u2014 not lost fitness."
+        "purpose": "Volume reduction. Carb loading begins if applicable."
       },
       "carb_loading": {
         "applicable": false,
         "active": false,
         "starts": "D-4",
-        "start_date": "2026-09-15",
+        "start_date": "2026-09-16",
         "note": null
       },
       "opener": {
         "day": "D-2",
-        "date": "2026-09-17",
+        "date": "2026-09-18",
         "intensity": "standard"
       },
       "go_no_go": {
