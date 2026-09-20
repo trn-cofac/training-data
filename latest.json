@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-20T01:05:56.422025",
+    "last_updated": "2026-09-20T06:12:30.157950",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -109,34 +109,34 @@
     }
   ],
   "readiness_decision": {
-    "recommendation": "modify",
-    "priority": 2,
+    "recommendation": "go",
+    "priority": 3,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 61.5,
-        "delta_pct": null
+        "status": "green",
+        "value": 60.2,
+        "baseline_7d": 61.3,
+        "delta_pct": -1.8
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 53,
-        "delta_bpm": null
+        "status": "green",
+        "value": 54,
+        "baseline_7d": 53.1,
+        "delta_bpm": 0.9
       },
       "sleep": {
-        "status": "red",
-        "hours": 3.27,
-        "quality": 3
+        "status": "green",
+        "hours": 8.25,
+        "quality": 1
       },
       "acwr": {
         "status": "green",
         "value": 0.32
       },
       "ri": {
-        "status": "unavailable",
-        "value": null,
-        "value_yesterday": null
+        "status": "green",
+        "value": 0.97,
+        "value_yesterday": 0.99
       },
       "tsb": {
         "status": "green",
@@ -144,10 +144,10 @@
       }
     },
     "signal_summary": {
-      "green": 2,
+      "green": 6,
       "amber": 0,
-      "red": 1,
-      "unavailable": 3
+      "red": 0,
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Taper",
@@ -155,18 +155,9 @@
       "amber_threshold": 1,
       "modifier_applied": "race_week_tightened"
     },
-    "race_week_defers": true,
-    "modification": {
-      "triggers": [
-        "sleep"
-      ],
-      "suggested_adjustments": {
-        "intensity": "preserve",
-        "volume": "reduce",
-        "cap_zone": null
-      }
-    },
-    "reason": "P2 signal count. 1 red (sleep), 0 amber ().",
+    "race_week_defers": false,
+    "modification": null,
+    "reason": "P3 green light. 6 green, 0 amber (threshold 1), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -282,11 +273,11 @@
         }
       },
       "resting_hr": 54,
-      "hrv": null,
-      "sleep_quality": 3,
-      "sleep_hours": 3.27,
-      "sleep_formatted": "3h16m",
-      "sleep_score": 63.0,
+      "hrv": 60.18182,
+      "sleep_quality": 1,
+      "sleep_hours": 8.25,
+      "sleep_formatted": "8h15m",
+      "sleep_score": 91.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -303,7 +294,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 574,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -328,14 +319,14 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "recovery_index_yesterday": null,
-    "hrv_baseline_7d": 61.5,
-    "rhr_baseline_7d": 53,
-    "hrv_baseline_28d": 57.1,
+    "recovery_index": 0.97,
+    "recovery_index_yesterday": 0.99,
+    "hrv_baseline_7d": 61.3,
+    "rhr_baseline_7d": 53.1,
+    "hrv_baseline_28d": 57.4,
     "rhr_baseline_28d": 55.2,
-    "latest_hrv": null,
-    "latest_rhr": null,
+    "latest_hrv": 60.18182,
+    "latest_rhr": 54,
     "acwr": 0.32,
     "acwr_interpretation": "undertraining",
     "monotony": 0.85,
@@ -347,7 +338,7 @@
     "multi_sport_detected": true,
     "strain": 65.0,
     "stress_tolerance": 0.8,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 0.8,
     "tss_7d_total": 77.0,
     "tss_28d_total": 969.0,
     "zone_distribution_7d": {
@@ -664,9 +655,9 @@
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 2,
           "race_proximity": 0,
-          "next_week_load": null,
+          "next_week_load": 0.31,
           "plan_coverage_current_week": 0.6,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -701,10 +692,10 @@
     "p_max": 635,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-20T01:05:56.420592",
+    "calculation_timestamp": "2026-09-20T06:12:30.156532",
     "data_quality": {
-      "hrv_data_points": 5,
-      "rhr_data_points": 6,
+      "hrv_data_points": 7,
+      "rhr_data_points": 7,
       "activities_7d": 4,
       "activities_28d": 20,
       "planned_workouts_7d": 10,
@@ -2900,7 +2891,7 @@
         "weight": null
       },
       "resting_hr": 46,
-      "hrv_rmssd": 59.265305,
+      "hrv_rmssd": 59.35294,
       "hrv_sdnn": null,
       "sleep_hours": 3.1,
       "sleep_formatted": "3h6m",
@@ -2942,7 +2933,7 @@
         "weight": null
       },
       "resting_hr": 54,
-      "hrv_rmssd": null,
+      "hrv_rmssd": 61.50794,
       "hrv_sdnn": null,
       "sleep_hours": 7.8,
       "sleep_formatted": "7h48m",
@@ -2983,13 +2974,13 @@
       "display": {
         "weight": null
       },
-      "resting_hr": null,
-      "hrv_rmssd": null,
+      "resting_hr": 54,
+      "hrv_rmssd": 60.18182,
       "hrv_sdnn": null,
-      "sleep_hours": 3.27,
-      "sleep_formatted": "3h16m",
-      "sleep_quality": 3,
-      "sleep_score": 63.0,
+      "sleep_hours": 8.25,
+      "sleep_formatted": "8h15m",
+      "sleep_quality": 1,
+      "sleep_score": 91.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -3009,7 +3000,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 574,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3060,23 +3051,354 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description": "Warmup\n- Hey mrtrn! Easy swim and drills today. 150mtr 2:38/100m Pace\n\nMain Set\n- Easy 1 100mtr 2:49/100m Pace intensity=recovery\n- Drill 1 100mtr 2:36/100m Pace intensity=recovery\n- Rest 1m intensity=recovery\n- Easy 2 100mtr 2:49/100m Pace intensity=recovery\n- Drill 2 100mtr 2:36/100m Pace intensity=recovery\n- Rest 1m intensity=recovery\n- Easy 3 200mtr 2:49/100m Pace intensity=recovery\n- Drill 3 100mtr 2:36/100m Pace intensity=recovery\n\nCooldown\n- Great job, mrtrn! Relax with easy laps. 100mtr 2:47/100m Pace\n\n[Weekly Plan - Race Week \u00b7 type:swimRecoveryDrills]"
+    },
+    {
+      "id": 137333930,
+      "date": "2026-09-22",
+      "name": "IntervalCoach - Active Recovery Swim",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 8,
+      "duration_hours": 0.31,
+      "duration_formatted": "18m35s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey mrtrn! Active recovery swim awaits. 100mtr 2:38/100m Pace\n\nMain Set\n- Easy Swim 450mtr 3:14/100m Pace intensity=recovery\n\nCooldown\n- Great job, mrtrn! Easy laps to finish. 50mtr 2:47/100m Pace\n\n[Weekly Plan - Race Week \u00b7 type:activeRecovery]"
+    },
+    {
+      "id": 137333982,
+      "date": "2026-09-23",
+      "name": "IntervalCoach - VO2 Max Intervals",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 66,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": "9m @110W | 2m @128W | 10\u00d730s @220W / 30s rec | 5m @101W | 10\u00d730s @220W / 30s rec | 5m @101W | 10\u00d730s @220W / 30s rec | 3m @128W | 6m @100W",
+      "has_terrain": false,
+      "start_time": "15:00",
+      "description": "Warmup\n- Hey mrtrn! Race pace efforts ahead 9m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 2m 65-75% 85rpm\n\n10x\n- On 30s 120% 100rpm\n- Off 30s 55% 80rpm\n\nRecovery\n- Set Recovery 5m 55% 80rpm\n\n10x\n- On 30s 120% 100rpm\n- Off 30s 55% 80rpm\n\nRecovery\n- Set Recovery 5m 55% 80rpm\n\n10x\n- On 30s 120% 100rpm\n- Off 30s 55% 80rpm\n\nRecovery\n- Endurance 3m 65-75% 85rpm\n\nCooldown\n- Fantastic work, recover well 6m ramp 65-45%\n\n[Weekly Plan - Race Week \u00b7 type:microIntervals]"
+    },
+    {
+      "id": 137334014,
+      "date": "2026-09-24",
+      "name": "IntervalCoach - Core-Stability",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 6,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Core Stability\n\nCore exercises to improve stability, posture, and power transfer\n\n1. Plank: 5 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]\n2. Side Plank: 3 sets \u00d7 30 sec each side (Stack feet or stagger for stability) [Rest: 15 sec]\n3. Dead Bug: 5 sets \u00d7 10 reps each side (Keep lower back pressed to floor) [Rest: 30 sec]\n4. Bird Dog: 5 sets \u00d7 10 reps each side (Extend opposite arm and leg, hold 2s) [Rest: 30 sec]\n5. Glute Bridge: 5 sets \u00d7 15 reps (Squeeze glutes at top, hold 2s) [Rest: 30 sec]\n6. Pallof Press: 5 sets \u00d7 10 reps each side (Band at chest height, press and hold, resist rotation) [Rest: 30 sec]\n\n[Duration: ~45 min]\n\n[Weekly Plan - Race Week \u00b7 type:core-stability]"
+    },
+    {
+      "id": 137334057,
+      "date": "2026-09-25",
+      "name": "IntervalCoach - Aerobic Recovery",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 35,
+      "duration_hours": 0.82,
+      "duration_formatted": "49m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey mrtrn! Easy recovery run ahead. 7m 62-66% pace\n\nMain Set\n- Easy 19m 60-66% pace intensity=recovery\n- Shake Out 18m 66-71% pace intensity=recovery\n\nCooldown\n- 5m 65-69% pace\n\n[Weekly Plan - Race Week \u00b7 type:recovery]"
+    },
+    {
+      "id": 137334083,
+      "date": "2026-09-26",
+      "name": "IntervalCoach - Easy Kick Recovery",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 12,
+      "duration_hours": 0.34,
+      "duration_formatted": "20m32s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hello mrtrn! Easy kick recovery ahead. 100mtr 2:38/100m Pace\n\nMain Set\n- Easy Kick 1 200mtr 2:49/100m Pace intensity=recovery\n- Rest 30s intensity=recovery\n- Easy Swim 1 200mtr 2:49/100m Pace intensity=recovery\n- Rest 30s intensity=recovery\n- Easy Kick 2 150mtr 2:49/100m Pace intensity=recovery\n\nCooldown\n- Great job mrtrn, easy swimming to finish. 50mtr 2:47/100m Pace\n\n[Weekly Plan - Race Week \u00b7 type:swimRecoveryKick]"
+    },
+    {
+      "id": 137334090,
+      "date": "2026-09-27",
+      "name": "IntervalCoach - Endurance Cadence",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 58,
+      "duration_hours": 1.27,
+      "duration_formatted": "1h15m59s",
+      "workout_summary": "11m @110W | 6\u00d74m20s @128W / 4m20s rec | 5m46s @128W | 7m13s @100W",
+      "has_terrain": false,
+      "start_time": "15:00",
+      "description": "Main Set\n- Hey mrtrn! Endurance and cadence await. 11m 45-75% 85rpm\n\n6x\n- High Cadence 260s 70% 100rpm\n- Low Cadence 260s 70% 70rpm\n\nMain Set\n- High Cadence 7 346s 70% 100rpm\n- Fantastic ride, recover well! 433s 65-45%\n\n[Weekly Plan - Race Week \u00b7 type:enduranceCadence]"
+    },
+    {
+      "id": 137334095,
+      "date": "2026-09-29",
+      "name": "IntervalCoach - Swim VO2max 100s",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 38,
+      "duration_hours": 0.55,
+      "duration_formatted": "32m45s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hey mrtrn! VO2max swim today, race week! 150mtr 2:38/100m Pace\nMain Set"
+    },
+    {
+      "id": 137334096,
+      "date": "2026-09-30",
+      "name": "IntervalCoach - Recovery Spin-Up",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 28,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": "9m @92W | 5\u00d77m @99W / 1m rec | 5m @99W | 6m @92W",
+      "has_terrain": false,
+      "start_time": "15:00"
+    },
+    {
+      "id": 137334097,
+      "date": "2026-10-01",
+      "name": "IntervalCoach - Core-Stability",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 6,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Core Stability\nCore exercises to improve stability, posture, and power transfer\n1. Plank: 5 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]"
+    },
+    {
+      "id": 137334098,
+      "date": "2026-10-02",
+      "name": "IntervalCoach - Recovery Drills",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 36,
+      "duration_hours": 0.82,
+      "duration_formatted": "49m",
+      "workout_summary": "7m | 4\u00d77m / 30s rec | 7m | 5m",
+      "has_terrain": false,
+      "start_time": "09:00"
+    },
+    {
+      "id": 137334101,
+      "date": "2026-10-03",
+      "name": "IntervalCoach - Recovery Swim",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 17,
+      "duration_hours": 0.43,
+      "duration_formatted": "25m48s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hey mrtrn! Recovery swim today 150mtr 2:38/100m Pace\nMain Set"
+    },
+    {
+      "id": 137334102,
+      "date": "2026-10-04",
+      "name": "IntervalCoach - Endurance Spin-Ups",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 55,
+      "duration_hours": 1.2,
+      "duration_formatted": "1h12m7s",
+      "workout_summary": "11m @110W | 5\u00d78m24s @128W / 46s rec | 8m24s @128W | 6m53s @100W",
+      "has_terrain": false,
+      "start_time": "15:00"
+    },
+    {
+      "id": 137334105,
+      "date": "2026-10-06",
+      "name": "IntervalCoach - Swim Intervals",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 29,
+      "duration_hours": 0.48,
+      "duration_formatted": "29m3s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hey mrtrn! Race week swim intervals are here. 200mtr 2:38/100m Pace\nMain Set"
+    },
+    {
+      "id": 137334106,
+      "date": "2026-10-07",
+      "name": "IntervalCoach - Active Recovery",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 24,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "15:00",
+      "description_preview": "Warmup\n- Hey mrtrn! Easy spin ahead 9m ramp 45-55% 85rpm\nMain Set"
+    },
+    {
+      "id": 137334107,
+      "date": "2026-10-08",
+      "name": "IntervalCoach - Core-Stability",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 6,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Core Stability\nCore exercises to improve stability, posture, and power transfer\n1. Plank: 5 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]"
+    },
+    {
+      "id": 137334108,
+      "date": "2026-10-09",
+      "name": "IntervalCoach - Easy Recovery",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 35,
+      "duration_hours": 0.82,
+      "duration_formatted": "49m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hey mrtrn! Easy shakeout run today 7m 62-66% pace\nMain Set"
+    },
+    {
+      "id": 137334109,
+      "date": "2026-10-10",
+      "name": "IntervalCoach - Easy Kick Recovery",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 16,
+      "duration_hours": 0.43,
+      "duration_formatted": "26m3s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hey mrtrn! Easy kick ahead. 150mtr 2:38/100m Pace\nMain Set"
+    },
+    {
+      "id": 137334110,
+      "date": "2026-10-11",
+      "name": "IntervalCoach - Endurance Pickups",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 54,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m9s",
+      "workout_summary": "11m @110W | 4\u00d79m10s @128W / 1m9s rec | 11m @128W | 6m53s @100W",
+      "has_terrain": false,
+      "start_time": "15:00"
+    },
+    {
+      "id": 137334114,
+      "date": "2026-10-13",
+      "name": "IntervalCoach - Swim VO2max Pyramid",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 39,
+      "duration_hours": 0.45,
+      "duration_formatted": "26m42s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hey mrtrn! Time for VO2max pyramid swim. 150mtr 2:38/100m Pace\nMain Set"
+    },
+    {
+      "id": 137334116,
+      "date": "2026-10-14",
+      "name": "IntervalCoach - Recovery Spin",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 28,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "15:00",
+      "description_preview": "Warmup\n- Hey mrtrn! Easy spin to start 9m ramp 45-55% 85rpm\nMain Set"
+    },
+    {
+      "id": 137334117,
+      "date": "2026-10-15",
+      "name": "IntervalCoach - Core-Stability",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 6,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Core Stability\nCore exercises to improve stability, posture, and power transfer\n1. Plank: 5 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]"
+    },
+    {
+      "id": 137334118,
+      "date": "2026-10-16",
+      "name": "IntervalCoach - Recovery Drills",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 36,
+      "duration_hours": 0.82,
+      "duration_formatted": "49m",
+      "workout_summary": "7m | 4\u00d77m / 30s rec | 7m | 5m",
+      "has_terrain": false,
+      "start_time": "09:00"
+    },
+    {
+      "id": 137334123,
+      "date": "2026-10-17",
+      "name": "IntervalCoach - Recovery Drills",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 17,
+      "duration_hours": 0.46,
+      "duration_formatted": "27m48s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hey mrtrn! Let's get loose with some easy laps. 150mtr 2:38/100m Pace\nMain Set"
+    },
+    {
+      "id": 137334128,
+      "date": "2026-10-18",
+      "name": "IntervalCoach - Endurance Build",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 55,
+      "duration_hours": 1.23,
+      "duration_formatted": "1h13m45s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "15:00",
+      "description_preview": "Main Set\n- Hey mrtrn! Endurance ride today 11m 45-75% 85rpm\n- Settle In 14m 65% 85rpm"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 21,
+    "success": 7,
+    "patternA": 7,
     "patternB": 0,
-    "bail_no_workout_doc": 1,
-    "bail_no_match": 1
+    "bail_no_workout_doc": 5,
+    "bail_no_match": 14
   },
   "weekly_summary": {
     "total_training_hours": 2.24,
     "total_training_formatted": "2h14m",
     "total_tss": 77,
     "activities_count": 4,
-    "avg_hrv": 61.5,
-    "avg_resting_hr": 53.0
+    "avg_hrv": 61.3,
+    "avg_resting_hr": 53.1
   },
   "race_calendar": {
     "next_race": {
