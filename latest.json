@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-22T07:08:06.973115",
+    "last_updated": "2026-09-22T12:35:12.762939",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -273,7 +273,7 @@
         }
       },
       "resting_hr": 54,
-      "hrv": 62.083332,
+      "hrv": 62.102566,
       "sleep_quality": 2,
       "sleep_hours": 7.62,
       "sleep_formatted": "7h37m",
@@ -294,7 +294,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 795,
+      "steps": 1913,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -325,7 +325,7 @@
     "rhr_baseline_7d": 53.4,
     "hrv_baseline_28d": 57.7,
     "rhr_baseline_28d": 55.1,
-    "latest_hrv": 62.083332,
+    "latest_hrv": 62.102566,
     "latest_rhr": 54,
     "acwr": 0.55,
     "acwr_interpretation": "undertraining",
@@ -620,15 +620,14 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.5,
+    "consistency_index": 0.33,
     "consistency_details": {
-      "planned_days": 4,
+      "planned_days": 3,
       "completed_days": 2,
-      "matched_days": 2,
+      "matched_days": 1,
       "planned_dates": [
         "2026-09-17",
         "2026-09-18",
-        "2026-09-20",
         "2026-09-22"
       ],
       "completed_dates": [
@@ -655,7 +654,7 @@
           "race_proximity": null,
           "next_week_load": 1.05,
           "plan_coverage_current_week": 1.2,
-          "plan_coverage_next_week": 1.2
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -688,7 +687,7 @@
     "p_max": 634,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-22T07:08:06.971738",
+    "calculation_timestamp": "2026-09-22T12:35:12.761648",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3016,7 +3015,7 @@
         "weight": null
       },
       "resting_hr": 54,
-      "hrv_rmssd": 62.083332,
+      "hrv_rmssd": 62.102566,
       "hrv_sdnn": null,
       "sleep_hours": 7.62,
       "sleep_formatted": "7h37m",
@@ -3041,7 +3040,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 795,
+      "steps": 1913,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3138,6 +3137,19 @@
       "description": "Main Set\n- Hey mrtrn! Gentle endurance ride ahead. 415s 45-75% 85rpm\n- Settle In 467s 65% 85rpm\n- Build 467s 67% 88rpm\n- Upper 467s 70-74% 90rpm\n- Cruise 519s 70-74% 88rpm\n- Well done, enjoy the recovery spin. 259s 65-45%\n\n[Weekly Plan - Recovery \u00b7 type:endurance]"
     },
     {
+      "id": 138010388,
+      "date": "2026-09-28",
+      "name": "Weekly",
+      "type": "TARGET",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": ""
+    },
+    {
       "id": 137713409,
       "date": "2026-09-29",
       "name": "IntervalCoach - Swim VO2max Ladder",
@@ -3220,6 +3232,19 @@
       "has_terrain": false,
       "start_time": "15:00",
       "description_preview": "Warmup\n- Hey mrtrn! Progressive aerobic work today. 11m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
+      "id": 138010389,
+      "date": "2026-10-05",
+      "name": "Weekly",
+      "type": "TARGET",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
     },
     {
       "id": 137713457,
@@ -3306,6 +3331,19 @@
       "description_preview": "Main Set\n- Hey mrtrn! Let's get this recovery ride rolling. 366s 45-75% 85rpm\n- High Cadence 1 274s 70% 100rpm"
     },
     {
+      "id": 138010391,
+      "date": "2026-10-12",
+      "name": "Weekly",
+      "type": "TARGET",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
       "id": 137713682,
       "date": "2026-10-13",
       "name": "IntervalCoach - Tempo",
@@ -3388,15 +3426,68 @@
       "has_terrain": false,
       "start_time": "15:00",
       "description_preview": "Warmup\n- Hey mrtrn! Long aerobic ride ahead 10m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
+      "id": 138010392,
+      "date": "2026-10-19",
+      "name": "Weekly",
+      "type": "TARGET",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 138008700,
+      "date": "2026-10-20",
+      "name": "IntervalCoach - Swim Tempo Build",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 19,
+      "duration_hours": 0.39,
+      "duration_formatted": "23m13s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hey mrtrn! Tempo swim ahead 150mtr 2:38/100m Pace\nMain Set"
+    },
+    {
+      "id": 138010393,
+      "date": "2026-10-26",
+      "name": "Weekly",
+      "type": "TARGET",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 138010395,
+      "date": "2026-11-02",
+      "name": "Weekly",
+      "type": "TARGET",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
     }
   ],
   "workout_summary_stats": {
-    "attempted": 20,
+    "attempted": 21,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 4,
-    "bail_no_match": 19
+    "bail_no_match": 20
   },
   "weekly_summary": {
     "total_training_hours": 2.51,
