@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-23T06:27:03.930844",
+    "last_updated": "2026-09-23T11:56:09.875235",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -99,15 +99,6 @@
   "athlete_notes": null,
   "alerts": [
     {
-      "metric": "rhr",
-      "value": 62,
-      "severity": "warning",
-      "threshold": "\u2191\u22655bpm vs baseline (53.9)",
-      "context": "RHR 62 is 8.1bpm above baseline. Monitor \u2014 alarm if persists >2 days.",
-      "persistence_days": 1,
-      "tier": 1
-    },
-    {
       "metric": "tid_distribution",
       "value": "Polarized",
       "severity": "warning",
@@ -118,20 +109,20 @@
     }
   ],
   "readiness_decision": {
-    "recommendation": "skip",
+    "recommendation": "modify",
     "priority": 2,
     "signals": {
       "hrv": {
         "status": "green",
-        "value": 57.9,
+        "value": 58.0,
         "baseline_7d": 60.1,
-        "delta_pct": -3.7
+        "delta_pct": -3.4
       },
       "rhr": {
-        "status": "red",
-        "value": 62,
-        "baseline_7d": 53.9,
-        "delta_bpm": 8.1
+        "status": "green",
+        "value": 54,
+        "baseline_7d": 52.7,
+        "delta_bpm": 1.3
       },
       "sleep": {
         "status": "red",
@@ -144,18 +135,18 @@
       },
       "ri": {
         "status": "green",
-        "value": 0.84,
-        "value_yesterday": 0.92
+        "value": 0.94,
+        "value_yesterday": 0.9
       },
       "tsb": {
         "status": "green",
-        "value": 8.3
+        "value": 9.4
       }
     },
     "signal_summary": {
-      "green": 4,
+      "green": 5,
       "amber": 0,
-      "red": 2,
+      "red": 1,
       "unavailable": 0
     },
     "phase_context": {
@@ -165,8 +156,17 @@
       "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
-    "modification": null,
-    "reason": "P2 signal count. 2 red (rhr, sleep), 0 amber ().",
+    "modification": {
+      "triggers": [
+        "sleep"
+      ],
+      "suggested_adjustments": {
+        "intensity": "preserve",
+        "volume": "reduce",
+        "cap_zone": null
+      }
+    },
+    "reason": "P2 signal count. 1 red (sleep), 0 amber ().",
     "alarm_refs": []
   },
   "history": {
@@ -234,10 +234,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 35.22,
-      "atl": 26.9,
-      "tsb": 8.32,
-      "ramp_rate": -2.51,
+      "ctl": 34.95,
+      "atl": 25.52,
+      "tsb": 9.43,
+      "ramp_rate": -2.78,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -281,19 +281,19 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 62,
-      "hrv": 57.85,
+      "resting_hr": 54,
+      "hrv": 58.04348,
       "sleep_quality": 3,
       "sleep_hours": 3.95,
       "sleep_formatted": "3h57m",
       "sleep_score": 62.0,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
+      "fatigue": 4,
+      "soreness": 4,
+      "stress": 3,
+      "mood": 4,
+      "motivation": 3,
+      "injury": 1,
+      "hydration": 2,
       "spO2": null,
       "blood_glucose": null,
       "systolic": null,
@@ -303,7 +303,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 298,
+      "steps": 1052,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -328,14 +328,14 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": 0.84,
-    "recovery_index_yesterday": 0.92,
+    "recovery_index": 0.94,
+    "recovery_index_yesterday": 0.9,
     "hrv_baseline_7d": 60.1,
-    "rhr_baseline_7d": 53.9,
+    "rhr_baseline_7d": 52.7,
     "hrv_baseline_28d": 57.1,
-    "rhr_baseline_28d": 55.4,
-    "latest_hrv": 57.85,
-    "latest_rhr": 62,
+    "rhr_baseline_28d": 55.1,
+    "latest_hrv": 58.04348,
+    "latest_rhr": 54,
     "acwr": 0.55,
     "acwr_interpretation": "undertraining",
     "monotony": 0.5,
@@ -347,7 +347,7 @@
     "multi_sport_detected": true,
     "strain": 70.0,
     "stress_tolerance": 1.4,
-    "load_recovery_ratio": 1.7,
+    "load_recovery_ratio": 1.5,
     "tss_7d_total": 139.0,
     "tss_28d_total": 1007.0,
     "zone_distribution_7d": {
@@ -657,7 +657,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.62,
+          "planned_tss_delta": 0.51,
           "hard_sessions_planned": 5,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 5,
@@ -697,7 +697,7 @@
     "p_max": 633,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-23T06:27:03.929328",
+    "calculation_timestamp": "2026-09-23T11:56:09.874226",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3024,8 +3024,8 @@
       "display": {
         "weight": null
       },
-      "resting_hr": 62,
-      "hrv_rmssd": 57.85,
+      "resting_hr": 54,
+      "hrv_rmssd": 58.04348,
       "hrv_sdnn": null,
       "sleep_hours": 3.95,
       "sleep_formatted": "3h57m",
@@ -3034,13 +3034,13 @@
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
+      "fatigue": 4,
+      "soreness": 4,
+      "stress": 3,
+      "mood": 4,
+      "motivation": 3,
+      "injury": 1,
+      "hydration": 2,
       "spO2": null,
       "blood_glucose": null,
       "systolic": null,
@@ -3050,7 +3050,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 298,
+      "steps": 1052,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3063,18 +3063,18 @@
   ],
   "planned_workouts": [
     {
-      "id": 137713372,
+      "id": 138211073,
       "date": "2026-09-23",
-      "name": "IntervalCoach - Fat Max Recovery",
+      "name": "IntervalCoach - 4x4 Endurance Spin-Ups",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 40,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
+      "planned_tss": 28,
+      "duration_hours": 0.6,
+      "duration_formatted": "36m",
+      "workout_summary": "5m @110W | 4\u00d74m @128W / 1m rec | 7m @128W | 4m @100W",
       "has_terrain": false,
       "start_time": "15:00",
-      "description": "Warmup\n- Hey mrtrn! Fat Max recovery ride today. 9m ramp 45-75% 85rpm\n\nMain Set\n- Low 15m 63% 85rpm\n- Settle In 15m 63-68% 85rpm\n- Cruise 15m 63-68% 88rpm\n\nCooldown\n- Nice job, mrtrn! Spin easy now. 6m ramp 65-45%\n\n[Weekly Plan - Recovery \u00b7 type:enduranceFatMax]"
+      "description": "Warmup\n- Hey mrtrn! Endurance and spin-ups are next. 5m ramp 45-75% 85rpm\n\nMain Set\n4x\n- Endurance 88rpm 4m 65-75% 88rpm\n- Spin-Up 110rpm 1m 75% 110rpm\n\nRecovery\n- Endurance 5 88rpm 7m 65-75% 88rpm\n\nCooldown\n- Awesome job, mrtrn! Recover well. 4m ramp 65-45%\n\nDrill \u2014 spin-ups: roughly every 10 minutes, lift your cadence to ~110 rpm for 1 minute while holding Zone 2 power. Spin fast and smooth; it is leg speed, not extra effort."
     },
     {
       "id": 137713377,
@@ -3451,6 +3451,19 @@
       "description_preview": "Warmup\n- Hey mrtrn! Tempo swim ahead 150mtr 2:38/100m Pace\nMain Set"
     },
     {
+      "id": 138211202,
+      "date": "2026-10-21",
+      "name": "IntervalCoach - 4x8 Endurance Spin-Ups",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 45,
+      "duration_hours": 0.98,
+      "duration_formatted": "59m",
+      "workout_summary": "9m @110W | 4\u00d78m @128W / 1m rec | 8m @128W | 6m @100W",
+      "has_terrain": false,
+      "start_time": "15:00"
+    },
+    {
       "id": 138010393,
       "date": "2026-10-26",
       "name": "Weekly",
@@ -3478,12 +3491,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 20,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 21,
+    "success": 3,
+    "patternA": 3,
     "patternB": 0,
     "bail_no_workout_doc": 4,
-    "bail_no_match": 19
+    "bail_no_match": 18
   },
   "weekly_summary": {
     "total_training_hours": 2.51,
@@ -3491,7 +3504,7 @@
     "total_tss": 139,
     "activities_count": 4,
     "avg_hrv": 60.1,
-    "avg_resting_hr": 53.9
+    "avg_resting_hr": 52.7
   },
   "race_calendar": {
     "next_race": null,
