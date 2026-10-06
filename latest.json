@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-06T08:07:22.956214",
+    "last_updated": "2026-10-06T15:07:20.459183",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -282,7 +282,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 346,
+      "steps": 3194,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -679,7 +679,7 @@
     "p_max": 625,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-06T08:07:22.954971",
+    "calculation_timestamp": "2026-10-06T15:07:20.457758",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2627,7 +2627,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 346,
+      "steps": 3194,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2645,13 +2645,13 @@
       "name": "IntervalCoach - CSS Test",
       "type": "WORKOUT",
       "sport_type": "Swim",
-      "planned_tss": 36,
-      "duration_hours": 0.68,
-      "duration_formatted": "40m55s",
+      "planned_tss": 2,
+      "duration_hours": 0.65,
+      "duration_formatted": "39m9s",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey mrtrn! CSS test today 250mtr 2:38/100m Pace\n\nMain Set\n- Drills (catch-up, fingertip drag, sculling) 100mtr 2:47/100m Pace\n- Easy freestyle 100mtr 2:25/100m Pace\n- Long Time Trial 100mtr 2:02/100m Pace\n- Rest 20s\n- Short Time Trial 100mtr 2:02/100m Pace\n- Easy freestyle 100mtr 2:25/100m Pace\n- Easy freestyle 750mtr 2:25/100m Pace\n\nCooldown\n- Great effort, easy laps now 150mtr 2:47/100m Pace\n\n[Weekly Plan - Recovery \u00b7 type:swimCssTest]"
+      "description": "- Y\u00fcz 02:38/100mtr 250mtr\n- Y\u00fcz 02:47/100mtr 100mtr\n- Y\u00fcz 02:25/100mtr 100mtr  \n-Y\u00fcz  02:02/100mtr 100mtr \n-Rest 20s\n-Y\u00fcz 02:02/100mtr 100mtr  \n-Y\u00fcz 02:25/100mtr 100mtr  \n-Y\u00fcz 02:25/100mtr 750mtr  \n-Y\u00fcz 02:47/100mtr 150mtr"
     },
     {
       "id": 141199164,
