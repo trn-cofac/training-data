@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-08T02:08:58.881101",
+    "last_updated": "2026-10-08T08:54:45.999651",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -113,30 +113,30 @@
     "priority": 3,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 58.2,
-        "delta_pct": null
+        "status": "green",
+        "value": 65.0,
+        "baseline_7d": 59.1,
+        "delta_pct": 10.0
       },
       "rhr": {
-        "status": "amber",
-        "value": 54,
-        "baseline_7d": 50.4,
-        "delta_bpm": 3.6
+        "status": "green",
+        "value": 47,
+        "baseline_7d": 49.4,
+        "delta_bpm": -2.4
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "amber",
+        "hours": 6.03,
+        "quality": 3
       },
       "acwr": {
         "status": "green",
         "value": 0.65
       },
       "ri": {
-        "status": "unavailable",
-        "value": null,
-        "value_yesterday": 0.99
+        "status": "green",
+        "value": 1.16,
+        "value_yesterday": 0.95
       },
       "tsb": {
         "status": "green",
@@ -144,10 +144,10 @@
       }
     },
     "signal_summary": {
-      "green": 2,
+      "green": 5,
       "amber": 1,
       "red": 0,
-      "unavailable": 3
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Base",
@@ -157,7 +157,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 1 amber (threshold 2), 0 red.",
+    "reason": "P3 green light. 5 green, 1 amber (threshold 2), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -260,12 +260,12 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 54,
-      "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_score": null,
+      "resting_hr": 47,
+      "hrv": 65.0,
+      "sleep_quality": 3,
+      "sleep_hours": 6.03,
+      "sleep_formatted": "6h2m",
+      "sleep_score": 71.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -282,7 +282,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 937,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -310,14 +310,14 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "recovery_index_yesterday": 0.99,
-    "hrv_baseline_7d": 58.2,
-    "rhr_baseline_7d": 50.4,
-    "hrv_baseline_28d": 59.3,
-    "rhr_baseline_28d": 52.5,
-    "latest_hrv": null,
-    "latest_rhr": 54,
+    "recovery_index": 1.16,
+    "recovery_index_yesterday": 0.95,
+    "hrv_baseline_7d": 59.1,
+    "rhr_baseline_7d": 49.4,
+    "hrv_baseline_28d": 59.5,
+    "rhr_baseline_28d": 52.2,
+    "latest_hrv": 65.0,
+    "latest_rhr": 47,
     "acwr": 0.65,
     "acwr_interpretation": "undertraining",
     "monotony": 0.8,
@@ -329,7 +329,7 @@
     "multi_sport_detected": true,
     "strain": 96.0,
     "stress_tolerance": 1.2,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 1.0,
     "tss_7d_total": 120.0,
     "tss_28d_total": 742.0,
     "zone_distribution_7d": {
@@ -679,9 +679,9 @@
     "p_max": 623,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-08T02:08:58.879766",
+    "calculation_timestamp": "2026-10-08T08:54:45.998716",
     "data_quality": {
-      "hrv_data_points": 6,
+      "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 3,
       "activities_28d": 16,
@@ -2563,13 +2563,13 @@
       "display": {
         "weight": null
       },
-      "resting_hr": 54,
-      "hrv_rmssd": null,
+      "resting_hr": 47,
+      "hrv_rmssd": 65.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 6.03,
+      "sleep_formatted": "6h2m",
+      "sleep_quality": 3,
+      "sleep_score": 71.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -2589,7 +2589,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 937,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2674,12 +2674,11 @@
       "type": "WORKOUT",
       "sport_type": "Swim",
       "planned_tss": 42,
-      "duration_hours": 0.65,
-      "duration_formatted": "39m17s",
+      "duration_hours": 0.68,
+      "duration_formatted": "40m38s",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- 0^ Hey mrtrn! Descend sets are next 250mtr 2:38/100m Pace\n\nMain Set\n- Drills (catch-up, fingertip drag, sculling) 100mtr 2:47/100m Pace\n- Descend 1 100mtr 2:06/100m Pace\n- Rest 30s\n- Descend 2 100mtr 1:54/100m Pace\n- Rest 30s\n- Descend 3 100mtr 1:51/100m Pace\n- Rest 30s\n- Descend 4 100mtr 1:47/100m Pace\n- Set Rest 50mtr 2:49/100m Pace\n- Descend 1 100mtr 2:06/100m Pace\n- Rest 30s\n- Descend 2 100mtr 1:54/100m Pace\n- Rest 30s\n- Descend 3 100mtr 1:51/100m Pace\n- Rest 30s\n- Descend 4 100mtr 1:47/100m Pace\n- Easy freestyle 250mtr 2:25/100m Pace\n\nCooldown\n- 0^ Great effort, mrtrn! Easy swimming now 150mtr 2:47/100m Pace\n\n[Weekly Plan - Build \u00b7 type:swimDescendSets]"
+      "description": "Warmup\n- \"Isinma 2:38/100m\" 250mtr\n\nMain Set\n- \"Drill (catch-up, fingertip drag, sculling) 2:47/100m\" 100mtr\n- \"Descend 1: 2:06/100m\" 100mtr\n- Rest 30s\n- \"Descend 2: 1:54/100m\" 100mtr\n- Rest 30s\n- \"Descend 3: 1:51/100m\" 100mtr\n- Rest 30s\n- \"Descend 4: 1:47/100m\" 100mtr\n- \"Set arasi kolay 2:49/100m\" 50mtr\n- \"Descend 1: 2:06/100m\" 100mtr\n- Rest 30s\n- \"Descend 2: 1:54/100m\" 100mtr\n- Rest 30s\n- \"Descend 3: 1:51/100m\" 100mtr\n- Rest 30s\n- \"Descend 4: 1:47/100m\" 100mtr\n- \"Kolay serbest 2:25/100m\" 250mtr\n\nCooldown\n- \"Soguma 2:47/100m\" 150mtr\n\n[Weekly Plan - Build \u00b7 type:swimDescendSets]"
     },
     {
       "id": 142358500,
@@ -2767,12 +2766,11 @@
       "type": "WORKOUT",
       "sport_type": "Swim",
       "planned_tss": 32,
-      "duration_hours": 0.6,
-      "duration_formatted": "35m52s",
+      "duration_hours": 0.59,
+      "duration_formatted": "35m11s",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "09:00",
-      "description_preview": "Warmup\n- 0^ Hey mrtrn! Mixed equipment swim ahead 200mtr 2:38/100m Pace\nMain Set"
+      "description_preview": "Warmup\n- \"Karisik ekipmanli isinma 2:38/100m\" 200mtr\nMain Set"
     },
     {
       "id": 142358636,
@@ -2831,12 +2829,11 @@
       "type": "WORKOUT",
       "sport_type": "Swim",
       "planned_tss": 18,
-      "duration_hours": 0.49,
-      "duration_formatted": "29m8s",
+      "duration_hours": 0.43,
+      "duration_formatted": "25m32s",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "09:00",
-      "description_preview": "Warmup\n- 0^ Hey mrtrn! Easy recovery swim and drills 200mtr 2:38/100m Pace\nMain Set"
+      "description_preview": "Warmup\n- \"Isinma 2:38/100m\" 200mtr\nMain Set"
     },
     {
       "id": 142358665,
@@ -2944,6 +2941,20 @@
       "description_preview": "Warmup\n- 0^ Hey mrtrn! Steady endurance run today 3m ramp 65-87% pace\nMain Set"
     },
     {
+      "id": 142551053,
+      "date": "2026-11-05",
+      "name": "IntervalCoach - Core Stability",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 9,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Core Stability\nCore exercises to improve stability, posture, and power transfer\n1. Plank: 5 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]"
+    },
+    {
       "id": 138010396,
       "date": "2026-11-09",
       "name": "Weekly",
@@ -2975,7 +2986,7 @@
     "success": 9,
     "patternA": 9,
     "patternB": 0,
-    "bail_no_workout_doc": 2,
+    "bail_no_workout_doc": 3,
     "bail_no_match": 10
   },
   "weekly_summary": {
@@ -2983,8 +2994,8 @@
     "total_training_formatted": "2h16m",
     "total_tss": 120,
     "activities_count": 3,
-    "avg_hrv": 58.2,
-    "avg_resting_hr": 50.4
+    "avg_hrv": 59.1,
+    "avg_resting_hr": 49.4
   },
   "race_calendar": {
     "next_race": {
