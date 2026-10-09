@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-09T14:28:00.159338",
+    "last_updated": "2026-10-09T19:37:19.802108",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -222,11 +222,11 @@
       "atl": 26.53,
       "tsb": 4.7,
       "ramp_rate": -0.6,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 190.8,
-      "w_prime": 13470,
+      "eftp": 191.0,
+      "w_prime": 13484,
       "w_prime_kj": 13.5,
       "p_max": 623,
       "vo2max": null,
@@ -287,7 +287,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 4473,
+      "steps": 5405,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -606,23 +606,24 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 184,
-          "w_prime_used": 13470,
+          "w_prime_used": 13484,
           "ftp_staleness_days": 77,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.25,
+    "consistency_index": 0.2,
     "consistency_details": {
-      "planned_days": 4,
+      "planned_days": 5,
       "completed_days": 1,
       "matched_days": 1,
       "planned_dates": [
         "2026-10-05",
         "2026-10-06",
         "2026-10-07",
-        "2026-10-08"
+        "2026-10-08",
+        "2026-10-09"
       ],
       "completed_dates": [
         "2026-10-05"
@@ -640,13 +641,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.75,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 1.63,
+          "hard_sessions_planned": 3,
           "current_week_hard_days_completed": 1,
-          "current_week_hard_days_total": 2,
+          "current_week_hard_days_total": 4,
           "race_proximity": 23,
           "next_week_load": 2.89,
-          "plan_coverage_current_week": 0.5,
+          "plan_coverage_current_week": 1.25,
           "plan_coverage_next_week": 1.75
         },
         "data_quality": "good",
@@ -674,19 +675,19 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 190.8,
-    "w_prime": 13470,
+    "eftp": 191.0,
+    "w_prime": 13484,
     "w_prime_kj": 13.5,
     "p_max": 623,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-09T14:28:00.158373",
+    "calculation_timestamp": "2026-10-09T19:37:19.800583",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 4,
       "activities_28d": 16,
-      "planned_workouts_7d": 5,
+      "planned_workouts_7d": 7,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 79
@@ -2465,7 +2466,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 4473,
+      "steps": 5405,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2477,6 +2478,34 @@
     }
   ],
   "planned_workouts": [
+    {
+      "id": 142993141,
+      "date": "2026-10-09",
+      "name": "IntervalCoach - Endurance (brick 1/2)",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 30,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "15:00",
+      "description": "Warmup\n- 0^ Hey mrtrn! Steady endurance ride awaits 6m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 85rpm 30m 65-75% 85rpm\n\nCooldown\n- 0^ Awesome work, enjoy the spin 4m ramp 65-45%\n\n[Weekly Plan - Recovery \u00b7 type:brick:long-endurance]"
+    },
+    {
+      "id": 142993143,
+      "date": "2026-10-09",
+      "name": "IntervalCoach - Endurance Run (brick 2/2)",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 22,
+      "duration_hours": 0.33,
+      "duration_formatted": "20m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "15:43",
+      "description": "Warmup\n- 0^ Hey mrtrn! Time for your endurance run 3m ramp 65-87% pace\n\nMain Set\n- Endurance 15m 78-87% pace\n\nCooldown\n- 0^ Fantastic work, mrtrn! Easy jog to finish 2m ramp 78-65% pace\n\n[Weekly Plan - Recovery \u00b7 type:brick:long-endurance]"
+    },
     {
       "id": 142358466,
       "date": "2026-10-10",
@@ -2491,17 +2520,31 @@
       "description": "Warmup\n- \"Isinma 2:47/100m\" 200mtr\n\nMain Set\n6x\n- \"Kolay 2:25/100m\" 100mtr\n- Rest 20s\n\nDrills\n- \"Drill (catch-up, fingertip drag) 2:47/100m\" 200mtr\n\nCooldown\n- \"Soguma 2:47/100m\" 150mtr"
     },
     {
-      "id": 142118698,
-      "date": "2026-10-11",
-      "name": "15.5K - Uzun Aerobik Ko\u015fu (uzat\u0131lm\u0131\u015f)",
+      "id": 142980775,
+      "date": "2026-10-10",
+      "name": "15.5K - Sabah Rahat Ko\u015fu 35 dk",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 83,
-      "duration_hours": 1.28,
-      "duration_formatted": "1h17m",
+      "planned_tss": 27,
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Warmup\n- Rahat uzun kosu 3m 63-67% pace\n- 3m 74-78% pace\n- 4m 79-83% pace\n\nMain Set\n- Settle In 8m 77-83% pace\n- Steady Aerobic 52m 81-85% pace\n\nCooldown\n- 4m 76-80% pace\n- 3m 63-67% pace"
+      "description": "Warmup\n- 5m 63-67% pace\n\nMain Set\n- Easy 25m 65-72% pace\n\nCooldown\n- 5m 63-67% pace"
+    },
+    {
+      "id": 142980813,
+      "date": "2026-10-11",
+      "name": "15.5K - Uzun Aerobik Pedal \u2013 Tirilye (70 km)",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 130,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "15:00",
+      "description": "Warmup\n- 10m ramp 50-65% 90rpm\n\nMain Set\n- Endurance 160m 62-72% 85-90rpm\n\nCooldown\n- 10m ramp 65-45%\n\nRota: Tirilye (GPX) ~69.8 km, ~850 m y\u00fckseli\u015f. T\u0131rman\u0131\u015flarda %75 FTP (~138 W) \u00fcst\u00fcne \u00e7\u0131kma, rahat \u00e7\u0131k. Her saat 60 g karbonhidrat + su; ilk 20 dk'dan itibaren yak\u0131t almaya ba\u015fla."
     },
     {
       "id": 138010391,
@@ -2517,17 +2560,18 @@
       "description": ""
     },
     {
-      "id": 142119336,
+      "id": 142984913,
       "date": "2026-10-13",
-      "name": "IntervalCoach - VO2 Max Descend",
+      "name": "IntervalCoach - Lower Body Strength",
       "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": 42,
-      "duration_hours": 0.68,
-      "duration_formatted": "40m38s",
+      "sport_type": "WeightTraining",
+      "planned_tss": 9,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Warmup\n- \"Isinma 2:38/100m\" 250mtr\n\nMain Set\n- \"Drill (catch-up, fingertip drag, sculling) 2:47/100m\" 100mtr\n- \"Descend 1: 2:06/100m\" 100mtr\n- Rest 30s\n- \"Descend 2: 1:54/100m\" 100mtr\n- Rest 30s\n- \"Descend 3: 1:51/100m\" 100mtr\n- Rest 30s\n- \"Descend 4: 1:47/100m\" 100mtr\n- \"Set arasi kolay 2:49/100m\" 50mtr\n- \"Descend 1: 2:06/100m\" 100mtr\n- Rest 30s\n- \"Descend 2: 1:54/100m\" 100mtr\n- Rest 30s\n- \"Descend 3: 1:51/100m\" 100mtr\n- Rest 30s\n- \"Descend 4: 1:47/100m\" 100mtr\n- \"Kolay serbest 2:25/100m\" 250mtr\n\nCooldown\n- \"Soguma 2:47/100m\" 150mtr\n\n[Weekly Plan - Build \u00b7 type:swimDescendSets]"
+      "start_time": "09:00",
+      "description": "Lower Body Strength\n\nLeg strength for cycling power and running economy\n\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]\n2. Romanian Deadlift: 3 sets \u00d7 10 reps (Hinge at hips, slight knee bend) [Rest: 60 sec]\n3. Walking Lunges: 3 sets \u00d7 10 reps each leg (Keep torso upright, knee tracks over toe) [Rest: 45 sec]\n4. Step-ups: 3 sets \u00d7 10 reps each leg (Use bench or box, drive through heel) [Rest: 45 sec]\n5. Calf Raises: 3 sets \u00d7 15 reps (Full range of motion, hold at top) [Rest: 30 sec]\n6. Single Leg Glute Bridge: 3 sets \u00d7 10 reps each leg (Keep hips level throughout) [Rest: 30 sec]\n\nBuild phase: increase weight, lower reps (6-10) for strength gains.\n\n[Duration: ~45 min]\n\n[Weekly Plan - Build \u00b7 type:lower-body-strength]"
     },
     {
       "id": 142358500,
@@ -2543,18 +2587,18 @@
       "description": "Warmup\n- 6m 63-67% pace\n- 3m 74-78% pace\n- 3m 83-87% pace\n\nMain Set\n2x\n- Race Pace 12m 90-92% pace\n- Jog 2m30s 63-67% pace\n\nMain Set\n- Race Pace 3 12m 90-92% pace\n\nCooldown\n- 10m 63-67% pace"
     },
     {
-      "id": 142118869,
+      "id": 142984916,
       "date": "2026-10-15",
-      "name": "IntervalCoach - Lower Body Strength",
+      "name": "IntervalCoach - Technique Endurance",
       "type": "WORKOUT",
-      "sport_type": "WeightTraining",
-      "planned_tss": 9,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
+      "sport_type": "Swim",
+      "planned_tss": 25,
+      "duration_hours": 0.66,
+      "duration_formatted": "39m18s",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Lower Body Strength\n\nLeg strength for cycling power and running economy\n\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]\n2. Romanian Deadlift: 3 sets \u00d7 10 reps (Hinge at hips, slight knee bend) [Rest: 60 sec]\n3. Walking Lunges: 3 sets \u00d7 10 reps each leg (Keep torso upright, knee tracks over toe) [Rest: 45 sec]\n4. Step-ups: 3 sets \u00d7 10 reps each leg (Use bench or box, drive through heel) [Rest: 45 sec]\n5. Calf Raises: 3 sets \u00d7 15 reps (Full range of motion, hold at top) [Rest: 30 sec]\n6. Single Leg Glute Bridge: 3 sets \u00d7 10 reps each leg (Keep hips level throughout) [Rest: 30 sec]\n\nBuild phase: increase weight, lower reps (6-10) for strength gains.\n\n[Duration: ~45 min]\n\n[Weekly Plan - Build \u00b7 type:lower-body-strength]"
+      "description": "Warmup\n- 0^ Hey mrtrn! Technique endurance swim today 250mtr 2:38/100m Pace\n\nMain Set\n- Drills (catch-up, fingertip drag, sculling) 100mtr 2:47/100m Pace\n- Drill (catch-up, fingertip drag, single-arm) 1 200mtr 2:47/100m Pace\n- Build freestyle 1 100mtr 2:25/100m Pace\n- Rest 1m\n- Drill (catch-up, fingertip drag, single-arm) 2 200mtr 2:47/100m Pace\n- Build freestyle 2 100mtr 2:25/100m Pace\n- Rest 1m\n- Drill (catch-up, fingertip drag, single-arm) 3 200mtr 2:47/100m Pace\n- Build freestyle 3 50mtr 2:25/100m Pace\n- Rest 1m\n\nCooldown\n- 0^ Great effort, mrtrn! Easy laps now 150mtr 2:47/100m Pace\n\n[Weekly Plan - Build \u00b7 type:swimTechniqueEndurance]"
     },
     {
       "id": 142358524,
@@ -2610,17 +2654,18 @@
       "description_preview": null
     },
     {
-      "id": 142118974,
+      "id": 142984925,
       "date": "2026-10-20",
-      "name": "IntervalCoach - Aerobic Tempo Swim",
+      "name": "IntervalCoach - Lower Body Strength",
       "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": 32,
-      "duration_hours": 0.59,
-      "duration_formatted": "35m11s",
+      "sport_type": "WeightTraining",
+      "planned_tss": 9,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Warmup\n- \"Karisik ekipmanli isinma 2:38/100m\" 200mtr\nMain Set"
+      "start_time": "09:00",
+      "description_preview": "Lower Body Strength\nLeg strength for cycling power and running economy\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]"
     },
     {
       "id": 142358636,
@@ -2673,17 +2718,18 @@
       "description_preview": null
     },
     {
-      "id": 142119444,
+      "id": 142984986,
       "date": "2026-10-27",
       "name": "IntervalCoach - Recovery Drills",
       "type": "WORKOUT",
       "sport_type": "Swim",
       "planned_tss": 18,
-      "duration_hours": 0.43,
-      "duration_formatted": "25m32s",
+      "duration_hours": 0.49,
+      "duration_formatted": "29m8s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Warmup\n- \"Isinma 2:38/100m\" 200mtr\nMain Set"
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- 0^ Hey mrtrn! Easy recovery swim today 200mtr 2:38/100m Pace\nMain Set"
     },
     {
       "id": 142358665,
@@ -2749,21 +2795,21 @@
       "description_preview": null
     },
     {
-      "id": 142119845,
+      "id": 142985011,
       "date": "2026-11-03",
       "name": "IntervalCoach - Recovery Swim",
       "type": "WORKOUT",
       "sport_type": "Swim",
-      "planned_tss": 11,
-      "duration_hours": 0.3,
-      "duration_formatted": "18m7s",
+      "planned_tss": 12,
+      "duration_hours": 0.33,
+      "duration_formatted": "19m31s",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
       "description_preview": "Warmup\n- 0^ Hey mrtrn! Easy recovery swim ahead 100mtr 2:38/100m Pace\nMain Set"
     },
     {
-      "id": 142297884,
+      "id": 142985023,
       "date": "2026-11-04",
       "name": "IntervalCoach - Endurance (brick 1/2)",
       "type": "WORKOUT",
@@ -2774,10 +2820,10 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "15:00",
-      "description_preview": "Warmup\n- 0^ Hey mrtrn! Endurance ride ahead 6m ramp 45-75% 85rpm\nMain Set"
+      "description_preview": "Warmup\n- 0^ Hey mrtrn! Steady endurance ride ahead 6m ramp 45-75% 85rpm\nMain Set"
     },
     {
-      "id": 142297885,
+      "id": 142985024,
       "date": "2026-11-04",
       "name": "IntervalCoach - Endurance Run (brick 2/2)",
       "type": "WORKOUT",
@@ -2788,10 +2834,10 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "15:43",
-      "description_preview": "Warmup\n- 0^ Hey mrtrn! Steady endurance run today 3m ramp 65-87% pace\nMain Set"
+      "description_preview": "Warmup\n- 0^ Hey mrtrn! Endurance run incoming 3m ramp 65-87% pace\nMain Set"
     },
     {
-      "id": 142551053,
+      "id": 142985028,
       "date": "2026-11-05",
       "name": "IntervalCoach - Core Stability",
       "type": "WORKOUT",
@@ -2803,6 +2849,20 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description_preview": "Core Stability\nCore exercises to improve stability, posture, and power transfer\n1. Plank: 5 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]"
+    },
+    {
+      "id": 142985036,
+      "date": "2026-11-06",
+      "name": "IntervalCoach - Endurance Run",
+      "type": "WORKOUT",
+      "sport_type": "TrailRun",
+      "planned_tss": 55,
+      "duration_hours": 0.88,
+      "duration_formatted": "53m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- 0^ Hey mrtrn! Endurance run today 3m 63-67% pace\n- 5m 75-79% pace"
     },
     {
       "id": 138010396,
@@ -2832,12 +2892,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 17,
+    "attempted": 20,
     "success": 7,
     "patternA": 7,
     "patternB": 0,
-    "bail_no_workout_doc": 3,
-    "bail_no_match": 10
+    "bail_no_workout_doc": 4,
+    "bail_no_match": 13
   },
   "weekly_summary": {
     "total_training_hours": 3.31,
