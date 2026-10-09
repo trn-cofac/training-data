@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-09T07:23:09.264228",
+    "last_updated": "2026-10-09T14:28:00.159338",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -222,7 +222,7 @@
       "atl": 26.53,
       "tsb": 4.7,
       "ramp_rate": -0.6,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 190.8,
@@ -287,7 +287,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1227,
+      "steps": 4473,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -613,17 +613,16 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.2,
+    "consistency_index": 0.25,
     "consistency_details": {
-      "planned_days": 5,
+      "planned_days": 4,
       "completed_days": 1,
       "matched_days": 1,
       "planned_dates": [
         "2026-10-05",
         "2026-10-06",
         "2026-10-07",
-        "2026-10-08",
-        "2026-10-09"
+        "2026-10-08"
       ],
       "completed_dates": [
         "2026-10-05"
@@ -642,12 +641,12 @@
         },
         "stream_2": {
           "planned_tss_delta": 2.75,
-          "hard_sessions_planned": 2,
+          "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 1,
-          "current_week_hard_days_total": 3,
+          "current_week_hard_days_total": 2,
           "race_proximity": 23,
           "next_week_load": 2.89,
-          "plan_coverage_current_week": 0.75,
+          "plan_coverage_current_week": 0.5,
           "plan_coverage_next_week": 1.75
         },
         "data_quality": "good",
@@ -681,13 +680,13 @@
     "p_max": 623,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-09T07:23:09.263173",
+    "calculation_timestamp": "2026-10-09T14:28:00.158373",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 4,
       "activities_28d": 16,
-      "planned_workouts_7d": 6,
+      "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 79
@@ -2466,7 +2465,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1227,
+      "steps": 4473,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2480,7 +2479,7 @@
   "planned_workouts": [
     {
       "id": 142358466,
-      "date": "2026-10-09",
+      "date": "2026-10-10",
       "name": "15.5K - Rahat Aerobik Y\u00fczme",
       "type": "WORKOUT",
       "sport_type": "Swim",
@@ -2490,20 +2489,6 @@
       "workout_summary": "4m42s | 6\u00d72m21s / 20s rec | 4m42s | 3m32s",
       "has_terrain": false,
       "description": "Warmup\n- \"Isinma 2:47/100m\" 200mtr\n\nMain Set\n6x\n- \"Kolay 2:25/100m\" 100mtr\n- Rest 20s\n\nDrills\n- \"Drill (catch-up, fingertip drag) 2:47/100m\" 200mtr\n\nCooldown\n- \"Soguma 2:47/100m\" 150mtr"
-    },
-    {
-      "id": 142118554,
-      "date": "2026-10-10",
-      "name": "15.5K - Rahat Pedal 60 dk (ivmeli)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 40,
-      "duration_hours": 0.98,
-      "duration_formatted": "59m",
-      "workout_summary": "10m @105W | 3\u00d712m @124W / 1m rec | 10m @100W",
-      "has_terrain": false,
-      "start_time": "15:00",
-      "description": "Warmup\n- 10m ramp 45-70% 85rpm\n\nMain Set\n3x\n- Endurance 88rpm 12m 65-70% 88rpm\n- Spin-Up 110rpm 1m 70% 110rpm\n\nCooldown\n- 10m ramp 65-45%"
     },
     {
       "id": 142118698,
@@ -2847,9 +2832,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 18,
-    "success": 8,
-    "patternA": 8,
+    "attempted": 17,
+    "success": 7,
+    "patternA": 7,
     "patternB": 0,
     "bail_no_workout_doc": 3,
     "bail_no_match": 10
