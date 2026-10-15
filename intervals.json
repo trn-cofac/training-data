@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T18:27:09.177428",
+  "generated_at": "2026-10-15T21:36:26.037629",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -685,6 +685,73 @@
           "avg_cadence": 52.36709,
           "zone": 1,
           "training_load": 17.998465
+        }
+      ]
+    },
+    {
+      "activity_id": "i197730059",
+      "date": "2026-10-15",
+      "type": "Run",
+      "name": "Nil\u00fcfer Ko\u015fu",
+      "interval_summary": [
+        "1x 8m12s 129bpm",
+        "3x 6m49s 148bpm",
+        "1x 2m50s 151bpm",
+        "1x 1s 130bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "492s@129bpm79rpm",
+          "duration_secs": 492,
+          "avg_hr": 129,
+          "max_hr": 141,
+          "avg_cadence": 79.17683,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "409s@148bpm81rpm",
+          "duration_secs": 423,
+          "avg_hr": 146,
+          "max_hr": 160,
+          "avg_cadence": 81.14421,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "409s@148bpm81rpm",
+          "duration_secs": 422,
+          "avg_hr": 146,
+          "max_hr": 158,
+          "avg_cadence": 81.227486,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "409s@148bpm81rpm",
+          "duration_secs": 383,
+          "avg_hr": 153,
+          "max_hr": 162,
+          "avg_cadence": 81.67363,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "170s@151bpm80rpm",
+          "duration_secs": 170,
+          "avg_hr": 151,
+          "max_hr": 154,
+          "avg_cadence": 79.879196,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "1s@130bpm",
+          "duration_secs": 1,
+          "avg_hr": 130,
+          "max_hr": 130,
+          "zone": 1
         }
       ]
     }
