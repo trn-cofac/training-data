@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-15T04:56:55.206561",
+    "last_updated": "2026-10-15T09:35:39.479578",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -614,13 +614,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.92,
+          "planned_tss_delta": 2.32,
           "hard_sessions_planned": 3,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 3,
           "race_proximity": 17,
           "next_week_load": 1.01,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 1.25,
           "plan_coverage_next_week": 1.5
         },
         "data_quality": "good",
@@ -654,7 +654,7 @@
     "p_max": 620,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-15T04:56:55.204942",
+    "calculation_timestamp": "2026-10-15T09:35:39.478063",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2445,31 +2445,44 @@
       "description": "Warmup\n- 6m 63-67% pace\n- 3m 74-78% pace\n- 3m 83-87% pace\n\nMain Set\n2x\n- Race Pace 12m 90-92% pace\n- Jog 2m30s 63-67% pace\n\nMain Set\n- Race Pace 3 12m 90-92% pace\n\nCooldown\n- 10m 63-67% pace"
     },
     {
-      "id": 142358524,
+      "id": 144768565,
       "date": "2026-10-16",
-      "name": "15.5K - Rahat Ko\u015fu + \u0130vmeler",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 38,
-      "duration_hours": 0.78,
-      "duration_formatted": "47m",
-      "workout_summary": "10m | 28m | 4\u00d720s / 1m10s rec | 3m",
-      "has_terrain": false,
-      "description": "Warmup\n- 10m 63-67% pace\n\nMain Set\n- Easy 28m 65-75% pace\n\nStrides\n4x\n- Stride 20s 125-130% pace\n- Jog 1m10s 60-65% pace\n\nCooldown\n- 3m 63-67% pace"
-    },
-    {
-      "id": 142358595,
-      "date": "2026-10-17",
-      "name": "15.5K - Rahat Pedal 45 dk (iste\u011fe ba\u011fl\u0131)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 27,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
+      "name": "Seyahat",
+      "type": "HOLIDAY",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
+      "description": "Seyahat \u2014 antrenman yok."
+    },
+    {
+      "id": 144768566,
+      "date": "2026-10-17",
+      "name": "Seyahat",
+      "type": "HOLIDAY",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Seyahat \u2014 antrenman yok."
+    },
+    {
+      "id": 144768645,
+      "date": "2026-10-17",
+      "name": "IntervalCoach - Cadence Endurance",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 68,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": "14m @110W | 5\u00d76m @128W / 6m rec | 7m @128W | 9m @100W",
+      "has_terrain": false,
       "start_time": "15:00",
-      "description": "Warmup\n- 8m ramp 45-65% 85rpm\n\nMain Set\n- Endurance 85rpm 30m 60-65% 85rpm\n\nCooldown\n- 7m ramp 60-45%"
+      "description": "Warmup\n- Hey mrtrn! Endurance and cadence ride ahead 14m ramp 45-75% 85rpm\n\nMain Set\n5x\n- High Cadence 100rpm 6m 70% 100rpm\n- Low Cadence 70rpm 6m 70% 70rpm\n\nMain Set\n- High Cadence 100rpm 7m 70% 100rpm\n\nCooldown\n- Strong work, enjoy an easy spin 9m ramp 65-45%\n\n\n[Weekly Plan - Build \u00b7 type:enduranceCadence]"
     },
     {
       "id": 142358631,
@@ -2792,6 +2805,20 @@
       "description_preview": "Warmup\n- Hey mrtrn! Settle in for a steady aerobic ride 14m ramp 45-75% 85rpm\nMain Set"
     },
     {
+      "id": 144768657,
+      "date": "2026-11-12",
+      "name": "IntervalCoach - Lower Body Strength",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 9,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Lower Body Strength\nLeg strength for cycling power and running economy\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]"
+    },
+    {
       "id": 138010397,
       "date": "2026-11-16",
       "name": "Weekly",
@@ -2819,12 +2846,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 19,
+    "attempted": 18,
     "success": 7,
     "patternA": 7,
     "patternB": 0,
-    "bail_no_workout_doc": 3,
-    "bail_no_match": 12
+    "bail_no_workout_doc": 6,
+    "bail_no_match": 11
   },
   "weekly_summary": {
     "total_training_hours": 2.25,
