@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-18T00:31:39.153659",
+    "last_updated": "2026-10-18T05:07:40.882335",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -140,7 +140,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 7.3
+        "value": 13.6
       }
     },
     "signal_summary": {
@@ -198,10 +198,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 29.15,
-      "atl": 21.83,
-      "tsb": 7.32,
-      "ramp_rate": -0.98,
+      "ctl": 27.58,
+      "atl": 13.98,
+      "tsb": 13.6,
+      "ramp_rate": -2.54,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -662,7 +662,7 @@
     "p_max": 619,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-18T00:31:39.151943",
+    "calculation_timestamp": "2026-10-18T05:07:40.880846",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 7,
@@ -2417,18 +2417,32 @@
       "description_preview": "Warmup\n- 0^ Hey mrtrn! Easy recovery swim ahead 100mtr 2:38/100m Pace\nMain Set"
     },
     {
-      "id": 142985023,
+      "id": 145587442,
       "date": "2026-11-04",
-      "name": "IntervalCoach - Endurance (brick 1/2)",
+      "name": "IntervalCoach - Steady Endurance (brick 1/2)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 30,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
+      "planned_tss": 45,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "15:00",
-      "description_preview": "Warmup\n- 0^ Hey mrtrn! Steady endurance ride ahead 6m ramp 45-75% 85rpm\nMain Set"
+      "description_preview": "Warmup\n- Hey mrtrn! Steady endurance ride ahead 9m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
+      "id": 145587444,
+      "date": "2026-11-04",
+      "name": "IntervalCoach - Aerobic Tempo (brick 2/2)",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 32,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "16:03",
+      "description_preview": "Warmup\n- Hey mrtrn! A steady endurance run awaits 5m ramp 65-87% pace\nMain Set"
     },
     {
       "id": 142985028,
@@ -2445,20 +2459,6 @@
       "description_preview": "Core Stability\nCore exercises to improve stability, posture, and power transfer\n1. Plank: 5 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]"
     },
     {
-      "id": 143545775,
-      "date": "2026-11-06",
-      "name": "IntervalCoach - Steady Endurance (brick 1/2)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 30,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "15:00",
-      "description_preview": "Warmup\n- 0^ Hey mrtrn! Steady endurance ride ahead 6m ramp 45-75% 85rpm\nMain Set"
-    },
-    {
       "id": 143545778,
       "date": "2026-11-06",
       "name": "IntervalCoach - Steady Tempo (brick 2/2)",
@@ -2473,31 +2473,45 @@
       "description_preview": "Warmup\n- 0^ Hey mrtrn! Steady endurance run ahead 3m ramp 65-87% pace\nMain Set"
     },
     {
-      "id": 143347333,
+      "id": 145587463,
       "date": "2026-11-07",
-      "name": "IntervalCoach - Recovery Drills",
-      "type": "WORKOUT",
-      "sport_type": "TrailRun",
-      "planned_tss": 39,
-      "duration_hours": 0.88,
-      "duration_formatted": "53m",
-      "workout_summary": "8m | 5\u00d76m / 30s rec | 7m30s | 5m",
-      "has_terrain": false,
-      "start_time": "09:00"
-    },
-    {
-      "id": 143347337,
-      "date": "2026-11-08",
-      "name": "IntervalCoach - Endurance",
+      "name": "IntervalCoach - Endurance Spin-Ups",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 41,
-      "duration_hours": 1.03,
-      "duration_formatted": "1h1m39s",
+      "planned_tss": 37,
+      "duration_hours": 0.8,
+      "duration_formatted": "47m57s",
+      "workout_summary": "7m32s @110W | 4\u00d76m10s @128W / 41s rec | 8m13s @128W | 4m48s @100W",
+      "has_terrain": false,
+      "start_time": "15:00"
+    },
+    {
+      "id": 145587604,
+      "date": "2026-11-08",
+      "name": "IntervalCoach - Endurance Ride (brick 1/2)",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 26,
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "15:00",
-      "description_preview": "Warmup\n- 0^ Hi mrtrn, time for some recovery! 574s ramp 45-75% 85rpm\nMain Set"
+      "description_preview": "Warmup\n- Hey mrtrn! Steady endurance ride ahead 5m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
+      "id": 145587607,
+      "date": "2026-11-08",
+      "name": "IntervalCoach - Tempo Run (brick 2/2)",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 16,
+      "duration_hours": 0.25,
+      "duration_formatted": "15m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "15:38",
+      "description_preview": "Warmup\n- Hey mrtrn! An endurance run awaits 2m ramp 65-87% pace\nMain Set"
     },
     {
       "id": 138010396,
@@ -2555,6 +2569,33 @@
       "description_preview": "Lower Body Strength\nLeg strength for cycling power and running economy\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]"
     },
     {
+      "id": 145587635,
+      "date": "2026-11-14",
+      "name": "IntervalCoach - Endurance Sprints",
+      "type": "WORKOUT",
+      "sport_type": "TrailRun",
+      "planned_tss": 40,
+      "duration_hours": 0.62,
+      "duration_formatted": "37m2s",
+      "workout_summary": "2 \u00d7 2m2s | 1m21s | 4\u00d75m25s / 7s rec | 5m25s | 2 \u00d7 2m2s",
+      "has_terrain": false,
+      "start_time": "09:00"
+    },
+    {
+      "id": 145587660,
+      "date": "2026-11-15",
+      "name": "IntervalCoach - Progressive Endurance",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 102,
+      "duration_hours": 2.25,
+      "duration_formatted": "2h15m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "15:00",
+      "description_preview": "Warmup\n- Hey mrtrn! A progressive aerobic ride awaits 15m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
       "id": 138010397,
       "date": "2026-11-16",
       "name": "Weekly",
@@ -2582,12 +2623,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 16,
-    "success": 5,
-    "patternA": 5,
+    "attempted": 19,
+    "success": 6,
+    "patternA": 6,
     "patternB": 0,
     "bail_no_workout_doc": 4,
-    "bail_no_match": 11
+    "bail_no_match": 13
   },
   "weekly_summary": {
     "total_training_hours": 0.52,
