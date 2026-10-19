@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-19T06:49:40.097095",
+    "last_updated": "2026-10-19T14:12:59.123205",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -258,7 +258,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 118,
+      "steps": 1432,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -593,7 +593,7 @@
         "2026-10-13",
         "2026-10-15",
         "2026-10-17",
-        "2026-10-18"
+        "2026-10-19"
       ],
       "completed_dates": []
     },
@@ -611,13 +611,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.6,
-          "hard_sessions_planned": 4,
+          "planned_tss_delta": 2.55,
+          "hard_sessions_planned": 5,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 4,
+          "current_week_hard_days_total": 5,
           "race_proximity": 13,
           "next_week_load": 0.64,
-          "plan_coverage_current_week": 1.5,
+          "plan_coverage_current_week": 1.75,
           "plan_coverage_next_week": 1.5
         },
         "data_quality": "good",
@@ -653,7 +653,7 @@
     "p_max": 618,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-19T06:49:40.096088",
+    "calculation_timestamp": "2026-10-19T14:12:59.122238",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2198,7 +2198,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 118,
+      "steps": 1432,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2224,9 +2224,22 @@
       "description": ""
     },
     {
+      "id": 142358631,
+      "date": "2026-10-19",
+      "name": "15.5K - Uzun Ko\u015fu + Yar\u0131\u015f Temposu Fini\u015fi (kritik test)",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 96,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Warmup\n- 5m 63-67% pace\n- 5m 68-72% pace\n\nMain Set\n- Steady Aerobic 50m 75-82% pace\n- Race Pace 25m 89-92% pace\n\nCooldown\n- 5m 63-67% pace"
+    },
+    {
       "id": 143799959,
       "date": "2026-10-20",
-      "name": "IntervalCoach - Lower Body Strength",
+      "name": "IntervalCoach - Lower Body Strength (hafif)",
       "type": "WORKOUT",
       "sport_type": "WeightTraining",
       "planned_tss": 9,
@@ -2235,20 +2248,20 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Lower Body Strength\n\nLeg strength for cycling power and running economy\n\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]\n2. Romanian Deadlift: 3 sets \u00d7 10 reps (Hinge at hips, slight knee bend) [Rest: 60 sec]\n3. Walking Lunges: 3 sets \u00d7 10 reps each leg (Keep torso upright, knee tracks over toe) [Rest: 45 sec]\n4. Step-ups: 3 sets \u00d7 10 reps each leg (Use bench or box, drive through heel) [Rest: 45 sec]\n5. Calf Raises: 3 sets \u00d7 15 reps (Full range of motion, hold at top) [Rest: 30 sec]\n6. Single Leg Glute Bridge: 3 sets \u00d7 10 reps each leg (Keep hips level throughout) [Rest: 30 sec]\n\nBase phase: use lighter weights, focus on form and higher reps (12-15).\n\n[Duration: ~45 min]\n\n[Weekly Plan - Pre-Race Taper \u00b7 type:lower-body-strength]"
+      "description": "Lower Body Strength - hafif versiyon\n\nUzun ko\u015funun ertesi g\u00fcn\u00fc ve yar\u0131\u015fa 12 g\u00fcn kala: a\u011f\u0131rl\u0131\u011f\u0131 d\u00fc\u015f\u00fcr, t\u00fckeni\u015fe gitme, RPE 5-6.\n\n- Goblet Squat: 2 sets \u00d7 10 reps, hafif a\u011f\u0131rl\u0131k [Rest: 60 sec]\n- Romanian Deadlift: 2 sets \u00d7 8 reps, hafif a\u011f\u0131rl\u0131k, zorlama yok [Rest: 60 sec]\n- Walking Lunges: 2 sets \u00d7 8 reps each leg, v\u00fccut a\u011f\u0131rl\u0131\u011f\u0131 [Rest: 45 sec]\n- Step-ups: 2 sets \u00d7 8 reps each leg [Rest: 45 sec]\n- Calf Raises: 2 sets \u00d7 15 reps [Rest: 30 sec]\n- Single Leg Glute Bridge: 2 sets \u00d7 10 reps each leg [Rest: 30 sec]\n\n[Duration: ~30 min]"
     },
     {
       "id": 142358636,
       "date": "2026-10-21",
-      "name": "15.5K - H\u0131z Keskinle\u015ftirme 5x3",
+      "name": "15.5K - Rahat Ko\u015fu + A\u00e7\u0131l\u0131\u015f (5x3 yerine)",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 46,
-      "duration_hours": 0.78,
-      "duration_formatted": "47m",
-      "workout_summary": "6m | 2 \u00d7 3m | 5\u00d73m / 2m rec | 10m",
+      "planned_tss": 31,
+      "duration_hours": 0.66,
+      "duration_formatted": "39m40s",
+      "workout_summary": "30m | 5\u00d720s / 1m rec | 3m",
       "has_terrain": false,
-      "description": "Warmup\n- 6m 63-67% pace\n- 3m 74-78% pace\n- 3m 83-87% pace\n\nMain Set\n5x\n- Hard 3m 95-98% pace\n- Jog 2m 63-67% pace\n\nCooldown\n- 10m 63-67% pace"
+      "description": "Pazartesi uzun ko\u015fu + yar\u0131\u015f temposu fini\u015fi yap\u0131ld\u0131\u011f\u0131 i\u00e7in 5x3 h\u0131z seans\u0131 rahat ko\u015fuya \u00e7evrildi.\n\nMain Set\n- Easy 30m 63-72% pace\n\nStrides\n5x\n- Stride 20s 115-120% pace\n- Jog 60s 60-65% pace\n\nCooldown\n- 3m 63-67% pace"
     },
     {
       "id": 142358639,
@@ -2614,12 +2627,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 18,
+    "attempted": 19,
     "success": 6,
     "patternA": 6,
     "patternB": 0,
     "bail_no_workout_doc": 4,
-    "bail_no_match": 12
+    "bail_no_match": 13
   },
   "weekly_summary": {
     "total_training_hours": 0.52,
