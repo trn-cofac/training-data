@@ -1,59 +1,10 @@
 {
-  "generated_at": "2026-10-24T23:42:50.133491",
+  "generated_at": "2026-10-25T01:40:05.420028",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i195634205",
-      "date": "2026-10-10",
-      "type": "Run",
-      "name": "Nil\u00fcfer - 15.5K - Sabah Rahat Ko\u015fu 35 dk",
-      "interval_summary": [
-        "1x 5m1s 123bpm",
-        "2x 7m32s 134bpm",
-        "1x 2m57s 139bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "301s@123bpm78rpm",
-          "duration_secs": 301,
-          "avg_hr": 123,
-          "max_hr": 138,
-          "avg_cadence": 78.019936,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "452s@134bpm81rpm",
-          "duration_secs": 458,
-          "avg_hr": 132,
-          "max_hr": 143,
-          "avg_cadence": 80.30786,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "452s@134bpm81rpm",
-          "duration_secs": 446,
-          "avg_hr": 135,
-          "max_hr": 145,
-          "avg_cadence": 80.71076,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "177s@139bpm80rpm",
-          "duration_secs": 177,
-          "avg_hr": 139,
-          "max_hr": 148,
-          "avg_cadence": 79.54802,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i196000680",
       "date": "2026-10-11",
