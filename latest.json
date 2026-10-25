@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-25T01:40:05.423785",
+    "last_updated": "2026-10-25T06:51:14.305220",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -103,7 +103,7 @@
       "value": 7,
       "severity": "info",
       "threshold": "RACE_B within 7 days",
-      "context": "Race week D-7 of '\u0130stanbul Maratonu 15.5k'. Today: Last key session, 20-26 TSS. 3-5 efforts Z4-Z5 (1-3 min)",
+      "context": "Race week D-7 of '\u0130stanbul Maratonu 15.5k'. Today: Last key session, 19-25 TSS. 3-5 efforts Z4-Z5 (1-3 min)",
       "persistence_days": null,
       "tier": 1
     }
@@ -120,9 +120,9 @@
       },
       "rhr": {
         "status": "amber",
-        "value": 57,
-        "baseline_7d": 53.1,
-        "delta_bpm": 3.9
+        "value": 56,
+        "baseline_7d": 53,
+        "delta_bpm": 3
       },
       "sleep": {
         "status": "unavailable",
@@ -140,7 +140,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 10.0
+        "value": 14.8
       }
     },
     "signal_summary": {
@@ -198,17 +198,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 26.46,
-      "atl": 16.46,
-      "tsb": 10.0,
-      "ramp_rate": -1.12,
+      "ctl": 25.27,
+      "atl": 10.46,
+      "tsb": 14.81,
+      "ramp_rate": -2.32,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 188.3,
-      "w_prime": 13296,
+      "eftp": 188.2,
+      "w_prime": 13283,
       "w_prime_kj": 13.3,
-      "p_max": 615,
+      "p_max": 614,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -245,7 +245,7 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 57,
+      "resting_hr": 56,
       "hrv": null,
       "sleep_quality": null,
       "sleep_hours": null,
@@ -267,7 +267,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 314,
+      "steps": 361,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -282,11 +282,11 @@
     "recovery_index": null,
     "recovery_index_yesterday": 0.95,
     "hrv_baseline_7d": 53.7,
-    "rhr_baseline_7d": 53.1,
+    "rhr_baseline_7d": 53,
     "hrv_baseline_28d": 56.0,
     "rhr_baseline_28d": 51.4,
     "latest_hrv": null,
-    "latest_rhr": 57,
+    "latest_rhr": 56,
     "acwr": 0.69,
     "acwr_interpretation": "undertraining",
     "monotony": 0.38,
@@ -573,7 +573,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 184,
-          "w_prime_used": 13296,
+          "w_prime_used": 13283,
           "ftp_staleness_days": 93,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -645,13 +645,13 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 188.3,
-    "w_prime": 13296,
+    "eftp": 188.2,
+    "w_prime": 13283,
     "w_prime_kj": 13.3,
-    "p_max": 615,
+    "p_max": 614,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-25T01:40:05.422744",
+    "calculation_timestamp": "2026-10-25T06:51:14.303690",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 7,
@@ -2170,7 +2170,7 @@
       "display": {
         "weight": null
       },
-      "resting_hr": 57,
+      "resting_hr": 56,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
       "sleep_hours": null,
@@ -2196,7 +2196,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 314,
+      "steps": 361,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2328,34 +2328,6 @@
       "description_preview": "Warmup\n- 0^ Hey mrtrn! Easy recovery swim ahead 100mtr 2:38/100m Pace\nMain Set"
     },
     {
-      "id": 145587442,
-      "date": "2026-11-04",
-      "name": "IntervalCoach - Steady Endurance (brick 1/2)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 45,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "15:00",
-      "description_preview": "Warmup\n- Hey mrtrn! Steady endurance ride ahead 9m ramp 45-75% 85rpm\nMain Set"
-    },
-    {
-      "id": 145587444,
-      "date": "2026-11-04",
-      "name": "IntervalCoach - Aerobic Tempo (brick 2/2)",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 32,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "16:03",
-      "description_preview": "Warmup\n- Hey mrtrn! A steady endurance run awaits 5m ramp 65-87% pace\nMain Set"
-    },
-    {
       "id": 142985028,
       "date": "2026-11-05",
       "name": "IntervalCoach - Core Stability",
@@ -2395,34 +2367,6 @@
       "workout_summary": "7m32s @110W | 4\u00d76m10s @128W / 41s rec | 8m13s @128W | 4m48s @100W",
       "has_terrain": false,
       "start_time": "15:00"
-    },
-    {
-      "id": 145587604,
-      "date": "2026-11-08",
-      "name": "IntervalCoach - Endurance Ride (brick 1/2)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 26,
-      "duration_hours": 0.58,
-      "duration_formatted": "35m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "15:00",
-      "description_preview": "Warmup\n- Hey mrtrn! Steady endurance ride ahead 5m ramp 45-75% 85rpm\nMain Set"
-    },
-    {
-      "id": 145587607,
-      "date": "2026-11-08",
-      "name": "IntervalCoach - Tempo Run (brick 2/2)",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 16,
-      "duration_hours": 0.25,
-      "duration_formatted": "15m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "15:38",
-      "description_preview": "Warmup\n- Hey mrtrn! An endurance run awaits 2m ramp 65-87% pace\nMain Set"
     },
     {
       "id": 138010396,
@@ -2547,12 +2491,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 15,
+    "attempted": 11,
     "success": 5,
     "patternA": 5,
     "patternB": 0,
     "bail_no_workout_doc": 3,
-    "bail_no_match": 10
+    "bail_no_match": 6
   },
   "weekly_summary": {
     "total_training_hours": 1.5,
@@ -2560,7 +2504,7 @@
     "total_tss": 94,
     "activities_count": 1,
     "avg_hrv": 53.7,
-    "avg_resting_hr": 53.1
+    "avg_resting_hr": 53.0
   },
   "race_calendar": {
     "next_race": {
@@ -2610,18 +2554,18 @@
       "event_moving_time_seconds": null,
       "days_until_event": 7,
       "current_day": "D-7",
-      "ctl_baseline": 26.5,
-      "normal_weekly_tss": 185.2,
+      "ctl_baseline": 25.3,
+      "normal_weekly_tss": 176.9,
       "race_week_tss_budget": {
-        "min": 93,
-        "max": 120
+        "min": 88,
+        "max": 115
       },
       "race_week_tss_spent": 0,
       "race_week_tss_remaining": {
-        "min": 93,
-        "max": 120
+        "min": 88,
+        "max": 115
       },
-      "projected_race_day_tsb": 16.3,
+      "projected_race_day_tsb": 17.5,
       "tsb_target_range": {
         "min": 5,
         "max": 15
@@ -2629,8 +2573,8 @@
       "today": {
         "label": "Last key session",
         "load_target_tss": {
-          "min": 20,
-          "max": 26
+          "min": 19,
+          "max": 25
         },
         "zones": "3-5 efforts Z4-Z5 (1-3 min)",
         "purpose": "Fitness confirmation. Verify strong power/HR response."
