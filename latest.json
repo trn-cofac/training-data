@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-26T06:59:26.889235",
+    "last_updated": "2026-10-26T14:01:51.633196",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -573,14 +573,14 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.54,
+          "planned_tss_delta": 0.75,
           "hard_sessions_planned": 4,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 4,
           "race_proximity": 6,
-          "next_week_load": 0.6,
-          "plan_coverage_current_week": 2.0,
-          "plan_coverage_next_week": 1.67
+          "next_week_load": 0.51,
+          "plan_coverage_current_week": 2.33,
+          "plan_coverage_next_week": 1.33
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -615,7 +615,7 @@
     "p_max": 614,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-26T06:59:26.887733",
+    "calculation_timestamp": "2026-10-26T14:01:51.631717",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2083,16 +2083,16 @@
     {
       "id": 142984986,
       "date": "2026-10-27",
-      "name": "IntervalCoach - Recovery Drills",
+      "name": "15.5K - Rahat Ko\u015fu + A\u00e7\u0131l\u0131\u015f (y\u00fczme yerine)",
       "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": 18,
-      "duration_hours": 0.49,
-      "duration_formatted": "29m8s",
-      "workout_summary": null,
+      "sport_type": "Run",
+      "planned_tss": 27,
+      "duration_hours": 0.58,
+      "duration_formatted": "34m40s",
+      "workout_summary": "5m | 20m | 5\u00d720s / 1m rec | 3m",
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- 0^ Hey mrtrn! Easy recovery swim today 200mtr 2:38/100m Pace\n\nMain Set\n- Drills (catch-up, fingertip drag, sculling) 50mtr 2:47/100m Pace\n- Easy freestyle 1 150mtr 2:49/100m Pace\n- Drill (sculling, side kick) 1 100mtr 2:36/100m Pace\n- Rest 1m\n- Easy freestyle 2 150mtr 2:49/100m Pace\n- Drill (sculling, side kick) 2 100mtr 2:36/100m Pace\n- Rest 1m\n- Easy freestyle 3 50mtr 2:49/100m Pace\n- Drill (sculling, side kick) 3 100mtr 2:36/100m Pace\n\nCooldown\n- 0^ Great swim, mrtrn! Enjoy the recovery 100mtr 2:47/100m Pace\n\n[Weekly Plan - Race Week \u00b7 type:swimRecoveryDrills]"
+      "description": "7 g\u00fcnl\u00fck aradan sonra ko\u015fu hissini geri getirmek i\u00e7in toparlanma y\u00fczmesi yerine. Rahat, konu\u015fabilecek tempoda.\n\nWarmup\n- 5m 63-67% pace\n\nMain Set\n- Easy 20m 63-72% pace\n\nStrides 5x\n- Stride 20s 115-120% pace\n- Jog 60s 60-65% pace\n\nCooldown\n- 3m 63-67% pace"
     },
     {
       "id": 142358665,
@@ -2106,6 +2106,19 @@
       "workout_summary": "8m | 5m | 3\u00d73m / 2m rec | 8m",
       "has_terrain": false,
       "description": "Warmup\n- 8m 63-67% pace\n- 5m 74-78% pace\n\nMain Set\n3x\n- Race Pace 3m 90-92% pace\n- Jog 2m 63-67% pace\n\nCooldown\n- 8m 63-67% pace"
+    },
+    {
+      "id": 148375094,
+      "date": "2026-10-29",
+      "name": "15.5K - Rahat Ko\u015fu 25 dk (opsiyonel)",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 19,
+      "duration_hours": 0.42,
+      "duration_formatted": "25m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Opsiyonel: yorgun ya da uykusuz hissediyorsan atla, dinlen. Tamamen rahat tempo.\n\nMain Set\n- Easy 25m 63-72% pace"
     },
     {
       "id": 142119758,
@@ -2158,20 +2171,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": ""
-    },
-    {
-      "id": 142985011,
-      "date": "2026-11-03",
-      "name": "IntervalCoach - Recovery Swim",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": 12,
-      "duration_hours": 0.33,
-      "duration_formatted": "19m31s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description_preview": "Warmup\n- 0^ Hey mrtrn! Easy recovery swim ahead 100mtr 2:38/100m Pace\nMain Set"
     },
     {
       "id": 142985028,
@@ -2310,6 +2309,44 @@
       "description_preview": null
     },
     {
+      "id": 148376068,
+      "date": "2026-11-19",
+      "name": "Oslo - Rahat Ko\u015fu 30 dk",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 23,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "U\u00e7u\u015f ertesi bacak a\u00e7ma ko\u015fusu. Tamamen rahat, tempo \u00f6nemsiz. So\u011fuk i\u00e7in katmanl\u0131 giyin; hava erken karar\u0131yor, g\u00fcnd\u00fcz ko\u015fmaya \u00e7al\u0131\u015f.\nMain Set\n- Easy 30m 63-72% pace"
+    },
+    {
+      "id": 148376072,
+      "date": "2026-11-21",
+      "name": "Oslo - Rahat Ko\u015fu + A\u00e7\u0131l\u0131\u015f 40 dk",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 32,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m20s",
+      "workout_summary": "32m | 4\u00d720s / 1m rec | 3m",
+      "has_terrain": false
+    },
+    {
+      "id": 148376083,
+      "date": "2026-11-22",
+      "name": "Oslo - Uzun Rahat Ko\u015fu 55 dk",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 44,
+      "duration_hours": 0.92,
+      "duration_formatted": "55m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Haftan\u0131n en uzun ko\u015fusu, ke\u015fif ko\u015fusu gibi d\u00fc\u015f\u00fcn. Tamamen aerobik; yoku\u015flarda y\u00fcr\u00fcmek serbest.\nMain Set\n- Easy 55m 63-75% pace"
+    },
+    {
       "id": 138010398,
       "date": "2026-11-23",
       "name": "Weekly",
@@ -2321,6 +2358,19 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": null
+    },
+    {
+      "id": 148376086,
+      "date": "2026-11-23",
+      "name": "Oslo - Rahat Ko\u015fu 25 dk (opsiyonel)",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 19,
+      "duration_hours": 0.42,
+      "duration_formatted": "25m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Opsiyonel: d\u00f6n\u00fc\u015f \u00f6ncesi k\u0131sa ve rahat. Program yo\u011funsa atla.\nMain Set\n- Easy 25m 63-72% pace"
     },
     {
       "id": 138010399,
@@ -2350,12 +2400,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 10,
-    "success": 4,
-    "patternA": 4,
+    "attempted": 14,
+    "success": 6,
+    "patternA": 6,
     "patternB": 0,
     "bail_no_workout_doc": 3,
-    "bail_no_match": 6
+    "bail_no_match": 8
   },
   "weekly_summary": {
     "total_training_hours": 0.0,
