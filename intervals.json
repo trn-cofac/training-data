@@ -1,83 +1,10 @@
 {
-  "generated_at": "2026-10-25T23:34:49.889681",
+  "generated_at": "2026-10-26T01:42:33.716078",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i196000680",
-      "date": "2026-10-11",
-      "type": "Ride",
-      "name": "Sabah S\u00fcr\u00fc\u015f",
-      "interval_summary": [
-        "1x 5m49s 151w",
-        "1x 6m46s 151w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 6201,
-          "avg_power": 55,
-          "max_power": 295,
-          "avg_hr": 100,
-          "max_hr": 147,
-          "avg_cadence": 38.125256,
-          "zone": 1,
-          "training_load": 38.27485,
-          "decoupling": -5.367541
-        },
-        {
-          "type": "WORK",
-          "label": "349s@151w76rpm",
-          "duration_secs": 349,
-          "avg_power": 151,
-          "max_power": 193,
-          "avg_hr": 143,
-          "max_hr": 152,
-          "avg_cadence": 75.681946,
-          "zone": 3,
-          "training_load": 6.5289173,
-          "decoupling": 4.0351477
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 40,
-          "avg_power": 131,
-          "max_power": 153,
-          "avg_hr": 148,
-          "max_hr": 153,
-          "avg_cadence": 70.575,
-          "zone": 2,
-          "training_load": 0.61597484,
-          "decoupling": -0.017846977
-        },
-        {
-          "type": "WORK",
-          "label": "406s@151w76rpm",
-          "duration_secs": 406,
-          "avg_power": 151,
-          "max_power": 199,
-          "avg_hr": 151,
-          "max_hr": 157,
-          "avg_cadence": 75.770935,
-          "zone": 3,
-          "training_load": 7.6961775,
-          "decoupling": 5.06241
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1401,
-          "avg_power": 100,
-          "max_power": 441,
-          "avg_hr": 141,
-          "max_hr": 160,
-          "avg_cadence": 52.36709,
-          "zone": 1,
-          "training_load": 17.998465
-        }
-      ]
-    },
     {
       "activity_id": "i197730059",
       "date": "2026-10-15",
