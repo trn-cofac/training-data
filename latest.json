@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-01T01:19:52.017589",
+    "last_updated": "2026-11-01T07:46:00.806082",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -118,33 +118,33 @@
     }
   ],
   "readiness_decision": {
-    "recommendation": "modify",
-    "priority": 2,
+    "recommendation": "go",
+    "priority": 3,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 53.8,
-        "delta_pct": null
+        "status": "green",
+        "value": 51.0,
+        "baseline_7d": 53.4,
+        "delta_pct": -4.5
       },
       "rhr": {
-        "status": "amber",
-        "value": 58,
-        "baseline_7d": 54.4,
-        "delta_bpm": 3.6
+        "status": "green",
+        "value": 54,
+        "baseline_7d": 53.9,
+        "delta_bpm": 0.1
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "green",
+        "hours": 7.45,
+        "quality": 3
       },
       "acwr": {
         "status": "green",
         "value": 0.3
       },
       "ri": {
-        "status": "unavailable",
-        "value": null,
+        "status": "green",
+        "value": 0.95,
         "value_yesterday": 0.92
       },
       "tsb": {
@@ -153,10 +153,10 @@
       }
     },
     "signal_summary": {
-      "green": 2,
-      "amber": 1,
+      "green": 6,
+      "amber": 0,
       "red": 0,
-      "unavailable": 3
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Taper",
@@ -164,18 +164,9 @@
       "amber_threshold": 1,
       "modifier_applied": "race_week_tightened"
     },
-    "race_week_defers": true,
-    "modification": {
-      "triggers": [
-        "rhr"
-      ],
-      "suggested_adjustments": {
-        "intensity": "reduce",
-        "volume": "preserve",
-        "cap_zone": null
-      }
-    },
-    "reason": "P2 signal count. 1 amber (rhr) >= threshold 1.",
+    "race_week_defers": false,
+    "modification": null,
+    "reason": "P3 green light. 6 green, 0 amber (threshold 1), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -254,12 +245,12 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 58,
-      "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_score": null,
+      "resting_hr": 54,
+      "hrv": 51.0,
+      "sleep_quality": 3,
+      "sleep_hours": 7.45,
+      "sleep_formatted": "7h27m",
+      "sleep_score": 66.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -276,7 +267,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 3244,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -288,14 +279,14 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
+    "recovery_index": 0.95,
     "recovery_index_yesterday": 0.92,
-    "hrv_baseline_7d": 53.8,
-    "rhr_baseline_7d": 54.4,
-    "hrv_baseline_28d": 55.6,
-    "rhr_baseline_28d": 52.2,
-    "latest_hrv": null,
-    "latest_rhr": 58,
+    "hrv_baseline_7d": 53.4,
+    "rhr_baseline_7d": 53.9,
+    "hrv_baseline_28d": 55.4,
+    "rhr_baseline_28d": 52.0,
+    "latest_hrv": 51.0,
+    "latest_rhr": 54,
     "acwr": 0.3,
     "acwr_interpretation": "undertraining",
     "monotony": 0.38,
@@ -307,7 +298,7 @@
     "multi_sport_detected": false,
     "strain": 13.0,
     "stress_tolerance": 0.3,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 0.3,
     "tss_7d_total": 33.0,
     "tss_28d_total": 436.0,
     "zone_distribution_7d": {
@@ -621,9 +612,9 @@
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 1,
           "race_proximity": 0,
-          "next_week_load": 0.27,
+          "next_week_load": 0.89,
           "plan_coverage_current_week": 0.67,
-          "plan_coverage_next_week": 1.67
+          "plan_coverage_next_week": 2.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -658,9 +649,9 @@
     "p_max": 610,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-01T01:19:52.016250",
+    "calculation_timestamp": "2026-11-01T07:46:00.804771",
     "data_quality": {
-      "hrv_data_points": 6,
+      "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 1,
       "activities_28d": 9,
@@ -1935,13 +1926,13 @@
       "display": {
         "weight": null
       },
-      "resting_hr": 58,
-      "hrv_rmssd": null,
+      "resting_hr": 54,
+      "hrv_rmssd": 51.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 7.45,
+      "sleep_formatted": "7h27m",
+      "sleep_quality": 3,
+      "sleep_score": 66.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -1961,7 +1952,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 3244,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2013,18 +2004,18 @@
       "description": ""
     },
     {
-      "id": 149290006,
+      "id": 150408750,
       "date": "2026-11-03",
-      "name": "IntervalCoach - Core Stability",
+      "name": "IntervalCoach - Easy Recovery",
       "type": "WORKOUT",
-      "sport_type": "WeightTraining",
+      "sport_type": "Swim",
       "planned_tss": 9,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
+      "duration_hours": 0.33,
+      "duration_formatted": "19m47s",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Core Stability\n\nCore exercises to improve stability, posture, and power transfer\n\n1. Plank: 5 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]\n2. Side Plank: 3 sets \u00d7 30 sec each side (Stack feet or stagger for stability) [Rest: 15 sec]\n3. Dead Bug: 5 sets \u00d7 10 reps each side (Keep lower back pressed to floor) [Rest: 30 sec]\n4. Bird Dog: 5 sets \u00d7 10 reps each side (Extend opposite arm and leg, hold 2s) [Rest: 30 sec]\n5. Glute Bridge: 5 sets \u00d7 15 reps (Squeeze glutes at top, hold 2s) [Rest: 30 sec]\n6. Pallof Press: 5 sets \u00d7 10 reps each side (Band at chest height, press and hold, resist rotation) [Rest: 30 sec]\n\n[Duration: ~45 min]\n[Exercises \u00b7 plank 5x45-60 sec rest 30 sec \u00b7 sidePlank 3x30 sec side rest 15 sec \u00b7 deadBug 5x10 side rest 30 sec \u00b7 birdDog 5x10 side rest 30 sec \u00b7 gluteBridge 5x15 rest 30 sec \u00b7 pallofPress 5x10 side rest 30 sec]\n\n[Weekly Plan - Recovery \u00b7 type:core-stability]"
+      "description": "Warmup\n- 100mtr 2:38/100m Pace\n\nMain Set\n- Rest 30s\n- Drills (catch-up, fingertip drag, sculling) 50mtr 3:10/100m Pace\n- Rest 30s\n- Easy freestyle 400mtr 3:10/100m Pace\n- Rest 30s\n\nCooldown\n- 50mtr 2:47/100m Pace\n\n[Weekly Plan - Recovery \u00b7 type:activeRecovery]"
     },
     {
       "id": 142985028,
@@ -2041,32 +2032,46 @@
       "description": "Core Stability\n\nCore exercises to improve stability, posture, and power transfer\n\n1. Plank: 5 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]\n2. Side Plank: 3 sets \u00d7 30 sec each side (Stack feet or stagger for stability) [Rest: 15 sec]\n3. Dead Bug: 5 sets \u00d7 10 reps each side (Keep lower back pressed to floor) [Rest: 30 sec]\n4. Bird Dog: 5 sets \u00d7 10 reps each side (Extend opposite arm and leg, hold 2s) [Rest: 30 sec]\n5. Glute Bridge: 5 sets \u00d7 15 reps (Squeeze glutes at top, hold 2s) [Rest: 30 sec]\n6. Pallof Press: 5 sets \u00d7 10 reps each side (Band at chest height, press and hold, resist rotation) [Rest: 30 sec]\n\n[Duration: ~45 min]\n\n[Weekly Plan - Recovery \u00b7 type:core-stability]"
     },
     {
-      "id": 143545778,
-      "date": "2026-11-06",
-      "name": "IntervalCoach - Steady Tempo (brick 2/2)",
+      "id": 150408821,
+      "date": "2026-11-07",
+      "name": "IntervalCoach - Endurance Run",
       "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 22,
-      "duration_hours": 0.33,
-      "duration_formatted": "20m",
+      "sport_type": "TrailRun",
+      "planned_tss": 58,
+      "duration_hours": 0.94,
+      "duration_formatted": "56m19s",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "15:43",
-      "description": "Warmup\n- 0^ Hey mrtrn! Steady endurance run ahead 3m ramp 65-87% pace\n\nMain Set\n- Endurance 15m 78-87% pace\n\nCooldown\n- 0^ Nice work, mrtrn! Let your stride relax 2m ramp 78-65% pace\n\n[Weekly Plan - Recovery \u00b7 type:brick:long-endurance]"
+      "start_time": "09:00",
+      "description": "Warmup\n- 181s ramp 63-67% pace\n- 316s ramp 75-79% pace\n\nMain Set\n- Settle In 14m 76-80% pace\n- Aerobic 14m 78-87% pace\n- Cruise 14m 78-87% pace\n\nCooldown\n- 181s ramp 78-74% pace\n- 181s ramp 67-63% pace\n\n[Weekly Plan - Recovery \u00b7 type:endurance]"
     },
     {
-      "id": 145587463,
-      "date": "2026-11-07",
-      "name": "IntervalCoach - Endurance Spin-Ups",
+      "id": 150408862,
+      "date": "2026-11-08",
+      "name": "IntervalCoach - Steady Endurance (brick 1/2)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 37,
-      "duration_hours": 0.8,
-      "duration_formatted": "47m57s",
-      "workout_summary": "7m32s @110W | 4\u00d76m10s @128W / 41s rec | 8m13s @128W | 4m48s @100W",
+      "planned_tss": 26,
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
+      "workout_summary": null,
       "has_terrain": false,
       "start_time": "15:00",
-      "description": "Warmup\n- Hey mrtrn! Endurance and spin-ups ahead 452s ramp 45-75% 85rpm\n\nMain Set\n4x\n- Endurance 88rpm 370s 65-75% 88rpm\n- Spin-Up 110rpm 41s 75% 110rpm\n\nRecovery\n- Endurance 88rpm 493s 65-75% 88rpm\n\nCooldown\n- Smooth work, enjoy the easy finish 288s ramp 65-45%\n\n[Weekly Plan - Recovery \u00b7 type:enduranceSpinUps]"
+      "description": "Warmup\n- 5m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 85rpm 26m 65-75% 85rpm\n\nCooldown\n- 4m ramp 65-45%\n\n[Weekly Plan - Recovery \u00b7 type:brick:long-endurance]"
+    },
+    {
+      "id": 150408863,
+      "date": "2026-11-08",
+      "name": "IntervalCoach - Endurance Run (brick 2/2)",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 16,
+      "duration_hours": 0.25,
+      "duration_formatted": "15m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "15:38",
+      "description": "Warmup\n- 2m ramp 65-87% pace\n\nMain Set\n- Endurance 11m 78-87% pace\n\nCooldown\n- 2m ramp 78-65% pace\n\n[Weekly Plan - Recovery \u00b7 type:brick:long-endurance]"
     },
     {
       "id": 138010396,
@@ -2094,20 +2099,6 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description_preview": "Warmup\n- Hey mrtrn! A VO\u2082max ladder swim awaits 250mtr 2:38/100m Pace\nMain Set"
-    },
-    {
-      "id": 144661490,
-      "date": "2026-11-11",
-      "name": "IntervalCoach - Long Aerobic",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 67,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "15:00",
-      "description_preview": "Warmup\n- Hey mrtrn! Settle in for a steady aerobic ride 14m ramp 45-75% 85rpm\nMain Set"
     },
     {
       "id": 144768657,
@@ -2255,20 +2246,20 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 10,
-    "success": 3,
-    "patternA": 3,
+    "attempted": 11,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
-    "bail_no_workout_doc": 4,
-    "bail_no_match": 7
+    "bail_no_workout_doc": 3,
+    "bail_no_match": 9
   },
   "weekly_summary": {
     "total_training_hours": 0.62,
     "total_training_formatted": "37m",
     "total_tss": 33,
     "activities_count": 1,
-    "avg_hrv": 53.8,
-    "avg_resting_hr": 54.4
+    "avg_hrv": 53.4,
+    "avg_resting_hr": 53.9
   },
   "race_calendar": {
     "next_race": {
