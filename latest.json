@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-01T14:39:00.765275",
+    "last_updated": "2026-11-01T19:11:54.424900",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -276,7 +276,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 28008,
+      "steps": 30201,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -621,9 +621,9 @@
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 2,
           "race_proximity": 0,
-          "next_week_load": 0.89,
+          "next_week_load": 1.02,
           "plan_coverage_current_week": 0.67,
-          "plan_coverage_next_week": 2.0
+          "plan_coverage_next_week": 2.33
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -658,7 +658,7 @@
     "p_max": 611,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 48.0,
-    "calculation_timestamp": "2026-11-01T14:39:00.764017",
+    "calculation_timestamp": "2026-11-01T19:11:54.423936",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2066,7 +2066,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 28008,
+      "steps": 30201,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2132,6 +2132,34 @@
       "description": "Warmup\n- 100mtr 2:38/100m Pace\n\nMain Set\n- Rest 30s\n- Drills (catch-up, fingertip drag, sculling) 50mtr 3:10/100m Pace\n- Rest 30s\n- Easy freestyle 400mtr 3:10/100m Pace\n- Rest 30s\n\nCooldown\n- 50mtr 2:47/100m Pace\n\n[Weekly Plan - Recovery \u00b7 type:activeRecovery]"
     },
     {
+      "id": 150653618,
+      "date": "2026-11-04",
+      "name": "IntervalCoach - Aerobic Endurance (brick 1/2)",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 34,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "15:00",
+      "description": "Warmup\n- 7m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 85rpm 8m 65% 85rpm\n- Build 88rpm 8m 67% 88rpm\n- Upper 90rpm 8m 70-74% 90rpm\n- Cruise 88rpm 9m 70-74% 88rpm\n\nCooldown\n- 5m ramp 65-45%\n\n[Weekly Plan - Recovery \u00b7 type:brick:long-endurance]"
+    },
+    {
+      "id": 150653619,
+      "date": "2026-11-04",
+      "name": "IntervalCoach - Endurance Run (brick 2/2)",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 27,
+      "duration_hours": 0.42,
+      "duration_formatted": "25m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "15:48",
+      "description": "Warmup\n- 4m ramp 65-87% pace\n\nMain Set\n- Endurance 18m 78-87% pace\n\nCooldown\n- 3m ramp 78-65% pace\n\n[Weekly Plan - Recovery \u00b7 type:brick:long-endurance]"
+    },
+    {
       "id": 142985028,
       "date": "2026-11-05",
       "name": "IntervalCoach - Core Stability",
@@ -2172,20 +2200,6 @@
       "has_terrain": false,
       "start_time": "15:00",
       "description": "Warmup\n- 5m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 85rpm 26m 65-75% 85rpm\n\nCooldown\n- 4m ramp 65-45%\n\n[Weekly Plan - Recovery \u00b7 type:brick:long-endurance]"
-    },
-    {
-      "id": 150408863,
-      "date": "2026-11-08",
-      "name": "IntervalCoach - Endurance Run (brick 2/2)",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 16,
-      "duration_hours": 0.25,
-      "duration_formatted": "15m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "15:38",
-      "description": "Warmup\n- 2m ramp 65-87% pace\n\nMain Set\n- Endurance 11m 78-87% pace\n\nCooldown\n- 2m ramp 78-65% pace\n\n[Weekly Plan - Recovery \u00b7 type:brick:long-endurance]"
     },
     {
       "id": 138010396,
@@ -2360,12 +2374,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 11,
+    "attempted": 12,
     "success": 2,
     "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 3,
-    "bail_no_match": 9
+    "bail_no_match": 10
   },
   "weekly_summary": {
     "total_training_hours": 2.19,
