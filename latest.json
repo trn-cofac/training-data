@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-03T08:35:27.778900",
+    "last_updated": "2026-11-03T16:32:30.782224",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -207,7 +207,7 @@
       "atl": 19.36,
       "tsb": 4.98,
       "ramp_rate": 0.25,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 187.0,
@@ -272,7 +272,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 461,
+      "steps": 4345,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -587,20 +587,19 @@
     },
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 4,
+      "planned_days": 3,
       "completed_days": 0,
       "matched_days": 0,
       "planned_dates": [
         "2026-10-28",
         "2026-10-29",
-        "2026-10-31",
-        "2026-11-03"
+        "2026-10-31"
       ],
       "completed_dates": []
     },
     "phase_detection": {
       "phase": "Base",
-      "confidence": "medium",
+      "confidence": "high",
       "reason_codes": [],
       "basis": {
         "stream_1": {
@@ -610,14 +609,14 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.99,
-          "hard_sessions_planned": 6,
+          "planned_tss_delta": 0.28,
+          "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 6,
+          "current_week_hard_days_total": 1,
           "race_proximity": null,
-          "next_week_load": 0.4,
-          "plan_coverage_current_week": 6.0,
-          "plan_coverage_next_week": 5.0
+          "next_week_load": 0.84,
+          "plan_coverage_current_week": 5.0,
+          "plan_coverage_next_week": 8.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -650,13 +649,13 @@
     "p_max": 611,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-03T08:35:27.777610",
+    "calculation_timestamp": "2026-11-03T16:32:30.780932",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 2,
       "activities_28d": 8,
-      "planned_workouts_7d": 7,
+      "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 79
@@ -1914,7 +1913,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 461,
+      "steps": 4345,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1927,88 +1926,72 @@
   ],
   "planned_workouts": [
     {
-      "id": 150408750,
-      "date": "2026-11-03",
-      "name": "IntervalCoach - Easy Recovery",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": 9,
-      "duration_hours": 0.33,
-      "duration_formatted": "19m47s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- 100mtr 2:38/100m Pace\n\nMain Set\n- Rest 30s\n- Drills (catch-up, fingertip drag, sculling) 50mtr 3:10/100m Pace\n- Rest 30s\n- Easy freestyle 400mtr 3:10/100m Pace\n- Rest 30s\n\nCooldown\n- 50mtr 2:47/100m Pace\n\n[Weekly Plan - Recovery \u00b7 type:activeRecovery]"
-    },
-    {
-      "id": 150653618,
+      "id": 151494453,
       "date": "2026-11-04",
-      "name": "IntervalCoach - Aerobic Endurance (brick 1/2)",
+      "name": "KICKR - Geri D\u00f6n\u00fc\u015f Z2 45 dk",
       "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 34,
+      "sport_type": "VirtualRide",
+      "planned_tss": 28,
       "duration_hours": 0.75,
       "duration_formatted": "45m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "15:00",
-      "description": "Warmup\n- 7m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 85rpm 8m 65% 85rpm\n- Build 88rpm 8m 67% 88rpm\n- Upper 90rpm 8m 70-74% 90rpm\n- Cruise 88rpm 9m 70-74% 88rpm\n\nCooldown\n- 5m ramp 65-45%\n\n[Weekly Plan - Recovery \u00b7 type:brick:long-endurance]"
+      "indoor": true,
+      "description": "Yar\u0131\u015f sonras\u0131 bacaklar\u0131 a\u00e7ma. Kadans 85-95, nab\u0131z 145 alt\u0131nda kals\u0131n.\n\nWarmup\n- 10m 50-60%\n\nMain Set\n- 30m 60-70%\n\nCooldown\n- 5m 50%"
     },
     {
-      "id": 150653619,
-      "date": "2026-11-04",
-      "name": "IntervalCoach - Endurance Run (brick 2/2)",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 27,
-      "duration_hours": 0.42,
-      "duration_formatted": "25m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "15:48",
-      "description": "Warmup\n- 4m ramp 65-87% pace\n\nMain Set\n- Endurance 18m 78-87% pace\n\nCooldown\n- 3m ramp 78-65% pace\n\n[Weekly Plan - Recovery \u00b7 type:brick:long-endurance]"
-    },
-    {
-      "id": 142985028,
+      "id": 151494467,
       "date": "2026-11-05",
-      "name": "IntervalCoach - Core Stability",
+      "name": "Core Stability 20 dk",
       "type": "WORKOUT",
       "sport_type": "WeightTraining",
-      "planned_tss": 9,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Core Stability\n\nCore exercises to improve stability, posture, and power transfer\n\n1. Plank: 5 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]\n2. Side Plank: 3 sets \u00d7 30 sec each side (Stack feet or stagger for stability) [Rest: 15 sec]\n3. Dead Bug: 5 sets \u00d7 10 reps each side (Keep lower back pressed to floor) [Rest: 30 sec]\n4. Bird Dog: 5 sets \u00d7 10 reps each side (Extend opposite arm and leg, hold 2s) [Rest: 30 sec]\n5. Glute Bridge: 5 sets \u00d7 15 reps (Squeeze glutes at top, hold 2s) [Rest: 30 sec]\n6. Pallof Press: 5 sets \u00d7 10 reps each side (Band at chest height, press and hold, resist rotation) [Rest: 30 sec]\n\n[Duration: ~45 min]\n\n[Weekly Plan - Recovery \u00b7 type:core-stability]"
+      "description": "## Core Stability\n\n- Plank: 3 \u00d7 40 sn; dinlenme 20 sn.\n- Side plank: 3 \u00d7 30 sn/taraf; dinlenme 20 sn.\n- Dead bug: 3 \u00d7 10/taraf; yava\u015f ve kontroll\u00fc.\n- Glute bridge: 3 \u00d7 15; tepede 2 sn bekle.\n- Bird dog: 2 \u00d7 10/taraf."
     },
     {
-      "id": 150408821,
-      "date": "2026-11-07",
-      "name": "IntervalCoach - Endurance Run",
+      "id": 151494479,
+      "date": "2026-11-06",
+      "name": "Rahat Ko\u015fu 30 dk (yar\u0131\u015f sonras\u0131 ilk)",
       "type": "WORKOUT",
-      "sport_type": "TrailRun",
-      "planned_tss": 58,
-      "duration_hours": 0.94,
-      "duration_formatted": "56m19s",
+      "sport_type": "Run",
+      "planned_tss": 24,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- 181s ramp 63-67% pace\n- 316s ramp 75-79% pace\n\nMain Set\n- Settle In 14m 76-80% pace\n- Aerobic 14m 78-87% pace\n- Cruise 14m 78-87% pace\n\nCooldown\n- 181s ramp 78-74% pace\n- 181s ramp 67-63% pace\n\n[Weekly Plan - Recovery \u00b7 type:endurance]"
+      "description": "Yar\u0131\u015ftan sonraki ilk ko\u015fu. Tempo \u00f6nemsiz, nab\u0131z 150 alt\u0131nda. A\u011fr\u0131/s\u0131z\u0131 varsa kes, y\u00fcr\u00fc.\n\nMain Set\n- 30m 78-86% LTHR"
     },
     {
-      "id": 150408862,
+      "id": 151494484,
+      "date": "2026-11-07",
+      "name": "Y\u00fczme - Teknik 1200 m",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 30,
+      "duration_hours": 0.51,
+      "duration_formatted": "30m34s",
+      "workout_summary": "4m46s | 4\u00d71m15s / 15s rec | 6\u00d72m8s / 20s rec | 5m",
+      "has_terrain": false,
+      "description": "Bir ayl\u0131k aradan sonra suya d\u00f6n\u00fc\u015f. Uzun kula\u00e7, rahat nefes; drill: catch-up / fingertip drag.\n\nWarmup\n- 200mtr 80-88% pace\n\nDrill 4x\n- Drill 50mtr 75-85% pace\n- Rest 15s\n\nMain Set 6x\n- 100mtr 92-96% pace\n- Rest 20s\n\nCooldown\n- 200mtr 75-85% pace"
+    },
+    {
+      "id": 151494487,
       "date": "2026-11-08",
-      "name": "IntervalCoach - Steady Endurance (brick 1/2)",
+      "name": "Bisiklet - Z2 80 dk",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 26,
-      "duration_hours": 0.58,
-      "duration_formatted": "35m",
+      "planned_tss": 61,
+      "duration_hours": 1.33,
+      "duration_formatted": "1h20m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "15:00",
-      "description": "Warmup\n- 5m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 85rpm 26m 65-75% 85rpm\n\nCooldown\n- 4m ramp 65-45%\n\n[Weekly Plan - Recovery \u00b7 type:brick:long-endurance]"
+      "description": "D\u00fcz/hafif engebeli rota. Yoku\u015flarda Z3'e ta\u015fma, 30 dk'da bir ye-i\u00e7.\n\nWarmup\n- 10m 55-65%\n\nMain Set\n- 60m 65-75%\n\nCooldown\n- 10m 55%"
     },
     {
       "id": 138010396,
@@ -2024,59 +2007,97 @@
       "description": ""
     },
     {
-      "id": 144661419,
-      "date": "2026-11-10",
-      "name": "IntervalCoach - VO\u2082max Ladder",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": 37,
-      "duration_hours": 0.69,
-      "duration_formatted": "41m34s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey mrtrn! A VO\u2082max ladder swim awaits 250mtr 2:38/100m Pace\n\nMain Set\n- Drills (catch-up, fingertip drag, sculling) 100mtr 2:47/100m Pace\n- VO2max 50mtr 1:53/100m Pace\n- Rest 1m\n- VO2max 50mtr 1:52/100m Pace\n- Rest 1m\n- VO2max 100mtr 1:50/100m Pace\n- Rest 1m\n- VO2max 100mtr 1:49/100m Pace\n- Rest 101s\n- VO2max 100mtr 1:50/100m Pace\n- Rest 1m\n- VO2max 50mtr 1:52/100m Pace\n- Rest 1m\n- VO2max 50mtr 1:53/100m Pace\n- Easy freestyle 500mtr 2:25/100m Pace\n\nCooldown\n- Great work, finish with relaxed easy strokes 150mtr 2:47/100m Pace\n\n[Weekly Plan - Build \u00b7 type:swimVO2maxLadder]"
-    },
-    {
-      "id": 144768657,
-      "date": "2026-11-12",
-      "name": "IntervalCoach - Lower Body Strength",
+      "id": 151494489,
+      "date": "2026-11-09",
+      "name": "Kuvvet A 30 dk",
       "type": "WORKOUT",
       "sport_type": "WeightTraining",
-      "planned_tss": 9,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "## Kuvvet A (v\u00fccut a\u011f\u0131rl\u0131\u011f\u0131 / hafif damb\u0131l)\n\n- Goblet squat: 3 \u00d7 10; dinlenme 60 sn; RPE 6.\n- Romanian deadlift: 3 \u00d7 10; dinlenme 60 sn; RPE 6.\n- Reverse lunge: 3 \u00d7 8/taraf; dinlenme 60 sn.\n- Calf raise (tek bacak): 3 \u00d7 12/taraf.\n- Push-up: 3 \u00d7 10.\n- Plank: 3 \u00d7 40 sn."
+    },
+    {
+      "id": 151494490,
+      "date": "2026-11-10",
+      "name": "Rahat Ko\u015fu 40 dk + A\u00e7\u0131l\u0131\u015f",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 34,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m20s",
+      "workout_summary": "32m @144bpm | 4\u00d720s / 1m rec | 3m @136bpm",
+      "has_terrain": false,
+      "description": "Rahat ko\u015fu, sonunda k\u0131sa a\u00e7\u0131l\u0131\u015flar (h\u0131zl\u0131 ama gev\u015fek, sprint de\u011fil).\n\nMain Set\n- 32m 78-88% LTHR\n\nStrides 4x\n- Stride 20s 100-105% pace\n- Jog 60s 78-85% LTHR\n\nCooldown\n- 3m 75-82% LTHR"
+    },
+    {
+      "id": 151494498,
+      "date": "2026-11-11",
+      "name": "KICKR - Sweet Spot 3x8",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 52,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": "12m @110W | 3\u00d78m @158W / 4m rec | 12m @92W",
+      "has_terrain": false,
+      "start_time": "15:00",
+      "indoor": true
+    },
+    {
+      "id": 151494502,
+      "date": "2026-11-12",
+      "name": "Rahat Ko\u015fu 50 dk",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 41,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Haftan\u0131n uzun ko\u015fusu. Tamamen aerobik, nab\u0131z 155 alt\u0131nda.\nMain Set\n- 50m 78-88% LTHR"
+    },
+    {
+      "id": 151494503,
+      "date": "2026-11-14",
+      "name": "Y\u00fczme - Teknik + Aerobik 1600 m",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 41,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m7s",
+      "workout_summary": "7m9s | 4\u00d71m15s / 15s rec | 8\u00d72m6s / 20s rec | 7m30s",
+      "has_terrain": false
+    },
+    {
+      "id": 151494506,
+      "date": "2026-11-15",
+      "name": "Bisiklet - Z2 2 saat (brick)",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 92,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description_preview": "Lower Body Strength\nLeg strength for cycling power and running economy\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]"
+      "description_preview": "Uzun aerobik s\u00fcr\u00fc\u015f; bitince hemen 10 dk ko\u015fuya \u00e7\u0131k (ayr\u0131 etkinlik). Saatte 40-60 g karbonhidrat.\nWarmup\n- 15m 55-65%"
     },
     {
-      "id": 145587635,
-      "date": "2026-11-14",
-      "name": "IntervalCoach - Endurance Sprints",
-      "type": "WORKOUT",
-      "sport_type": "TrailRun",
-      "planned_tss": 40,
-      "duration_hours": 0.62,
-      "duration_formatted": "37m2s",
-      "workout_summary": "2 \u00d7 2m2s | 1m21s | 4\u00d75m25s / 7s rec | 5m25s | 2 \u00d7 2m2s",
-      "has_terrain": false,
-      "start_time": "09:00"
-    },
-    {
-      "id": 145587660,
+      "id": 151494510,
       "date": "2026-11-15",
-      "name": "IntervalCoach - Progressive Endurance",
+      "name": "Brick Ko\u015fu 10 dk",
       "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 102,
-      "duration_hours": 2.25,
-      "duration_formatted": "2h15m",
+      "sport_type": "Run",
+      "planned_tss": 9,
+      "duration_hours": 0.17,
+      "duration_formatted": "10m",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "15:00",
-      "description_preview": "Warmup\n- Hey mrtrn! A progressive aerobic ride awaits 15m ramp 45-75% 85rpm\nMain Set"
+      "start_time": "11:10",
+      "description_preview": "Bisikletten iner inmez. Ama\u00e7 bacaklar\u0131n ko\u015fuya ge\u00e7i\u015fine al\u0131\u015fmas\u0131; k\u0131sa ad\u0131m, y\u00fcksek kadans.\nMain Set\n- 10m 80-88% LTHR"
     },
     {
       "id": 138010397,
@@ -2090,6 +2111,34 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": null
+    },
+    {
+      "id": 151494513,
+      "date": "2026-11-16",
+      "name": "KICKR - Z2 50 dk",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 34,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "15:00",
+      "indoor": true,
+      "description_preview": "Oslo \u00f6ncesi son bisiklet. Rahat ve k\u0131sa.\nWarmup\n- 10m 50-60%"
+    },
+    {
+      "id": 151494516,
+      "date": "2026-11-17",
+      "name": "Core Stability 20 dk",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "## Core Stability (yolculuk \u00f6ncesi hafif)\n- Plank: 3 \u00d7 40 sn; dinlenme 20 sn.\n- Side plank: 3 \u00d7 30 sn/taraf."
     },
     {
       "id": 148376068,
@@ -2196,11 +2245,11 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 12,
-    "success": 2,
-    "patternA": 2,
+    "attempted": 15,
+    "success": 5,
+    "patternA": 5,
     "patternB": 0,
-    "bail_no_workout_doc": 2,
+    "bail_no_workout_doc": 3,
     "bail_no_match": 10
   },
   "weekly_summary": {
